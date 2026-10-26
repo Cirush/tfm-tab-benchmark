@@ -1,0 +1,44 @@
+device=mps | params=2.83M | train 3496 pistas / 19281 ventanas | val 442 pistas / 2470 ventanas
+epoch   1  train 1.9450  val 1.0622  564s  *
+epoch   2  train 0.9852  val 0.8217  558s  *
+epoch   3  train 0.7159  val 0.2218  560s  *
+epoch   4  train 0.1962  val 0.0677  565s  *
+epoch   5  train 0.1064  val 0.0535  568s  *
+epoch   6  train 0.0836  val 0.0460  558s  *
+epoch   7  train 0.0724  val 0.0439  561s  *
+epoch   8  train 0.0661  val 0.0404  565s  *
+epoch   9  train 0.0615  val 0.0388  564s  *
+epoch  10  train 0.0578  val 0.0359  565s  *
+epoch  11  train 0.0550  val 0.0374  562s
+epoch  12  train 0.0526  val 0.0360  557s
+epoch  13  train 0.0504  val 0.0348  565s  *
+epoch  14  train 0.0490  val 0.0341  564s  *
+epoch  15  train 0.0474  val 0.0333  566s  *
+epoch  16  train 0.0460  val 0.0328  565s  *
+epoch  17  train 0.0449  val 0.0314  554s  *
+epoch  18  train 0.0434  val 0.0320  565s
+epoch  19  train 0.0423  val 0.0314  565s  *
+epoch  20  train 0.0410  val 0.0309  565s  *
+epoch  21  train 0.0396  val 0.0324  565s
+epoch  22  train 0.0388  val 0.0300  567s  *
+epoch  23  train 0.0378  val 0.0295  569s  *
+epoch  24  train 0.0370  val 0.0300  557s
+epoch  25  train 0.0363  val 0.0308  560s
+epoch  26  train 0.0356  val 0.0294  565s  *
+epoch  27  train 0.0348  val 0.0290  565s  *
+epoch  28  train 0.0342  val 0.0294  564s
+epoch  29  train 0.0334  val 0.0290  559s
+epoch  30  train 0.0327  val 0.0298  560s
+epoch  31  train 0.0320  val 0.0295  565s
+epoch  32  train 0.0316  val 0.0287  565s  *
+epoch  33  train 0.0309  val 0.0291  565s
+epoch  34  train 0.0305  val 0.0288  565s
+epoch  35  train 0.0298  val 0.0299  565s
+epoch  36  train 0.0294  val 0.0294  555s
+epoch  37  train 0.0288  val 0.0292  565s
+Early stopping: 5 épocas sin mejorar val loss
+Evaluación val (200 pistas, 197777 notas, 58s):
+  raw     tab 87.37%  pitch 99.95%
+  window  tab 87.41%  pitch 100.00%
+  final   tab 87.41%  pitch 100.00%
+  difficulty pred 2.59 | GT 2.69

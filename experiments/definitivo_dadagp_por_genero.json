@@ -1,0 +1,8971 @@
+{
+ "grupos": {
+  "Sin género": {
+   "n_pistas": 100,
+   "n_artistas": 83,
+   "n_notas": 81176,
+   "frac_traste_5": 0.23557455405538583,
+   "notas_por_ataque": 2.1921685120172834,
+   "tab_acc": {
+    "baseline": 0.7781610328175815,
+    "A*": 0.8049300285798758,
+    "mixed_t5": 0.8485512959495417,
+    "mixed_gpt2": 0.8431802503202918,
+    "mixed_bert": 0.8378954370749976,
+    "mixed_bert_small": 0.8430940179363359
+   },
+   "ic95": {
+    "baseline": [
+     0.6928916289088614,
+     0.8509339699259223
+    ],
+    "A*": [
+     0.7307542515902895,
+     0.8583330882857451
+    ],
+    "mixed_t5": [
+     0.7682757701026803,
+     0.9045762387171656
+    ],
+    "mixed_gpt2": [
+     0.779478971188873,
+     0.8943508165726766
+    ],
+    "mixed_bert": [
+     0.7564256048714879,
+     0.8947503119101698
+    ],
+    "mixed_bert_small": [
+     0.7592207628586727,
+     0.8989826316676971
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": -0.0267689957622943,
+     "ic95": [
+      -0.08787418800366097,
+      0.030951588540999976
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.04362126736966587,
+     "ic95": [
+      0.013942721791559,
+      0.07547029611007221
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.038250221740415924,
+     "ic95": [
+      0.002777541290652137,
+      0.07385619299503177
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.03296540849512175,
+     "ic95": [
+      -0.00034060693959171116,
+      0.06609899689213432
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.03816398935646004,
+     "ic95": [
+      0.0027805120607247596,
+      0.07439817646077723
+     ]
+    }
+   }
+  },
+  "total": {
+   "n_pistas": 372,
+   "n_artistas": 263,
+   "n_notas": 364829,
+   "frac_traste_5": 0.20668587201127103,
+   "notas_por_ataque": 2.363326013305608,
+   "tab_acc": {
+    "baseline": 0.8045166365612383,
+    "A*": 0.8284100222295925,
+    "mixed_t5": 0.8907515575790301,
+    "mixed_gpt2": 0.881588360574406,
+    "mixed_bert": 0.8673076975788657,
+    "mixed_bert_small": 0.872622516302158
+   },
+   "ic95": {
+    "baseline": [
+     0.7611560775542529,
+     0.8412817536376643
+    ],
+    "A*": [
+     0.798437963787474,
+     0.8513301697895909
+    ],
+    "mixed_t5": [
+     0.8635410180925726,
+     0.9146555391342102
+    ],
+    "mixed_gpt2": [
+     0.8555556227218047,
+     0.9050168793154443
+    ],
+    "mixed_bert": [
+     0.8372237896025007,
+     0.8938468013916491
+    ],
+    "mixed_bert_small": [
+     0.8426639021909211,
+     0.9003232182173445
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": -0.023893385668354195,
+     "ic95": [
+      -0.06467132505971576,
+      0.01419152597236656
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.06234153534943765,
+     "ic95": [
+      0.04257470231408672,
+      0.08299300313923852
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.05317833834481356,
+     "ic95": [
+      0.03314597874269999,
+      0.07347011149529653
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.03889767534927324,
+     "ic95": [
+      0.015504986146346026,
+      0.06207940380967248
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.044212494072565556,
+     "ic95": [
+      0.017174003273476228,
+      0.06988253238452127
+     ]
+    }
+   }
+  },
+  "Rock": {
+   "n_pistas": 104,
+   "n_artistas": 60,
+   "n_notas": 121796,
+   "frac_traste_5": 0.1500788203225065,
+   "notas_por_ataque": 2.5915696746600845,
+   "tab_acc": {
+    "baseline": 0.8508818023580413,
+    "A*": 0.830840093270715,
+    "mixed_t5": 0.9132155407402542,
+    "mixed_gpt2": 0.8961788564484876,
+    "mixed_bert": 0.8909734309829551,
+    "mixed_bert_small": 0.889897861998752
+   },
+   "ic95": {
+    "baseline": [
+     0.7864634390580696,
+     0.8953667012131927
+    ],
+    "A*": [
+     0.7810420133111481,
+     0.8676082498161978
+    ],
+    "mixed_t5": [
+     0.8619808550398536,
+     0.9462677246594218
+    ],
+    "mixed_gpt2": [
+     0.8361223182477158,
+     0.934449672479011
+    ],
+    "mixed_bert": [
+     0.8317939592057797,
+     0.9300615034607747
+    ],
+    "mixed_bert_small": [
+     0.8318244031023471,
+     0.9308657690089301
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.020041709087326387,
+     "ic95": [
+      -0.040081466395112016,
+      0.06922103240231722
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.08237544746953929,
+     "ic95": [
+      0.046815395698746945,
+      0.1149795787619124
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.06533876317777265,
+     "ic95": [
+      0.02952731831106491,
+      0.09571319024728106
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.060133337712240165,
+     "ic95": [
+      0.014383561643835616,
+      0.09658041055322596
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.05905776872803703,
+     "ic95": [
+      0.014650186111623565,
+      0.09360434018491633
+     ]
+    }
+   }
+  },
+  "Clásica": {
+   "n_pistas": 20,
+   "n_artistas": 11,
+   "n_notas": 18878,
+   "frac_traste_5": 0.17809089945968853,
+   "notas_por_ataque": 1.4697913422609779,
+   "tab_acc": {
+    "baseline": 0.8704311897446764,
+    "A*": 0.714164636084331,
+    "mixed_t5": 0.860101705689162,
+    "mixed_gpt2": 0.838860048733976,
+    "mixed_bert": 0.8269414132853057,
+    "mixed_bert_small": 0.8225447610975739
+   },
+   "ic95": {
+    "baseline": [
+     0.7405724112516889,
+     0.9506578947368421
+    ],
+    "A*": [
+     0.648652585579024,
+     0.751638141809291
+    ],
+    "mixed_t5": [
+     0.7415034819355991,
+     0.9288792323012856
+    ],
+    "mixed_gpt2": [
+     0.7276747328338042,
+     0.902855748108372
+    ],
+    "mixed_bert": [
+     0.7138561462593216,
+     0.8896093790527572
+    ],
+    "mixed_bert_small": [
+     0.7167417417417418,
+     0.8876676323885189
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.15626655366034536,
+     "ic95": [
+      0.07566678416167313,
+      0.2087835930080341
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.145937069604831,
+     "ic95": [
+      0.08340498710232158,
+      0.18580862359186845
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.12469541264964501,
+     "ic95": [
+      0.06361494446314372,
+      0.16033035594057185
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.11277677720097468,
+     "ic95": [
+      0.05193781789526471,
+      0.1474604041507373
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.1083801250132429,
+     "ic95": [
+      0.052363050483351235,
+      0.14387159124332954
+     ]
+    }
+   }
+  },
+  "Pop": {
+   "n_pistas": 28,
+   "n_artistas": 22,
+   "n_notas": 29504,
+   "frac_traste_5": 0.36073074837310193,
+   "notas_por_ataque": 2.7805107906889077,
+   "tab_acc": {
+    "baseline": 0.7005490780911063,
+    "A*": 0.8610018980477223,
+    "mixed_t5": 0.9255016268980477,
+    "mixed_gpt2": 0.9539723427331888,
+    "mixed_bert": 0.9011320498915402,
+    "mixed_bert_small": 0.9475325379609545
+   },
+   "ic95": {
+    "baseline": [
+     0.5463818226722648,
+     0.8926393623661593
+    ],
+    "A*": [
+     0.7374368231046932,
+     0.941266944734098
+    ],
+    "mixed_t5": [
+     0.8486772084537023,
+     0.9738981444351281
+    ],
+    "mixed_gpt2": [
+     0.9301484041471844,
+     0.974961676034747
+    ],
+    "mixed_bert": [
+     0.8332849428023924,
+     0.9607584065534782
+    ],
+    "mixed_bert_small": [
+     0.9195697301377619,
+     0.972510152500497
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": -0.16045281995661598,
+     "ic95": [
+      -0.378096109551005,
+      0.11627415331275633
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.0644997288503254,
+     "ic95": [
+      -0.036610711430855314,
+      0.20516413130504405
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.09297044468546645,
+     "ic95": [
+      0.0013239696062629519,
+      0.2262188695989794
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.04013015184381785,
+     "ic95": [
+      -0.07699325535173178,
+      0.19150187791302775
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.08653063991323218,
+     "ic95": [
+      -0.004276761517615176,
+      0.2174682797285335
+     ]
+    }
+   }
+  },
+  "Blues y country": {
+   "n_pistas": 11,
+   "n_artistas": 9,
+   "n_notas": 7237,
+   "frac_traste_5": 0.25728893187784996,
+   "notas_por_ataque": 1.5874095196314981,
+   "tab_acc": {
+    "baseline": 0.7773939477684123,
+    "A*": 0.7327621942793976,
+    "mixed_t5": 0.7970153378471743,
+    "mixed_gpt2": 0.7562525908525632,
+    "mixed_bert": 0.7834738151167611,
+    "mixed_bert_small": 0.8205057344203399
+   },
+   "ic95": {
+    "baseline": [
+     0.5852542993047932,
+     0.910590804318816
+    ],
+    "A*": [
+     0.6176969696969697,
+     0.8387335874629395
+    ],
+    "mixed_t5": [
+     0.7112204455377887,
+     0.8833000665335995
+    ],
+    "mixed_gpt2": [
+     0.6732967535436671,
+     0.847590017146123
+    ],
+    "mixed_bert": [
+     0.6922073687642648,
+     0.8672459893048128
+    ],
+    "mixed_bert_small": [
+     0.7475833900612662,
+     0.8927327028372325
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.044631753489014714,
+     "ic95": [
+      -0.1150818974686237,
+      0.20245499181669394
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.06425314356777667,
+     "ic95": [
+      0.013384086444007858,
+      0.15722559683571125
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.02349039657316565,
+     "ic95": [
+      -0.0361791730474732,
+      0.13632947542462048
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.05071162083736347,
+     "ic95": [
+      -0.05879795674383219,
+      0.17674338715218138
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.08774354014094232,
+     "ic95": [
+      -0.027620494406849883,
+      0.21175584024114544
+     ]
+    }
+   }
+  },
+  "Punk y emo": {
+   "n_pistas": 14,
+   "n_artistas": 13,
+   "n_notas": 27333,
+   "frac_traste_5": 0.34171148428639375,
+   "notas_por_ataque": 3.362406200024603,
+   "tab_acc": {
+    "baseline": 0.6622397834119929,
+    "A*": 0.8917425822266125,
+    "mixed_t5": 0.9129623531994293,
+    "mixed_gpt2": 0.9132916255076281,
+    "mixed_bert": 0.8083635166282516,
+    "mixed_bert_small": 0.8037902901254893
+   },
+   "ic95": {
+    "baseline": [
+     0.4341347781916695,
+     0.8056827229299363
+    ],
+    "A*": [
+     0.8219967323071631,
+     0.940180144899158
+    ],
+    "mixed_t5": [
+     0.8376793704675204,
+     0.9672379743264212
+    ],
+    "mixed_gpt2": [
+     0.8606193223261057,
+     0.958905503000712
+    ],
+    "mixed_bert": [
+     0.647430286357384,
+     0.9109586324515131
+    ],
+    "mixed_bert_small": [
+     0.6781775112887705,
+     0.9335754640839387
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": -0.22950279881461966,
+     "ic95": [
+      -0.42120373573158076,
+      -0.10583263676047182
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.021219770972816798,
+     "ic95": [
+      -0.005017893262797573,
+      0.05826787312319777
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.02154904328101559,
+     "ic95": [
+      -0.018384800532595894,
+      0.07347249540003807
+     ]
+    },
+    "mixed_bert": {
+     "dif": -0.08337906559836095,
+     "ic95": [
+      -0.20539856600590467,
+      -0.007211310371002941
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": -0.08795229210112321,
+     "ic95": [
+      -0.20718261806428442,
+      0.04526727778349984
+     ]
+    }
+   }
+  },
+  "Metal": {
+   "n_pistas": 29,
+   "n_artistas": 20,
+   "n_notas": 20296,
+   "frac_traste_5": 0.12726645644461962,
+   "notas_por_ataque": 2.240176600441501,
+   "tab_acc": {
+    "baseline": 0.8619432400472999,
+    "A*": 0.7997635001970832,
+    "mixed_t5": 0.8848541584548679,
+    "mixed_gpt2": 0.8921462357114702,
+    "mixed_bert": 0.879483642096965,
+    "mixed_bert_small": 0.8828833267638944
+   },
+   "ic95": {
+    "baseline": [
+     0.721875,
+     0.9380591054313099
+    ],
+    "A*": [
+     0.6611900120672051,
+     0.8907176073675572
+    ],
+    "mixed_t5": [
+     0.7543650793650793,
+     0.9491958061151672
+    ],
+    "mixed_gpt2": [
+     0.7703502713369511,
+     0.9556846534837821
+    ],
+    "mixed_bert": [
+     0.7545473552163914,
+     0.9448349704389926
+    ],
+    "mixed_bert_small": [
+     0.7571245597182197,
+     0.9460765471418373
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.06217973985021674,
+     "ic95": [
+      -0.003723134202064647,
+      0.16025449845909137
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.08509065825778472,
+     "ic95": [
+      0.02227780817634644,
+      0.18136503067484663
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.09238273551438703,
+     "ic95": [
+      0.033846674564224064,
+      0.18315052078532584
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.07972014189988175,
+     "ic95": [
+      0.021494954102286332,
+      0.16415886341620922
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.08311982656681116,
+     "ic95": [
+      0.020616462702483115,
+      0.17450634130679082
+     ]
+    }
+   }
+  },
+  "Folk y cantautor": {
+   "n_pistas": 38,
+   "n_artistas": 25,
+   "n_notas": 33077,
+   "frac_traste_5": 0.0949904767663331,
+   "notas_por_ataque": 2.1319368353206576,
+   "tab_acc": {
+    "baseline": 0.906581612600901,
+    "A*": 0.8836653868246818,
+    "mixed_t5": 0.9454605919521117,
+    "mixed_gpt2": 0.9241164555431266,
+    "mixed_bert": 0.9312513226713426,
+    "mixed_bert_small": 0.9402606040451069
+   },
+   "ic95": {
+    "baseline": [
+     0.8412047228337002,
+     0.9503919942204265
+    ],
+    "A*": [
+     0.8054042032692094,
+     0.9278488440323905
+    ],
+    "mixed_t5": [
+     0.9186320754716981,
+     0.9619011334412801
+    ],
+    "mixed_gpt2": [
+     0.8819050462824723,
+     0.9514733840304183
+    ],
+    "mixed_bert": [
+     0.9055878660551869,
+     0.9553096203896926
+    ],
+    "mixed_bert_small": [
+     0.9133061471076876,
+     0.9631968564712486
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.022916225776219212,
+     "ic95": [
+      -0.017149994936025117,
+      0.09104179845263004
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.061795205127429975,
+     "ic95": [
+      0.019797793410986815,
+      0.1289189309378752
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.04045106871844484,
+     "ic95": [
+      -0.0036742741068227984,
+      0.10972346119536129
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.04758593584666082,
+     "ic95": [
+      -0.0036079730289229313,
+      0.12573360251655008
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.056595217220425154,
+     "ic95": [
+      0.007705563761693747,
+      0.12979490728935195
+     ]
+    }
+   }
+  },
+  "Otros": {
+   "n_pistas": 13,
+   "n_artistas": 10,
+   "n_notas": 21472,
+   "frac_traste_5": 0.29396423248882264,
+   "notas_por_ataque": 3.1033386327503973,
+   "tab_acc": {
+    "baseline": 0.702123695976155,
+    "A*": 0.8637760804769001,
+    "mixed_t5": 0.8405365126676602,
+    "mixed_gpt2": 0.8296385991058122,
+    "mixed_bert": 0.8370901639344263,
+    "mixed_bert_small": 0.8295920268256334
+   },
+   "ic95": {
+    "baseline": [
+     0.4565271037262483,
+     0.9052582159624413
+    ],
+    "A*": [
+     0.7587176602924635,
+     0.9451745727339388
+    ],
+    "mixed_t5": [
+     0.6884389639760917,
+     0.9598012833781826
+    ],
+    "mixed_gpt2": [
+     0.6661514683153014,
+     0.9508649859409999
+    ],
+    "mixed_bert": [
+     0.70031748755792,
+     0.943828652387699
+    ],
+    "mixed_bert_small": [
+     0.6726750677939065,
+     0.9473056355409296
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": -0.16165238450074515,
+     "ic95": [
+      -0.3159496586328864,
+      -0.0207114397501705
+     ]
+    },
+    "mixed_t5": {
+     "dif": -0.02323956780923997,
+     "ic95": [
+      -0.08593038728202256,
+      0.028903094238989763
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": -0.03413748137108796,
+     "ic95": [
+      -0.10669975186104218,
+      0.013712291199202194
+     ]
+    },
+    "mixed_bert": {
+     "dif": -0.026685916542473875,
+     "ic95": [
+      -0.061851229702373264,
+      0.0013897896784953211
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": -0.034184053651266755,
+     "ic95": [
+      -0.09056603773584905,
+      0.007514370801302029
+     ]
+    }
+   }
+  },
+  "Jazz y bossa": {
+   "n_pistas": 5,
+   "n_artistas": 4,
+   "n_notas": 2097,
+   "frac_traste_5": 0.15498330948974726,
+   "notas_por_ataque": 1.7062652563059397,
+   "tab_acc": {
+    "baseline": 0.8278493085360038,
+    "A*": 0.7515498330948974,
+    "mixed_t5": 0.8364329995231283,
+    "mixed_gpt2": 0.7787315212207916,
+    "mixed_bert": 0.8559847401049118,
+    "mixed_bert_small": 0.8450166905102527
+   },
+   "ic95": {
+    "baseline": [
+     0.5801801801801801,
+     0.9169909208819714
+    ],
+    "A*": [
+     0.676056338028169,
+     0.7901234567901234
+    ],
+    "mixed_t5": [
+     0.6324324324324324,
+     0.9098573281452659
+    ],
+    "mixed_gpt2": [
+     0.618018018018018,
+     0.85
+    ],
+    "mixed_bert": [
+     0.6738738738738739,
+     0.9215304798962386
+    ],
+    "mixed_bert_small": [
+     0.6234234234234234,
+     0.9247730220492867
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.07629947544110638,
+     "ic95": [
+      -0.18396226415094338,
+      0.1642061642061642
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.0848831664282309,
+     "ic95": [
+      -0.10270270270270271,
+      0.15239948119325553
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": 0.027181688125894166,
+     "ic95": [
+      -0.11711711711711711,
+      0.09352517985611511
+     ]
+    },
+    "mixed_bert": {
+     "dif": 0.10443490701001434,
+     "ic95": [
+      -0.06126126126126126,
+      0.16407263294422827
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": 0.09346685741535532,
+     "ic95": [
+      -0.11171171171171171,
+      0.17068117068117067
+     ]
+    }
+   }
+  },
+  "Videojuegos y BSO": {
+   "n_pistas": 10,
+   "n_artistas": 6,
+   "n_notas": 1963,
+   "frac_traste_5": 0.22109016811003565,
+   "notas_por_ataque": 1.3281461434370772,
+   "tab_acc": {
+    "baseline": 0.8089658685685176,
+    "A*": 0.7885888945491595,
+    "mixed_t5": 0.7972491085073866,
+    "mixed_gpt2": 0.760570555272542,
+    "mixed_bert": 0.7641365257259297,
+    "mixed_bert_small": 0.782475802343352
+   },
+   "ic95": {
+    "baseline": [
+     0.6563517915309446,
+     0.895007342143906
+    ],
+    "A*": [
+     0.732749178532311,
+     0.8330258302583026
+    ],
+    "mixed_t5": [
+     0.5707898658718331,
+     0.8638702018203404
+    ],
+    "mixed_gpt2": [
+     0.5955223880597015,
+     0.8097211755840241
+    ],
+    "mixed_bert": [
+     0.6600609756097561,
+     0.8294010889292196
+    ],
+    "mixed_bert_small": [
+     0.7164634146341463,
+     0.8913455464308275
+    ]
+   },
+   "dif_vs_A*": {
+    "baseline": {
+     "dif": 0.02037697401935812,
+     "ic95": [
+      -0.07737226277372262,
+      0.09183673469387756
+     ]
+    },
+    "mixed_t5": {
+     "dif": 0.008660213958227136,
+     "ic95": [
+      -0.22503725782414308,
+      0.07777777777777778
+     ]
+    },
+    "mixed_gpt2": {
+     "dif": -0.028018339276617454,
+     "ic95": [
+      -0.18872870249017037,
+      0.02406417112299465
+     ]
+    },
+    "mixed_bert": {
+     "dif": -0.024452368823229764,
+     "ic95": [
+      -0.12220566318926974,
+      0.054183266932270914
+     ]
+    },
+    "mixed_bert_small": {
+     "dif": -0.006113092205807469,
+     "ic95": [
+      -0.06820877817319099,
+      0.10731414868105515
+     ]
+    }
+   }
+  }
+ },
+ "pistas": [
+  {
+   "cancion": "1/1704 exercises for guitar/704 exercises for guitar, 1-96 - Exercises 141-180.gp3",
+   "artista": "1704 exercises for guitar",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 3072,
+   "n_traste_5": 0,
+   "n_ataques": 3072,
+   "aciertos": {
+    "baseline": 2880,
+    "A*": 2081,
+    "mixed_t5": 2376,
+    "mixed_gpt2": 2483,
+    "mixed_bert": 2608,
+    "mixed_bert_small": 2905
+   }
+  },
+  {
+   "cancion": "2/20-70/20-70 - Overwound Music Box.gp4",
+   "artista": "20-70",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 666,
+   "n_traste_5": 40,
+   "n_ataques": 536,
+   "aciertos": {
+    "baseline": 586,
+    "A*": 586,
+    "mixed_t5": 629,
+    "mixed_gpt2": 625,
+    "mixed_bert": 546,
+    "mixed_bert_small": 556
+   }
+  },
+  {
+   "cancion": "3/38 Special/38 Special - Robin Hood.gp3",
+   "artista": "38 Special",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:folk_rock",
+    "genre:hard_rock",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock",
+    "genre:southern_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1983,
+   "n_traste_5": 158,
+   "n_ataques": 1597,
+   "aciertos": {
+    "baseline": 1849,
+    "A*": 1892,
+    "mixed_t5": 1438,
+    "mixed_gpt2": 1507,
+    "mixed_bert": 1598,
+    "mixed_bert_small": 1581
+   }
+  },
+  {
+   "cancion": "A/ALMAFUERTE/ALMAFUERTE - Ceibo.gp3",
+   "artista": "ALMAFUERTE",
+   "etiquetas": [
+    "genre:argentine_heavy_metal",
+    "genre:argentine_metal",
+    "genre:argentine_rock",
+    "genre:latin_alternative",
+    "genre:latin_metal",
+    "genre:rock_en_espanol",
+    "genre:rock_nacional"
+   ],
+   "genero": "Rock",
+   "n_notas": 553,
+   "n_traste_5": 191,
+   "n_ataques": 519,
+   "aciertos": {
+    "baseline": 368,
+    "A*": 387,
+    "mixed_t5": 364,
+    "mixed_gpt2": 361,
+    "mixed_bert": 397,
+    "mixed_bert_small": 369
+   }
+  },
+  {
+   "cancion": "A/ALMAFUERTE/ALMAFUERTE - Ceibo.gp3",
+   "artista": "ALMAFUERTE",
+   "etiquetas": [
+    "genre:argentine_heavy_metal",
+    "genre:argentine_metal",
+    "genre:argentine_rock",
+    "genre:latin_alternative",
+    "genre:latin_metal",
+    "genre:rock_en_espanol",
+    "genre:rock_nacional"
+   ],
+   "genero": "Rock",
+   "n_notas": 412,
+   "n_traste_5": 109,
+   "n_ataques": 258,
+   "aciertos": {
+    "baseline": 308,
+    "A*": 282,
+    "mixed_t5": 365,
+    "mixed_gpt2": 359,
+    "mixed_bert": 285,
+    "mixed_bert_small": 360
+   }
+  },
+  {
+   "cancion": "A/Aerosmith/Aerosmith - Dream On (3).gp4",
+   "artista": "Aerosmith",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 718,
+   "n_traste_5": 280,
+   "n_ataques": 466,
+   "aciertos": {
+    "baseline": 458,
+    "A*": 584,
+    "mixed_t5": 523,
+    "mixed_gpt2": 452,
+    "mixed_bert": 567,
+    "mixed_bert_small": 334
+   }
+  },
+  {
+   "cancion": "A/Albeniz, Isaac/Albeniz, Isaac - Alborada Op 71.gp3",
+   "artista": "Albeniz, Isaac",
+   "etiquetas": [
+    "genre:classical",
+    "genre:impressionism",
+    "genre:post-romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 1145,
+   "n_traste_5": 656,
+   "n_ataques": 527,
+   "aciertos": {
+    "baseline": 585,
+    "A*": 643,
+    "mixed_t5": 629,
+    "mixed_gpt2": 644,
+    "mixed_bert": 633,
+    "mixed_bert_small": 626
+   }
+  },
+  {
+   "cancion": "A/Albeniz, Isaac/Albeniz, Isaac - Alborada Op 71.gp3",
+   "artista": "Albeniz, Isaac",
+   "etiquetas": [
+    "genre:classical",
+    "genre:impressionism",
+    "genre:post-romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 593,
+   "n_traste_5": 162,
+   "n_ataques": 540,
+   "aciertos": {
+    "baseline": 516,
+    "A*": 319,
+    "mixed_t5": 433,
+    "mixed_gpt2": 482,
+    "mixed_bert": 415,
+    "mixed_bert_small": 464
+   }
+  },
+  {
+   "cancion": "A/Aloulou, Omar/Aloulou, Omar - Let the bells ring.gp3",
+   "artista": "Aloulou, Omar",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 705,
+   "n_traste_5": 493,
+   "n_ataques": 705,
+   "aciertos": {
+    "baseline": 411,
+    "A*": 368,
+    "mixed_t5": 521,
+    "mixed_gpt2": 479,
+    "mixed_bert": 355,
+    "mixed_bert_small": 349
+   }
+  },
+  {
+   "cancion": "A/Alternative Competition 4/Alternative Competition 4 - Just Seek Happiness.gp3",
+   "artista": "Alternative Competition 4",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 395,
+   "n_traste_5": 80,
+   "n_ataques": 100,
+   "aciertos": {
+    "baseline": 283,
+    "A*": 379,
+    "mixed_t5": 334,
+    "mixed_gpt2": 310,
+    "mixed_bert": 332,
+    "mixed_bert_small": 320
+   }
+  },
+  {
+   "cancion": "A/Anouk/Anouk - Nobody' s Wife.gp3",
+   "artista": "Anouk",
+   "etiquetas": [
+    "genre:dutch_pop",
+    "genre:dutch_rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 342,
+   "n_traste_5": 0,
+   "n_ataques": 334,
+   "aciertos": {
+    "baseline": 342,
+    "A*": 297,
+    "mixed_t5": 335,
+    "mixed_gpt2": 342,
+    "mixed_bert": 341,
+    "mixed_bert_small": 342
+   }
+  },
+  {
+   "cancion": "A/Antoinenadim/Antoinenadim - Quando...Quando...Quando....gp3",
+   "artista": "Antoinenadim",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 568,
+   "n_traste_5": 327,
+   "n_ataques": 314,
+   "aciertos": {
+    "baseline": 313,
+    "A*": 398,
+    "mixed_t5": 386,
+    "mixed_gpt2": 398,
+    "mixed_bert": 384,
+    "mixed_bert_small": 465
+   }
+  },
+  {
+   "cancion": "A/Atkins, Chet/Atkins, Chet - Canned Heat.gp3",
+   "artista": "Atkins, Chet",
+   "etiquetas": [
+    "genre:nashville_sound"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 396,
+   "n_traste_5": 310,
+   "n_ataques": 283,
+   "aciertos": {
+    "baseline": 131,
+    "A*": 161,
+    "mixed_t5": 199,
+    "mixed_gpt2": 157,
+    "mixed_bert": 172,
+    "mixed_bert_small": 251
+   }
+  },
+  {
+   "cancion": "A/Atkins, Chet/Atkins, Chet - Mister Sandman.gp4",
+   "artista": "Atkins, Chet",
+   "etiquetas": [
+    "genre:nashville_sound"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 902,
+   "n_traste_5": 590,
+   "n_ataques": 528,
+   "aciertos": {
+    "baseline": 394,
+    "A*": 727,
+    "mixed_t5": 685,
+    "mixed_gpt2": 685,
+    "mixed_bert": 650,
+    "mixed_bert_small": 714
+   }
+  },
+  {
+   "cancion": "B/Bach, Johann Sebastian/Bach, Johann Sebastian - Air On A G String.gp3",
+   "artista": "Bach, Johann Sebastian",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:classical",
+    "genre:early_music",
+    "genre:german_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 398,
+   "n_traste_5": 15,
+   "n_ataques": 242,
+   "aciertos": {
+    "baseline": 387,
+    "A*": 296,
+    "mixed_t5": 378,
+    "mixed_gpt2": 341,
+    "mixed_bert": 375,
+    "mixed_bert_small": 386
+   }
+  },
+  {
+   "cancion": "B/Bach, Johann Sebastian/Bach, Johann Sebastian - Bourree.gp3",
+   "artista": "Bach, Johann Sebastian",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:classical",
+    "genre:early_music",
+    "genre:german_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 248,
+   "n_traste_5": 17,
+   "n_ataques": 154,
+   "aciertos": {
+    "baseline": 230,
+    "A*": 200,
+    "mixed_t5": 232,
+    "mixed_gpt2": 234,
+    "mixed_bert": 226,
+    "mixed_bert_small": 233
+   }
+  },
+  {
+   "cancion": "B/Bach, Johann Sebastian/Bach, Johann Sebastian - Menuett.gp3",
+   "artista": "Bach, Johann Sebastian",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:classical",
+    "genre:early_music",
+    "genre:german_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 195,
+   "n_traste_5": 8,
+   "n_ataques": 135,
+   "aciertos": {
+    "baseline": 189,
+    "A*": 163,
+    "mixed_t5": 185,
+    "mixed_gpt2": 190,
+    "mixed_bert": 180,
+    "mixed_bert_small": 189
+   }
+  },
+  {
+   "cancion": "B/Bach, Johann Sebastian/Bach, Johann Sebastian - PrClude n-1.gp3",
+   "artista": "Bach, Johann Sebastian",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:classical",
+    "genre:early_music",
+    "genre:german_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 548,
+   "n_traste_5": 16,
+   "n_ataques": 545,
+   "aciertos": {
+    "baseline": 530,
+    "A*": 493,
+    "mixed_t5": 540,
+    "mixed_gpt2": 543,
+    "mixed_bert": 516,
+    "mixed_bert_small": 526
+   }
+  },
+  {
+   "cancion": "B/Baker, David/Baker, David - The Call Of Dabhaidh.gp4",
+   "artista": "Baker, David",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 646,
+   "n_traste_5": 72,
+   "n_ataques": 641,
+   "aciertos": {
+    "baseline": 499,
+    "A*": 459,
+    "mixed_t5": 483,
+    "mixed_gpt2": 508,
+    "mixed_bert": 546,
+    "mixed_bert_small": 467
+   }
+  },
+  {
+   "cancion": "B/Balasevic, Djordje/Balasevic, Djordje - Devojka Sa Cardas Nogama.gp4",
+   "artista": "Balasevic, Djordje",
+   "etiquetas": [
+    "genre:yugoslav_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1746,
+   "n_traste_5": 48,
+   "n_ataques": 712,
+   "aciertos": {
+    "baseline": 1650,
+    "A*": 1106,
+    "mixed_t5": 1531,
+    "mixed_gpt2": 1178,
+    "mixed_bert": 1663,
+    "mixed_bert_small": 1512
+   }
+  },
+  {
+   "cancion": "B/Bare Egil Band/Bare Egil Band - Vestkantrap.gp4",
+   "artista": "Bare Egil Band",
+   "etiquetas": [
+    "genre:norwegian_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 936,
+   "n_traste_5": 0,
+   "n_ataques": 566,
+   "aciertos": {
+    "baseline": 910,
+    "A*": 812,
+    "mixed_t5": 909,
+    "mixed_gpt2": 871,
+    "mixed_bert": 901,
+    "mixed_bert_small": 917
+   }
+  },
+  {
+   "cancion": "B/Bare Egil Band/Bare Egil Band - Vestkantrap.gp4",
+   "artista": "Bare Egil Band",
+   "etiquetas": [
+    "genre:norwegian_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1105,
+   "n_traste_5": 402,
+   "n_ataques": 339,
+   "aciertos": {
+    "baseline": 629,
+    "A*": 812,
+    "mixed_t5": 724,
+    "mixed_gpt2": 746,
+    "mixed_bert": 804,
+    "mixed_bert_small": 710
+   }
+  },
+  {
+   "cancion": "B/Barrense Dias, Jose/Barrense Dias, Jose - Bichuca.gp4",
+   "artista": "Barrense Dias, Jose",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 354,
+   "n_traste_5": 0,
+   "n_ataques": 269,
+   "aciertos": {
+    "baseline": 350,
+    "A*": 300,
+    "mixed_t5": 349,
+    "mixed_gpt2": 354,
+    "mixed_bert": 343,
+    "mixed_bert_small": 343
+   }
+  },
+  {
+   "cancion": "B/Barrios, Agustin/Barrios, Agustin - La Catedral (Allegro).gp3",
+   "artista": "Barrios, Agustin",
+   "etiquetas": [
+    "genre:classical_guitar",
+    "genre:guitarra_clasica",
+    "genre:latin_classical",
+    "genre:polca_paraguaya"
+   ],
+   "genero": "Clásica",
+   "n_notas": 1115,
+   "n_traste_5": 370,
+   "n_ataques": 1109,
+   "aciertos": {
+    "baseline": 730,
+    "A*": 718,
+    "mixed_t5": 806,
+    "mixed_gpt2": 732,
+    "mixed_bert": 733,
+    "mixed_bert_small": 763
+   }
+  },
+  {
+   "cancion": "B/Battisti, Lucio/Battisti, Lucio - Ragazze.gp4",
+   "artista": "Battisti, Lucio",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 81,
+   "n_traste_5": 81,
+   "n_ataques": 81,
+   "aciertos": {
+    "baseline": 45,
+    "A*": 25,
+    "mixed_t5": 21,
+    "mixed_gpt2": 27,
+    "mixed_bert": 54,
+    "mixed_bert_small": 48
+   }
+  },
+  {
+   "cancion": "B/Battisti, Lucio/Battisti, Lucio - Ragazze.gp4",
+   "artista": "Battisti, Lucio",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2712,
+   "n_traste_5": 198,
+   "n_ataques": 539,
+   "aciertos": {
+    "baseline": 2429,
+    "A*": 2711,
+    "mixed_t5": 2670,
+    "mixed_gpt2": 2625,
+    "mixed_bert": 2672,
+    "mixed_bert_small": 2631
+   }
+  },
+  {
+   "cancion": "B/Beach Boys (The)/Beach Boys (The) - Beach Boy Stomp (Karate).gp4",
+   "artista": "Beach Boys (The)",
+   "etiquetas": [
+    "genre:baroque_pop",
+    "genre:brill_building_pop",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:psychedelic_rock",
+    "genre:rock",
+    "genre:sunshine_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 80,
+   "n_traste_5": 0,
+   "n_ataques": 64,
+   "aciertos": {
+    "baseline": 80,
+    "A*": 79,
+    "mixed_t5": 76,
+    "mixed_gpt2": 76,
+    "mixed_bert": 70,
+    "mixed_bert_small": 76
+   }
+  },
+  {
+   "cancion": "B/Beach Boys (The)/Beach Boys (The) - What Is A Young Girl.gp4",
+   "artista": "Beach Boys (The)",
+   "etiquetas": [
+    "genre:baroque_pop",
+    "genre:brill_building_pop",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:psychedelic_rock",
+    "genre:rock",
+    "genre:sunshine_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 73,
+   "n_traste_5": 14,
+   "n_ataques": 73,
+   "aciertos": {
+    "baseline": 62,
+    "A*": 60,
+    "mixed_t5": 50,
+    "mixed_gpt2": 38,
+    "mixed_bert": 48,
+    "mixed_bert_small": 60
+   }
+  },
+  {
+   "cancion": "B/Beat Crusaders/Beat Crusaders - Moon On The Water.gp4",
+   "artista": "Beat Crusaders",
+   "etiquetas": [
+    "genre:j-rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2233,
+   "n_traste_5": 141,
+   "n_ataques": 523,
+   "aciertos": {
+    "baseline": 2071,
+    "A*": 2209,
+    "mixed_t5": 2183,
+    "mixed_gpt2": 2183,
+    "mixed_bert": 2182,
+    "mixed_bert_small": 2193
+   }
+  },
+  {
+   "cancion": "B/Beat Crusaders/Beat Crusaders - Moon On The Water.gp4",
+   "artista": "Beat Crusaders",
+   "etiquetas": [
+    "genre:j-rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 401,
+   "n_traste_5": 233,
+   "n_ataques": 280,
+   "aciertos": {
+    "baseline": 177,
+    "A*": 210,
+    "mixed_t5": 324,
+    "mixed_gpt2": 199,
+    "mixed_bert": 238,
+    "mixed_bert_small": 265
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - Can_'t Buy Me Love (3).gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2320,
+   "n_traste_5": 74,
+   "n_ataques": 440,
+   "aciertos": {
+    "baseline": 2204,
+    "A*": 2320,
+    "mixed_t5": 2291,
+    "mixed_gpt2": 2257,
+    "mixed_bert": 2240,
+    "mixed_bert_small": 2279
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - Cry Baby Cry.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2562,
+   "n_traste_5": 128,
+   "n_ataques": 455,
+   "aciertos": {
+    "baseline": 2370,
+    "A*": 2562,
+    "mixed_t5": 2559,
+    "mixed_gpt2": 2544,
+    "mixed_bert": 2522,
+    "mixed_bert_small": 2555
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - Hey Jude (4).gp4",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 474,
+   "n_traste_5": 54,
+   "n_ataques": 311,
+   "aciertos": {
+    "baseline": 433,
+    "A*": 390,
+    "mixed_t5": 449,
+    "mixed_gpt2": 392,
+    "mixed_bert": 379,
+    "mixed_bert_small": 395
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - I Need You.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 3053,
+   "n_traste_5": 96,
+   "n_ataques": 604,
+   "aciertos": {
+    "baseline": 2929,
+    "A*": 1793,
+    "mixed_t5": 3053,
+    "mixed_gpt2": 3053,
+    "mixed_bert": 3052,
+    "mixed_bert_small": 3052
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - Please Please Me.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2410,
+   "n_traste_5": 179,
+   "n_ataques": 456,
+   "aciertos": {
+    "baseline": 2196,
+    "A*": 2410,
+    "mixed_t5": 2407,
+    "mixed_gpt2": 2383,
+    "mixed_bert": 2357,
+    "mixed_bert_small": 2393
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - She Loves You.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1979,
+   "n_traste_5": 116,
+   "n_ataques": 374,
+   "aciertos": {
+    "baseline": 1833,
+    "A*": 1979,
+    "mixed_t5": 1939,
+    "mixed_gpt2": 1939,
+    "mixed_bert": 1966,
+    "mixed_bert_small": 1959
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - The Continuing Story Of Bungalow Bill.gp4",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 976,
+   "n_traste_5": 16,
+   "n_ataques": 209,
+   "aciertos": {
+    "baseline": 952,
+    "A*": 872,
+    "mixed_t5": 976,
+    "mixed_gpt2": 950,
+    "mixed_bert": 970,
+    "mixed_bert_small": 972
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - This Boy.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1331,
+   "n_traste_5": 12,
+   "n_ataques": 250,
+   "aciertos": {
+    "baseline": 1267,
+    "A*": 1324,
+    "mixed_t5": 1331,
+    "mixed_gpt2": 1331,
+    "mixed_bert": 1329,
+    "mixed_bert_small": 1331
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - When I'M Sixty Four.gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 380,
+   "n_traste_5": 66,
+   "n_ataques": 290,
+   "aciertos": {
+    "baseline": 323,
+    "A*": 303,
+    "mixed_t5": 277,
+    "mixed_gpt2": 285,
+    "mixed_bert": 298,
+    "mixed_bert_small": 299
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - While My Guitar Gently Weeps (2).gp3",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 3289,
+   "n_traste_5": 120,
+   "n_ataques": 809,
+   "aciertos": {
+    "baseline": 3117,
+    "A*": 3009,
+    "mixed_t5": 3289,
+    "mixed_gpt2": 3289,
+    "mixed_bert": 3263,
+    "mixed_bert_small": 3286
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - You've Got To Hide Your Love Away (2).gp4",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2174,
+   "n_traste_5": 0,
+   "n_ataques": 653,
+   "aciertos": {
+    "baseline": 2174,
+    "A*": 1868,
+    "mixed_t5": 2174,
+    "mixed_gpt2": 2174,
+    "mixed_bert": 2174,
+    "mixed_bert_small": 2174
+   }
+  },
+  {
+   "cancion": "B/Beatles (The)/Beatles (The) - You've Got To Hide Your Love Away (2).gp4",
+   "artista": "Beatles (The)",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:merseybeat",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1372,
+   "n_traste_5": 0,
+   "n_ataques": 431,
+   "aciertos": {
+    "baseline": 1372,
+    "A*": 1336,
+    "mixed_t5": 1368,
+    "mixed_gpt2": 1372,
+    "mixed_bert": 1372,
+    "mixed_bert_small": 1372
+   }
+  },
+  {
+   "cancion": "B/Beck, Jeff/Beck, Jeff - Greensleeves.gp3",
+   "artista": "Beck, Jeff",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:blues",
+    "genre:blues_rock",
+    "genre:british_blues",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:hard_rock",
+    "genre:instrumental_rock",
+    "genre:jazz_fusion",
+    "genre:psychedelic_rock",
+    "genre:rock",
+    "genre:symphonic_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 353,
+   "n_traste_5": 71,
+   "n_ataques": 237,
+   "aciertos": {
+    "baseline": 297,
+    "A*": 263,
+    "mixed_t5": 308,
+    "mixed_gpt2": 176,
+    "mixed_bert": 317,
+    "mixed_bert_small": 304
+   }
+  },
+  {
+   "cancion": "B/Beck, Jeff/Beck, Jeff - Greensleeves.gp3",
+   "artista": "Beck, Jeff",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:blues",
+    "genre:blues_rock",
+    "genre:british_blues",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:hard_rock",
+    "genre:instrumental_rock",
+    "genre:jazz_fusion",
+    "genre:psychedelic_rock",
+    "genre:rock",
+    "genre:symphonic_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 353,
+   "n_traste_5": 71,
+   "n_ataques": 237,
+   "aciertos": {
+    "baseline": 297,
+    "A*": 263,
+    "mixed_t5": 308,
+    "mixed_gpt2": 176,
+    "mixed_bert": 317,
+    "mixed_bert_small": 304
+   }
+  },
+  {
+   "cancion": "B/Ben Harper/Ben Harper - Walk away.gp3",
+   "artista": "Ben Harper",
+   "etiquetas": [
+    "genre:neo_mellow"
+   ],
+   "genero": "Pop",
+   "n_notas": 482,
+   "n_traste_5": 0,
+   "n_ataques": 251,
+   "aciertos": {
+    "baseline": 482,
+    "A*": 408,
+    "mixed_t5": 482,
+    "mixed_gpt2": 482,
+    "mixed_bert": 481,
+    "mixed_bert_small": 482
+   }
+  },
+  {
+   "cancion": "B/Beznosow, Dmitriy/Beznosow, Dmitriy - Sorrow In Rainy Day.gp3",
+   "artista": "Beznosow, Dmitriy",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2248,
+   "n_traste_5": 378,
+   "n_ataques": 578,
+   "aciertos": {
+    "baseline": 1891,
+    "A*": 2204,
+    "mixed_t5": 2043,
+    "mixed_gpt2": 1813,
+    "mixed_bert": 2137,
+    "mixed_bert_small": 1972
+   }
+  },
+  {
+   "cancion": "B/Bigo, Bernard/Bigo, Bernard - La Bulle.gp4",
+   "artista": "Bigo, Bernard",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 427,
+   "n_traste_5": 67,
+   "n_ataques": 383,
+   "aciertos": {
+    "baseline": 380,
+    "A*": 354,
+    "mixed_t5": 382,
+    "mixed_gpt2": 390,
+    "mixed_bert": 380,
+    "mixed_bert_small": 381
+   }
+  },
+  {
+   "cancion": "B/Bizet, Georges/Bizet, Georges - Carmen.gp3",
+   "artista": "Bizet, Georges",
+   "etiquetas": [
+    "genre:classical",
+    "genre:late_romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 284,
+   "n_traste_5": 0,
+   "n_ataques": 284,
+   "aciertos": {
+    "baseline": 284,
+    "A*": 238,
+    "mixed_t5": 255,
+    "mixed_gpt2": 284,
+    "mixed_bert": 276,
+    "mixed_bert_small": 280
+   }
+  },
+  {
+   "cancion": "B/Black Pearl/Black Pearl - I had lost my soul.gp3",
+   "artista": "Black Pearl",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1982,
+   "n_traste_5": 241,
+   "n_ataques": 792,
+   "aciertos": {
+    "baseline": 1733,
+    "A*": 1844,
+    "mixed_t5": 1871,
+    "mixed_gpt2": 1816,
+    "mixed_bert": 1870,
+    "mixed_bert_small": 1815
+   }
+  },
+  {
+   "cancion": "B/Blackmore, Ritchie/Blackmore, Ritchie - Nur Eine Minute.gp4",
+   "artista": "Blackmore, Ritchie",
+   "etiquetas": [
+    "genre:hard_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 281,
+   "n_traste_5": 124,
+   "n_ataques": 260,
+   "aciertos": {
+    "baseline": 230,
+    "A*": 170,
+    "mixed_t5": 222,
+    "mixed_gpt2": 211,
+    "mixed_bert": 207,
+    "mixed_bert_small": 228
+   }
+  },
+  {
+   "cancion": "B/Blink 182/Blink 182 - Mother's Day.gp3",
+   "artista": "Blink 182",
+   "etiquetas": [
+    "genre:pop_punk",
+    "genre:punk",
+    "genre:socal_pop_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 570,
+   "n_traste_5": 8,
+   "n_ataques": 122,
+   "aciertos": {
+    "baseline": 562,
+    "A*": 570,
+    "mixed_t5": 570,
+    "mixed_gpt2": 562,
+    "mixed_bert": 566,
+    "mixed_bert_small": 568
+   }
+  },
+  {
+   "cancion": "B/Blues Exercises/Blues Exercises - Blues Exercises.gp3",
+   "artista": "Blues Exercises",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 79,
+   "n_traste_5": 79,
+   "n_ataques": 79,
+   "aciertos": {
+    "baseline": 18,
+    "A*": 8,
+    "mixed_t5": 33,
+    "mixed_gpt2": 39,
+    "mixed_bert": 19,
+    "mixed_bert_small": 34
+   }
+  },
+  {
+   "cancion": "B/Blues Saraceno/Blues Saraceno - Remember When.gp4",
+   "artista": "Blues Saraceno",
+   "etiquetas": [
+    "genre:modern_alternative_rock",
+    "genre:modern_blues_rock"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 669,
+   "n_traste_5": 107,
+   "n_ataques": 439,
+   "aciertos": {
+    "baseline": 556,
+    "A*": 604,
+    "mixed_t5": 596,
+    "mixed_gpt2": 553,
+    "mixed_bert": 563,
+    "mixed_bert_small": 566
+   }
+  },
+  {
+   "cancion": "B/BnnK (The)/BnnK (The) - The Fast .gp3",
+   "artista": "BnnK (The)",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 235,
+   "n_traste_5": 132,
+   "n_ataques": 147,
+   "aciertos": {
+    "baseline": 137,
+    "A*": 158,
+    "mixed_t5": 163,
+    "mixed_gpt2": 181,
+    "mixed_bert": 165,
+    "mixed_bert_small": 136
+   }
+  },
+  {
+   "cancion": "B/Bohse Onkelz/Boehse Onkelz - Bomberpilot.gp3",
+   "artista": "Bohse Onkelz",
+   "etiquetas": [
+    "genre:german_hard_rock",
+    "genre:german_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 79,
+   "n_traste_5": 76,
+   "n_ataques": 79,
+   "aciertos": {
+    "baseline": 6,
+    "A*": 21,
+    "mixed_t5": 16,
+    "mixed_gpt2": 20,
+    "mixed_bert": 37,
+    "mixed_bert_small": 22
+   }
+  },
+  {
+   "cancion": "B/Boikot/Boikot - Kualkier Ddega.gp4",
+   "artista": "Boikot",
+   "etiquetas": [
+    "genre:punk_urbano",
+    "genre:spanish_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 172,
+   "n_traste_5": 79,
+   "n_ataques": 172,
+   "aciertos": {
+    "baseline": 93,
+    "A*": 93,
+    "mixed_t5": 136,
+    "mixed_gpt2": 140,
+    "mixed_bert": 138,
+    "mixed_bert_small": 153
+   }
+  },
+  {
+   "cancion": "B/Bon Jovi/Bon Jovi - Just Older (2).gp4",
+   "artista": "Bon Jovi",
+   "etiquetas": [
+    "genre:glam_metal",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 2018,
+   "n_traste_5": 2,
+   "n_ataques": 447,
+   "aciertos": {
+    "baseline": 2011,
+    "A*": 1414,
+    "mixed_t5": 2017,
+    "mixed_gpt2": 2015,
+    "mixed_bert": 1905,
+    "mixed_bert_small": 1965
+   }
+  },
+  {
+   "cancion": "B/Box Car Racer/Box Car Racer - Elevator (2).gp3",
+   "artista": "Box Car Racer",
+   "etiquetas": [
+    "genre:emo",
+    "genre:pop_punk",
+    "genre:punk",
+    "genre:skate_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 1570,
+   "n_traste_5": 785,
+   "n_ataques": 785,
+   "aciertos": {
+    "baseline": 785,
+    "A*": 1354,
+    "mixed_t5": 1570,
+    "mixed_gpt2": 1570,
+    "mixed_bert": 1200,
+    "mixed_bert_small": 1181
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - Chanson pour l'auvergnat.gp3",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 489,
+   "n_traste_5": 54,
+   "n_ataques": 208,
+   "aciertos": {
+    "baseline": 365,
+    "A*": 481,
+    "mixed_t5": 479,
+    "mixed_gpt2": 476,
+    "mixed_bert": 458,
+    "mixed_bert_small": 477
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - Fernande (2).gp4",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1261,
+   "n_traste_5": 40,
+   "n_ataques": 652,
+   "aciertos": {
+    "baseline": 1188,
+    "A*": 1179,
+    "mixed_t5": 1240,
+    "mixed_gpt2": 1237,
+    "mixed_bert": 1189,
+    "mixed_bert_small": 1222
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - La Guerre De 14-18.gp4",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 113,
+   "n_traste_5": 46,
+   "n_ataques": 83,
+   "aciertos": {
+    "baseline": 67,
+    "A*": 33,
+    "mixed_t5": 85,
+    "mixed_gpt2": 67,
+    "mixed_bert": 77,
+    "mixed_bert_small": 72
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - La Guerre De 14-18.gp4",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 196,
+   "n_traste_5": 0,
+   "n_ataques": 97,
+   "aciertos": {
+    "baseline": 194,
+    "A*": 187,
+    "mixed_t5": 196,
+    "mixed_gpt2": 196,
+    "mixed_bert": 195,
+    "mixed_bert_small": 195
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - La premiare fille.gp3",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 471,
+   "n_traste_5": 0,
+   "n_ataques": 241,
+   "aciertos": {
+    "baseline": 455,
+    "A*": 370,
+    "mixed_t5": 357,
+    "mixed_gpt2": 452,
+    "mixed_bert": 463,
+    "mixed_bert_small": 466
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - Le Gorille.gp4",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 380,
+   "n_traste_5": 0,
+   "n_ataques": 187,
+   "aciertos": {
+    "baseline": 380,
+    "A*": 380,
+    "mixed_t5": 380,
+    "mixed_gpt2": 380,
+    "mixed_bert": 380,
+    "mixed_bert_small": 380
+   }
+  },
+  {
+   "cancion": "B/Brassens, Georges/Brassens, Georges - Quatre-Vingt-Quinze Pour Cent.gp4",
+   "artista": "Brassens, Georges",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 838,
+   "n_traste_5": 49,
+   "n_ataques": 436,
+   "aciertos": {
+    "baseline": 749,
+    "A*": 750,
+    "mixed_t5": 811,
+    "mixed_gpt2": 786,
+    "mixed_bert": 805,
+    "mixed_bert_small": 816
+   }
+  },
+  {
+   "cancion": "B/Bread/Bread - Aubrey.gp3",
+   "artista": "Bread",
+   "etiquetas": [
+    "genre:adult_standards",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:soft_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 580,
+   "n_traste_5": 10,
+   "n_ataques": 481,
+   "aciertos": {
+    "baseline": 549,
+    "A*": 486,
+    "mixed_t5": 534,
+    "mixed_gpt2": 490,
+    "mixed_bert": 540,
+    "mixed_bert_small": 561
+   }
+  },
+  {
+   "cancion": "B/Browne, Jackson/Browne, Jackson - Boulevard.gp4",
+   "artista": "Browne, Jackson",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:heartland_rock",
+    "genre:mellow_gold",
+    "genre:piano_rock",
+    "genre:rock",
+    "genre:roots_rock",
+    "genre:singer-songwriter",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 452,
+   "n_traste_5": 105,
+   "n_ataques": 378,
+   "aciertos": {
+    "baseline": 347,
+    "A*": 271,
+    "mixed_t5": 347,
+    "mixed_gpt2": 357,
+    "mixed_bert": 346,
+    "mixed_bert_small": 242
+   }
+  },
+  {
+   "cancion": "B/Browne, Jackson/Browne, Jackson - Boulevard.gp4",
+   "artista": "Browne, Jackson",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:heartland_rock",
+    "genre:mellow_gold",
+    "genre:piano_rock",
+    "genre:rock",
+    "genre:roots_rock",
+    "genre:singer-songwriter",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 101,
+   "n_traste_5": 80,
+   "n_ataques": 43,
+   "aciertos": {
+    "baseline": 39,
+    "A*": 51,
+    "mixed_t5": 98,
+    "mixed_gpt2": 78,
+    "mixed_bert": 80,
+    "mixed_bert_small": 84
+   }
+  },
+  {
+   "cancion": "B/Budka Suflera/Budka Suflera - Jolka Jolka pamiatasz (2).gp3",
+   "artista": "Budka Suflera",
+   "etiquetas": [
+    "genre:classic_polish_pop",
+    "genre:polish_pop",
+    "genre:polish_rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 664,
+   "n_traste_5": 0,
+   "n_ataques": 664,
+   "aciertos": {
+    "baseline": 664,
+    "A*": 664,
+    "mixed_t5": 664,
+    "mixed_gpt2": 664,
+    "mixed_bert": 664,
+    "mixed_bert_small": 664
+   }
+  },
+  {
+   "cancion": "B/Buffy/Buffy - Buffy.gp3",
+   "artista": "Buffy",
+   "etiquetas": [
+    "genre:american_folk_revival",
+    "genre:canadian_singer-songwriter",
+    "genre:folk",
+    "genre:traditional_folk"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 585,
+   "n_traste_5": 130,
+   "n_ataques": 103,
+   "aciertos": {
+    "baseline": 476,
+    "A*": 569,
+    "mixed_t5": 510,
+    "mixed_gpt2": 532,
+    "mixed_bert": 546,
+    "mixed_bert_small": 532
+   }
+  },
+  {
+   "cancion": "B/Dylan, Bob/Dylan, Bob - Blowing In The Wind (2).gp3",
+   "artista": "Dylan, Bob",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:rock",
+    "genre:roots_rock",
+    "genre:singer-songwriter"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 858,
+   "n_traste_5": 0,
+   "n_ataques": 381,
+   "aciertos": {
+    "baseline": 858,
+    "A*": 657,
+    "mixed_t5": 822,
+    "mixed_gpt2": 858,
+    "mixed_bert": 702,
+    "mixed_bert_small": 849
+   }
+  },
+  {
+   "cancion": "B/Marley, Bob/Marley, Bob - No Woman No Cry (2).gp4",
+   "artista": "Marley, Bob",
+   "etiquetas": [
+    "genre:reggae"
+   ],
+   "genero": "Otros",
+   "n_notas": 200,
+   "n_traste_5": 200,
+   "n_ataques": 50,
+   "aciertos": {
+    "baseline": 50,
+    "A*": 172,
+    "mixed_t5": 200,
+    "mixed_gpt2": 146,
+    "mixed_bert": 158,
+    "mixed_bert_small": 181
+   }
+  },
+  {
+   "cancion": "C/Cabrel, Francis/Cabrel, Francis - La Cabane du P^cheur.gp3",
+   "artista": "Cabrel, Francis",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 270,
+   "n_traste_5": 21,
+   "n_ataques": 96,
+   "aciertos": {
+    "baseline": 234,
+    "A*": 243,
+    "mixed_t5": 254,
+    "mixed_gpt2": 240,
+    "mixed_bert": 244,
+    "mixed_bert_small": 234
+   }
+  },
+  {
+   "cancion": "C/Cabrel, Francis/Cabrel, Francis - Saad Et Mohamed.gp4",
+   "artista": "Cabrel, Francis",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1190,
+   "n_traste_5": 47,
+   "n_ataques": 263,
+   "aciertos": {
+    "baseline": 1093,
+    "A*": 1128,
+    "mixed_t5": 1103,
+    "mixed_gpt2": 1166,
+    "mixed_bert": 1175,
+    "mixed_bert_small": 1107
+   }
+  },
+  {
+   "cancion": "C/Cali/Cali - C'est Toujours Le Matin.gp4",
+   "artista": "Cali",
+   "etiquetas": [
+    "genre:banda",
+    "genre:regional_mexican"
+   ],
+   "genero": "Otros",
+   "n_notas": 3526,
+   "n_traste_5": 0,
+   "n_ataques": 681,
+   "aciertos": {
+    "baseline": 3526,
+    "A*": 3526,
+    "mixed_t5": 3526,
+    "mixed_gpt2": 3526,
+    "mixed_bert": 3526,
+    "mixed_bert_small": 3526
+   }
+  },
+  {
+   "cancion": "C/Cali/Cali - C'est Toujours Le Matin.gp4",
+   "artista": "Cali",
+   "etiquetas": [
+    "genre:banda",
+    "genre:regional_mexican"
+   ],
+   "genero": "Otros",
+   "n_notas": 100,
+   "n_traste_5": 100,
+   "n_ataques": 100,
+   "aciertos": {
+    "baseline": 55,
+    "A*": 65,
+    "mixed_t5": 95,
+    "mixed_gpt2": 87,
+    "mixed_bert": 95,
+    "mixed_bert_small": 93
+   }
+  },
+  {
+   "cancion": "C/Cambefort, Jean-Paul/Cambefort, JP - Take Off.gp3",
+   "artista": "Cambefort, Jean-Paul",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 518,
+   "n_traste_5": 338,
+   "n_ataques": 141,
+   "aciertos": {
+    "baseline": 186,
+    "A*": 282,
+    "mixed_t5": 278,
+    "mixed_gpt2": 274,
+    "mixed_bert": 288,
+    "mixed_bert_small": 264
+   }
+  },
+  {
+   "cancion": "C/Candlebox/Candlebox - Far Behind.gp3",
+   "artista": "Candlebox",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:alternative_rock",
+    "genre:grunge",
+    "genre:pop_rock",
+    "genre:post-grunge",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 222,
+   "n_traste_5": 84,
+   "n_ataques": 186,
+   "aciertos": {
+    "baseline": 138,
+    "A*": 174,
+    "mixed_t5": 132,
+    "mixed_gpt2": 105,
+    "mixed_bert": 161,
+    "mixed_bert_small": 132
+   }
+  },
+  {
+   "cancion": "C/Capital Inicial, Regis Luis/Capital Inicial, Regis Luis - A Sua Maneira (2).gp3",
+   "artista": "Capital Inicial, Regis Luis",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 3753,
+   "n_traste_5": 0,
+   "n_ataques": 780,
+   "aciertos": {
+    "baseline": 3463,
+    "A*": 3710,
+    "mixed_t5": 3750,
+    "mixed_gpt2": 3732,
+    "mixed_bert": 3723,
+    "mixed_bert_small": 3741
+   }
+  },
+  {
+   "cancion": "C/Carcassi, Mateo/Carcassi, Mateo - Sonatina II Rondo.gp3",
+   "artista": "Carcassi, Mateo",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 388,
+   "n_traste_5": 44,
+   "n_ataques": 382,
+   "aciertos": {
+    "baseline": 382,
+    "A*": 297,
+    "mixed_t5": 346,
+    "mixed_gpt2": 381,
+    "mixed_bert": 309,
+    "mixed_bert_small": 339
+   }
+  },
+  {
+   "cancion": "C/Carcassi, Mateo/Carcassi, Mateo - Sonatina II Rondo.gp3",
+   "artista": "Carcassi, Mateo",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 250,
+   "n_traste_5": 1,
+   "n_ataques": 246,
+   "aciertos": {
+    "baseline": 250,
+    "A*": 218,
+    "mixed_t5": 235,
+    "mixed_gpt2": 195,
+    "mixed_bert": 237,
+    "mixed_bert_small": 235
+   }
+  },
+  {
+   "cancion": "C/Chain Of Ponds/Chain Of Ponds - Hide And Cover (part 2).gp3",
+   "artista": "Chain Of Ponds",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 116,
+   "n_traste_5": 0,
+   "n_ataques": 110,
+   "aciertos": {
+    "baseline": 116,
+    "A*": 95,
+    "mixed_t5": 116,
+    "mixed_gpt2": 116,
+    "mixed_bert": 116,
+    "mixed_bert_small": 116
+   }
+  },
+  {
+   "cancion": "C/Chain Of Ponds/Chain Of Ponds - Hide And Cover (part 2).gp3",
+   "artista": "Chain Of Ponds",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 25,
+   "n_traste_5": 0,
+   "n_ataques": 5,
+   "aciertos": {
+    "baseline": 25,
+    "A*": 25,
+    "mixed_t5": 25,
+    "mixed_gpt2": 25,
+    "mixed_bert": 25,
+    "mixed_bert_small": 25
+   }
+  },
+  {
+   "cancion": "C/Chaos/Chaos - Mercy.gp4",
+   "artista": "Chaos",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 234,
+   "n_traste_5": 231,
+   "n_ataques": 229,
+   "aciertos": {
+    "baseline": 3,
+    "A*": 6,
+    "mixed_t5": 14,
+    "mixed_gpt2": 73,
+    "mixed_bert": 27,
+    "mixed_bert_small": 225
+   }
+  },
+  {
+   "cancion": "C/Chaos/Chaos - Mercy.gp4",
+   "artista": "Chaos",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 60,
+   "n_traste_5": 44,
+   "n_ataques": 60,
+   "aciertos": {
+    "baseline": 16,
+    "A*": 24,
+    "mixed_t5": 60,
+    "mixed_gpt2": 60,
+    "mixed_bert": 56,
+    "mixed_bert_small": 54
+   }
+  },
+  {
+   "cancion": "C/Chico Buarque/Chico Buarque - Roda-Viva.gp3",
+   "artista": "Chico Buarque",
+   "etiquetas": [
+    "genre:bossa_nova",
+    "genre:mpb",
+    "genre:samba",
+    "genre:tropicalia"
+   ],
+   "genero": "Jazz y bossa",
+   "n_notas": 1206,
+   "n_traste_5": 14,
+   "n_ataques": 552,
+   "aciertos": {
+    "baseline": 1120,
+    "A*": 910,
+    "mixed_t5": 1089,
+    "mixed_gpt2": 986,
+    "mixed_bert": 1119,
+    "mixed_bert_small": 1134
+   }
+  },
+  {
+   "cancion": "C/Chizh & Co/Chizh & Co - About love.gp3",
+   "artista": "Chizh & Co",
+   "etiquetas": [
+    "genre:classic_russian_rock",
+    "genre:russian_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 683,
+   "n_traste_5": 0,
+   "n_ataques": 141,
+   "aciertos": {
+    "baseline": 648,
+    "A*": 671,
+    "mixed_t5": 683,
+    "mixed_gpt2": 683,
+    "mixed_bert": 683,
+    "mixed_bert_small": 681
+   }
+  },
+  {
+   "cancion": "C/Chopin, Frederic/Chopin, Frederic - Opus 28 No.3 - Prelude.gp3",
+   "artista": "Chopin, Frederic",
+   "etiquetas": [
+    "genre:classical",
+    "genre:early_romantic_era",
+    "genre:polish_classical"
+   ],
+   "genero": "Clásica",
+   "n_notas": 79,
+   "n_traste_5": 55,
+   "n_ataques": 79,
+   "aciertos": {
+    "baseline": 78,
+    "A*": 42,
+    "mixed_t5": 42,
+    "mixed_gpt2": 49,
+    "mixed_bert": 38,
+    "mixed_bert_small": 57
+   }
+  },
+  {
+   "cancion": "C/Chopin, Frederic/Chopin, Frederic - Opus 28 No.3 - Prelude.gp3",
+   "artista": "Chopin, Frederic",
+   "etiquetas": [
+    "genre:classical",
+    "genre:early_romantic_era",
+    "genre:polish_classical"
+   ],
+   "genero": "Clásica",
+   "n_notas": 521,
+   "n_traste_5": 76,
+   "n_ataques": 173,
+   "aciertos": {
+    "baseline": 443,
+    "A*": 346,
+    "mixed_t5": 470,
+    "mixed_gpt2": 414,
+    "mixed_bert": 454,
+    "mixed_bert_small": 443
+   }
+  },
+  {
+   "cancion": "C/Christiani, Herve/Christiani, Herv, - Il Est Libre Max.gp3",
+   "artista": "Christiani, Herve",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1088,
+   "n_traste_5": 0,
+   "n_ataques": 830,
+   "aciertos": {
+    "baseline": 975,
+    "A*": 982,
+    "mixed_t5": 1068,
+    "mixed_gpt2": 818,
+    "mixed_bert": 1050,
+    "mixed_bert_small": 1077
+   }
+  },
+  {
+   "cancion": "C/Chrizum/Chrizum - Disturbing Events.gp3",
+   "artista": "Chrizum",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2983,
+   "n_traste_5": 0,
+   "n_ataques": 785,
+   "aciertos": {
+    "baseline": 2983,
+    "A*": 2331,
+    "mixed_t5": 2951,
+    "mixed_gpt2": 2983,
+    "mixed_bert": 2958,
+    "mixed_bert_small": 2967
+   }
+  },
+  {
+   "cancion": "C/Chrono Trigger/Chrono Trigger - Frog's Theme (2).gp4",
+   "artista": "Chrono Trigger",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 328,
+   "n_traste_5": 225,
+   "n_ataques": 82,
+   "aciertos": {
+    "baseline": 119,
+    "A*": 328,
+    "mixed_t5": 286,
+    "mixed_gpt2": 271,
+    "mixed_bert": 302,
+    "mixed_bert_small": 298
+   }
+  },
+  {
+   "cancion": "C/Cinderella/Cinderella - Heartbreak Station (2).gp4",
+   "artista": "Cinderella",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1034,
+   "n_traste_5": 0,
+   "n_ataques": 432,
+   "aciertos": {
+    "baseline": 1032,
+    "A*": 1021,
+    "mixed_t5": 998,
+    "mixed_gpt2": 1034,
+    "mixed_bert": 1034,
+    "mixed_bert_small": 1034
+   }
+  },
+  {
+   "cancion": "C/Cinderella/Cinderella - Heartbreak Station (2).gp4",
+   "artista": "Cinderella",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 708,
+   "n_traste_5": 0,
+   "n_ataques": 690,
+   "aciertos": {
+    "baseline": 706,
+    "A*": 518,
+    "mixed_t5": 701,
+    "mixed_gpt2": 708,
+    "mixed_bert": 705,
+    "mixed_bert_small": 705
+   }
+  },
+  {
+   "cancion": "C/Clapton, Eric/Clapton, Eric -  Alberta (Alternate Version).gp4",
+   "artista": "Clapton, Eric",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 935,
+   "n_traste_5": 0,
+   "n_ataques": 288,
+   "aciertos": {
+    "baseline": 934,
+    "A*": 846,
+    "mixed_t5": 935,
+    "mixed_gpt2": 935,
+    "mixed_bert": 932,
+    "mixed_bert_small": 934
+   }
+  },
+  {
+   "cancion": "C/Clapton, Eric/Clapton, Eric - Better Make It Through Today.gp4",
+   "artista": "Clapton, Eric",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 374,
+   "n_traste_5": 125,
+   "n_ataques": 146,
+   "aciertos": {
+    "baseline": 247,
+    "A*": 252,
+    "mixed_t5": 262,
+    "mixed_gpt2": 288,
+    "mixed_bert": 249,
+    "mixed_bert_small": 245
+   }
+  },
+  {
+   "cancion": "C/Clapton, Eric/Clapton, Eric - Tears In Heaven (Unplugged).gp4",
+   "artista": "Clapton, Eric",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 995,
+   "n_traste_5": 23,
+   "n_ataques": 567,
+   "aciertos": {
+    "baseline": 941,
+    "A*": 967,
+    "mixed_t5": 977,
+    "mixed_gpt2": 942,
+    "mixed_bert": 943,
+    "mixed_bert_small": 946
+   }
+  },
+  {
+   "cancion": "C/Clapton, Eric/Clapton, Eric - Tears In Heaven (Unplugged).gp4",
+   "artista": "Clapton, Eric",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 542,
+   "n_traste_5": 102,
+   "n_ataques": 383,
+   "aciertos": {
+    "baseline": 440,
+    "A*": 395,
+    "mixed_t5": 434,
+    "mixed_gpt2": 414,
+    "mixed_bert": 425,
+    "mixed_bert_small": 424
+   }
+  },
+  {
+   "cancion": "C/Cohen, Leonard/Cohen, Leonard - Sisters of Mercy.gp3",
+   "artista": "Cohen, Leonard",
+   "etiquetas": [
+    "genre:canadian_singer-songwriter",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:melancholia",
+    "genre:permanent_wave",
+    "genre:singer-songwriter"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 298,
+   "n_traste_5": 10,
+   "n_ataques": 246,
+   "aciertos": {
+    "baseline": 280,
+    "A*": 226,
+    "mixed_t5": 278,
+    "mixed_gpt2": 275,
+    "mixed_bert": 279,
+    "mixed_bert_small": 256
+   }
+  },
+  {
+   "cancion": "C/Composers of MSB/Composers Of MSB - Let Me Go Away (The Waterfall).gp4",
+   "artista": "Composers of MSB",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 632,
+   "n_traste_5": 628,
+   "n_ataques": 621,
+   "aciertos": {
+    "baseline": 4,
+    "A*": 320,
+    "mixed_t5": 4,
+    "mixed_gpt2": 4,
+    "mixed_bert": 4,
+    "mixed_bert_small": 4
+   }
+  },
+  {
+   "cancion": "C/Corrs (The)/Corrs (The) - Breathless.gp3",
+   "artista": "Corrs (The)",
+   "etiquetas": [
+    "genre:bow_pop",
+    "genre:celtic_rock",
+    "genre:dance_pop",
+    "genre:europop",
+    "genre:new_wave_pop",
+    "genre:pop_rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 76,
+   "n_traste_5": 4,
+   "n_ataques": 76,
+   "aciertos": {
+    "baseline": 67,
+    "A*": 55,
+    "mixed_t5": 70,
+    "mixed_gpt2": 14,
+    "mixed_bert": 45,
+    "mixed_bert_small": 40
+   }
+  },
+  {
+   "cancion": "C/Cranberries/Cranberries - I Don_'t Need.gp3",
+   "artista": "Cranberries",
+   "etiquetas": [
+    "genre:irish_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1731,
+   "n_traste_5": 25,
+   "n_ataques": 480,
+   "aciertos": {
+    "baseline": 1705,
+    "A*": 1670,
+    "mixed_t5": 1708,
+    "mixed_gpt2": 1705,
+    "mixed_bert": 1692,
+    "mixed_bert_small": 1703
+   }
+  },
+  {
+   "cancion": "C/Cranberries/Cranberries - I Will Always.gp3",
+   "artista": "Cranberries",
+   "etiquetas": [
+    "genre:irish_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1962,
+   "n_traste_5": 492,
+   "n_ataques": 642,
+   "aciertos": {
+    "baseline": 1470,
+    "A*": 1850,
+    "mixed_t5": 1666,
+    "mixed_gpt2": 1470,
+    "mixed_bert": 1475,
+    "mixed_bert_small": 1455
+   }
+  },
+  {
+   "cancion": "C/Cranberries/Cranberries - Ridiculous Thoughts (2).gp3",
+   "artista": "Cranberries",
+   "etiquetas": [
+    "genre:irish_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 2140,
+   "n_traste_5": 6,
+   "n_ataques": 855,
+   "aciertos": {
+    "baseline": 2134,
+    "A*": 2107,
+    "mixed_t5": 2113,
+    "mixed_gpt2": 2134,
+    "mixed_bert": 1960,
+    "mixed_bert_small": 2097
+   }
+  },
+  {
+   "cancion": "C/Cranberries/Cranberries - Ridiculous Thoughts (2).gp3",
+   "artista": "Cranberries",
+   "etiquetas": [
+    "genre:irish_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 130,
+   "n_traste_5": 0,
+   "n_ataques": 129,
+   "aciertos": {
+    "baseline": 130,
+    "A*": 130,
+    "mixed_t5": 130,
+    "mixed_gpt2": 130,
+    "mixed_bert": 128,
+    "mixed_bert_small": 130
+   }
+  },
+  {
+   "cancion": "C/Cranberries/Cranberries - The Picture I View.gp3",
+   "artista": "Cranberries",
+   "etiquetas": [
+    "genre:irish_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1701,
+   "n_traste_5": 0,
+   "n_ataques": 566,
+   "aciertos": {
+    "baseline": 1701,
+    "A*": 1701,
+    "mixed_t5": 1701,
+    "mixed_gpt2": 1701,
+    "mixed_bert": 1701,
+    "mixed_bert_small": 1701
+   }
+  },
+  {
+   "cancion": "C/Crvena Jabuka/Crvena Jabuka - To Mi Radi.gp3",
+   "artista": "Crvena Jabuka",
+   "etiquetas": [
+    "genre:croatian_pop",
+    "genre:croatian_rock",
+    "genre:yugoslav_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 32,
+   "n_traste_5": 9,
+   "n_ataques": 32,
+   "aciertos": {
+    "baseline": 11,
+    "A*": 11,
+    "mixed_t5": 20,
+    "mixed_gpt2": 11,
+    "mixed_bert": 8,
+    "mixed_bert_small": 9
+   }
+  },
+  {
+   "cancion": "C/Crvena Jabuka/Crvena Jabuka - To Mi Radi.gp3",
+   "artista": "Crvena Jabuka",
+   "etiquetas": [
+    "genre:croatian_pop",
+    "genre:croatian_rock",
+    "genre:yugoslav_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 21,
+   "n_traste_5": 6,
+   "n_ataques": 4,
+   "aciertos": {
+    "baseline": 13,
+    "A*": 11,
+    "mixed_t5": 21,
+    "mixed_gpt2": 20,
+    "mixed_bert": 19,
+    "mixed_bert_small": 19
+   }
+  },
+  {
+   "cancion": "C/Cure (The)/Cure (The) - If Only Tonight We Could Sleep (2).gp3",
+   "artista": "Cure (The)",
+   "etiquetas": [
+    "genre:dance_rock",
+    "genre:new_romantic",
+    "genre:new_wave",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 3750,
+   "n_traste_5": 1298,
+   "n_ataques": 838,
+   "aciertos": {
+    "baseline": 2452,
+    "A*": 2940,
+    "mixed_t5": 3570,
+    "mixed_gpt2": 3674,
+    "mixed_bert": 3721,
+    "mixed_bert_small": 3560
+   }
+  },
+  {
+   "cancion": "D/DDT/DDT - Osennyaya.gp4",
+   "artista": "DDT",
+   "etiquetas": [
+    "genre:classic_russian_rock",
+    "genre:russian_pop",
+    "genre:russian_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 961,
+   "n_traste_5": 18,
+   "n_ataques": 672,
+   "aciertos": {
+    "baseline": 925,
+    "A*": 961,
+    "mixed_t5": 948,
+    "mixed_gpt2": 961,
+    "mixed_bert": 924,
+    "mixed_bert_small": 925
+   }
+  },
+  {
+   "cancion": "D/DDT/DDT - Osennyaya.gp4",
+   "artista": "DDT",
+   "etiquetas": [
+    "genre:classic_russian_rock",
+    "genre:russian_pop",
+    "genre:russian_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 300,
+   "n_traste_5": 0,
+   "n_ataques": 300,
+   "aciertos": {
+    "baseline": 300,
+    "A*": 300,
+    "mixed_t5": 209,
+    "mixed_gpt2": 300,
+    "mixed_bert": 300,
+    "mixed_bert_small": 300
+   }
+  },
+  {
+   "cancion": "D/Dadi, Marcel/Dadi, Marcel - Old Black Piano.gp3",
+   "artista": "Dadi, Marcel",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 456,
+   "n_traste_5": 241,
+   "n_ataques": 337,
+   "aciertos": {
+    "baseline": 297,
+    "A*": 303,
+    "mixed_t5": 324,
+    "mixed_gpt2": 309,
+    "mixed_bert": 343,
+    "mixed_bert_small": 306
+   }
+  },
+  {
+   "cancion": "D/Dadi, Marcel/Dadi, Marcel - Old Black Piano.gp3",
+   "artista": "Dadi, Marcel",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 424,
+   "n_traste_5": 68,
+   "n_ataques": 306,
+   "aciertos": {
+    "baseline": 371,
+    "A*": 347,
+    "mixed_t5": 378,
+    "mixed_gpt2": 387,
+    "mixed_bert": 373,
+    "mixed_bert_small": 381
+   }
+  },
+  {
+   "cancion": "D/Daft Punk/Daft Punk - Back To My Old Smoky Mountains.gp3",
+   "artista": "Daft Punk",
+   "etiquetas": [
+    "genre:electro"
+   ],
+   "genero": "Otros",
+   "n_notas": 218,
+   "n_traste_5": 11,
+   "n_ataques": 174,
+   "aciertos": {
+    "baseline": 206,
+    "A*": 199,
+    "mixed_t5": 205,
+    "mixed_gpt2": 202,
+    "mixed_bert": 198,
+    "mixed_bert_small": 200
+   }
+  },
+  {
+   "cancion": "D/Dale, Dick/Dale, Dick - Misirlou (Pulp Fiction Sound Track).gp3",
+   "artista": "Dale, Dick",
+   "etiquetas": [
+    "genre:surf_music"
+   ],
+   "genero": "Rock",
+   "n_notas": 1117,
+   "n_traste_5": 576,
+   "n_ataques": 930,
+   "aciertos": {
+    "baseline": 808,
+    "A*": 807,
+    "mixed_t5": 872,
+    "mixed_gpt2": 905,
+    "mixed_bert": 846,
+    "mixed_bert_small": 787
+   }
+  },
+  {
+   "cancion": "D/Dalle Ave, Michel/Dalle Ave, Michel - Academie Rag.gp3",
+   "artista": "Dalle Ave, Michel",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 574,
+   "n_traste_5": 287,
+   "n_ataques": 405,
+   "aciertos": {
+    "baseline": 309,
+    "A*": 371,
+    "mixed_t5": 370,
+    "mixed_gpt2": 339,
+    "mixed_bert": 364,
+    "mixed_bert_small": 439
+   }
+  },
+  {
+   "cancion": "D/Damian Arderiu/Dami-n ArderiPS - BourrCe.gp3",
+   "artista": "Damian Arderiu",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 158,
+   "n_traste_5": 9,
+   "n_ataques": 119,
+   "aciertos": {
+    "baseline": 158,
+    "A*": 132,
+    "mixed_t5": 158,
+    "mixed_gpt2": 118,
+    "mixed_bert": 133,
+    "mixed_bert_small": 141
+   }
+  },
+  {
+   "cancion": "D/Damian Arderiu/Dami-n ArderiPS - Hangin_' Around.gp3",
+   "artista": "Damian Arderiu",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 326,
+   "n_traste_5": 53,
+   "n_ataques": 202,
+   "aciertos": {
+    "baseline": 273,
+    "A*": 263,
+    "mixed_t5": 288,
+    "mixed_gpt2": 276,
+    "mixed_bert": 290,
+    "mixed_bert_small": 281
+   }
+  },
+  {
+   "cancion": "D/Daquin, Louis C/Daquin, Louis C. - La Guitarre.gp4",
+   "artista": "Daquin, Louis C",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 606,
+   "n_traste_5": 79,
+   "n_ataques": 403,
+   "aciertos": {
+    "baseline": 539,
+    "A*": 442,
+    "mixed_t5": 527,
+    "mixed_gpt2": 505,
+    "mixed_bert": 453,
+    "mixed_bert_small": 451
+   }
+  },
+  {
+   "cancion": "D/Dariush/Dariush - Be Man Nagoo Doostet Daram (2).gp4",
+   "artista": "Dariush",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 360,
+   "n_traste_5": 360,
+   "n_ataques": 360,
+   "aciertos": {
+    "baseline": 156,
+    "A*": 104,
+    "mixed_t5": 256,
+    "mixed_gpt2": 258,
+    "mixed_bert": 174,
+    "mixed_bert_small": 185
+   }
+  },
+  {
+   "cancion": "D/Dariush/Dariush - Be Man Nagoo Doostet Daram (2).gp4",
+   "artista": "Dariush",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1030,
+   "n_traste_5": 36,
+   "n_ataques": 426,
+   "aciertos": {
+    "baseline": 994,
+    "A*": 793,
+    "mixed_t5": 648,
+    "mixed_gpt2": 573,
+    "mixed_bert": 794,
+    "mixed_bert_small": 829
+   }
+  },
+  {
+   "cancion": "D/Dark Tranquility/Dark Tranquillity - The mind_'s eye (2).gp3",
+   "artista": "Dark Tranquility",
+   "etiquetas": [
+    "genre:melodic_death_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 711,
+   "n_traste_5": 621,
+   "n_ataques": 594,
+   "aciertos": {
+    "baseline": 96,
+    "A*": 332,
+    "mixed_t5": 132,
+    "mixed_gpt2": 237,
+    "mixed_bert": 155,
+    "mixed_bert_small": 170
+   }
+  },
+  {
+   "cancion": "D/Dark Tranquility/Dark Tranquillity - Tidal Tantrum.gp3",
+   "artista": "Dark Tranquility",
+   "etiquetas": [
+    "genre:melodic_death_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 96,
+   "n_traste_5": 48,
+   "n_ataques": 96,
+   "aciertos": {
+    "baseline": 40,
+    "A*": 40,
+    "mixed_t5": 51,
+    "mixed_gpt2": 40,
+    "mixed_bert": 40,
+    "mixed_bert_small": 40
+   }
+  },
+  {
+   "cancion": "D/Darksign/Darksign - Ode O Aude.gp3",
+   "artista": "Darksign",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 119,
+   "n_traste_5": 0,
+   "n_ataques": 118,
+   "aciertos": {
+    "baseline": 119,
+    "A*": 112,
+    "mixed_t5": 116,
+    "mixed_gpt2": 116,
+    "mixed_bert": 16,
+    "mixed_bert_small": 91
+   }
+  },
+  {
+   "cancion": "D/De Palmas/De Palmas - Trop Tard.gp3",
+   "artista": "De Palmas",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 620,
+   "n_traste_5": 49,
+   "n_ataques": 336,
+   "aciertos": {
+    "baseline": 550,
+    "A*": 489,
+    "mixed_t5": 574,
+    "mixed_gpt2": 341,
+    "mixed_bert": 542,
+    "mixed_bert_small": 518
+   }
+  },
+  {
+   "cancion": "D/Deportivo/Deportivo - Sur Le Moment.gp4",
+   "artista": "Deportivo",
+   "etiquetas": [
+    "genre:french_punk",
+    "genre:french_rock"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 532,
+   "n_traste_5": 532,
+   "n_ataques": 252,
+   "aciertos": {
+    "baseline": 32,
+    "A*": 179,
+    "mixed_t5": 97,
+    "mixed_gpt2": 378,
+    "mixed_bert": 71,
+    "mixed_bert_small": 247
+   }
+  },
+  {
+   "cancion": "D/Diablos Del Sacramento/Diablos Del Sacramento - Canto Y Cuento.gp3",
+   "artista": "Diablos Del Sacramento",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 3259,
+   "n_traste_5": 8,
+   "n_ataques": 726,
+   "aciertos": {
+    "baseline": 3259,
+    "A*": 3204,
+    "mixed_t5": 3259,
+    "mixed_gpt2": 3259,
+    "mixed_bert": 3254,
+    "mixed_bert_small": 3257
+   }
+  },
+  {
+   "cancion": "D/Diablos Del Sacramento/Diablos del Sacramento - Voces del Ayer.gp3",
+   "artista": "Diablos Del Sacramento",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 3626,
+   "n_traste_5": 0,
+   "n_ataques": 721,
+   "aciertos": {
+    "baseline": 3626,
+    "A*": 2954,
+    "mixed_t5": 3626,
+    "mixed_gpt2": 3626,
+    "mixed_bert": 3626,
+    "mixed_bert_small": 3626
+   }
+  },
+  {
+   "cancion": "D/Dickinson, Bruce/Dickinson, Bruce - Navigate The Seas Of The Sun.gp4",
+   "artista": "Dickinson, Bruce",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:rock",
+    "genre:speed_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 5326,
+   "n_traste_5": 50,
+   "n_ataques": 1024,
+   "aciertos": {
+    "baseline": 5203,
+    "A*": 5285,
+    "mixed_t5": 5296,
+    "mixed_gpt2": 5316,
+    "mixed_bert": 5274,
+    "mixed_bert_small": 5296
+   }
+  },
+  {
+   "cancion": "D/Die arzte/Die erzte - Du willst mich kAssen.gp3",
+   "artista": "Die arzte",
+   "etiquetas": [
+    "genre:german_alternative_rock",
+    "genre:german_pop",
+    "genre:german_punk",
+    "genre:german_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 155,
+   "n_traste_5": 105,
+   "n_ataques": 145,
+   "aciertos": {
+    "baseline": 56,
+    "A*": 100,
+    "mixed_t5": 122,
+    "mixed_gpt2": 125,
+    "mixed_bert": 102,
+    "mixed_bert_small": 119
+   }
+  },
+  {
+   "cancion": "D/Dimmu Borgir/Dimmu Borgir - Metal Heart (2).gp3",
+   "artista": "Dimmu Borgir",
+   "etiquetas": [
+    "genre:black_metal",
+    "genre:melodic_death_metal",
+    "genre:metal",
+    "genre:norwegian_black_metal",
+    "genre:norwegian_metal",
+    "genre:symphonic_black_metal",
+    "genre:symphonic_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 30,
+   "n_traste_5": 12,
+   "n_ataques": 6,
+   "aciertos": {
+    "baseline": 18,
+    "A*": 30,
+    "mixed_t5": 30,
+    "mixed_gpt2": 28,
+    "mixed_bert": 30,
+    "mixed_bert_small": 27
+   }
+  },
+  {
+   "cancion": "D/Dion, Celine/Dion, Celine - All By Myself (3).gp3",
+   "artista": "Dion, Celine",
+   "etiquetas": [
+    "genre:canadian_pop",
+    "genre:dance_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 54,
+   "n_traste_5": 54,
+   "n_ataques": 54,
+   "aciertos": {
+    "baseline": 23,
+    "A*": 17,
+    "mixed_t5": 38,
+    "mixed_gpt2": 35,
+    "mixed_bert": 27,
+    "mixed_bert_small": 32
+   }
+  },
+  {
+   "cancion": "D/Dire Straits/Dire Straits - Calling Elvis (2).gp3",
+   "artista": "Dire Straits",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1517,
+   "n_traste_5": 0,
+   "n_ataques": 1509,
+   "aciertos": {
+    "baseline": 1509,
+    "A*": 1517,
+    "mixed_t5": 1517,
+    "mixed_gpt2": 1517,
+    "mixed_bert": 308,
+    "mixed_bert_small": 1515
+   }
+  },
+  {
+   "cancion": "D/Dissection/Dissection - Crimsom Towers.gp4",
+   "artista": "Dissection",
+   "etiquetas": [
+    "genre:black_metal",
+    "genre:death_metal",
+    "genre:gothenburg_metal",
+    "genre:melodic_black_metal",
+    "genre:melodic_death_metal",
+    "genre:metal",
+    "genre:swedish_black_metal",
+    "genre:swedish_death_metal",
+    "genre:swedish_metal",
+    "genre:symphonic_black_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 178,
+   "n_traste_5": 22,
+   "n_ataques": 127,
+   "aciertos": {
+    "baseline": 154,
+    "A*": 158,
+    "mixed_t5": 138,
+    "mixed_gpt2": 154,
+    "mixed_bert": 155,
+    "mixed_bert_small": 153
+   }
+  },
+  {
+   "cancion": "D/Distillers (The)/Distillers (The) - Dismantle Me  (2).gp4",
+   "artista": "Distillers (The)",
+   "etiquetas": [
+    "genre:punk",
+    "genre:skate_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 2845,
+   "n_traste_5": 2532,
+   "n_ataques": 981,
+   "aciertos": {
+    "baseline": 334,
+    "A*": 2476,
+    "mixed_t5": 2797,
+    "mixed_gpt2": 2731,
+    "mixed_bert": 1286,
+    "mixed_bert_small": 2751
+   }
+  },
+  {
+   "cancion": "D/Doldinger, Klaus/Doldinger, Klaus - Das Boot Erinnerung.gp3",
+   "artista": "Doldinger, Klaus",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 374,
+   "n_traste_5": 184,
+   "n_ataques": 350,
+   "aciertos": {
+    "baseline": 202,
+    "A*": 227,
+    "mixed_t5": 308,
+    "mixed_gpt2": 234,
+    "mixed_bert": 256,
+    "mixed_bert_small": 285
+   }
+  },
+  {
+   "cancion": "D/Doldinger, Klaus/Doldinger, Klaus - Das Boot Erinnerung.gp3",
+   "artista": "Doldinger, Klaus",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 127,
+   "n_traste_5": 82,
+   "n_ataques": 126,
+   "aciertos": {
+    "baseline": 35,
+    "A*": 50,
+    "mixed_t5": 87,
+    "mixed_gpt2": 91,
+    "mixed_bert": 40,
+    "mixed_bert_small": 36
+   }
+  },
+  {
+   "cancion": "D/Doudek/Doudak - Runing.gp3",
+   "artista": "Doudek",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 411,
+   "n_traste_5": 205,
+   "n_ataques": 129,
+   "aciertos": {
+    "baseline": 226,
+    "A*": 363,
+    "mixed_t5": 391,
+    "mixed_gpt2": 363,
+    "mixed_bert": 348,
+    "mixed_bert_small": 304
+   }
+  },
+  {
+   "cancion": "D/Doudek/Doudak - Runing.gp3",
+   "artista": "Doudek",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 108,
+   "n_traste_5": 17,
+   "n_ataques": 75,
+   "aciertos": {
+    "baseline": 94,
+    "A*": 93,
+    "mixed_t5": 94,
+    "mixed_gpt2": 94,
+    "mixed_bert": 98,
+    "mixed_bert_small": 94
+   }
+  },
+  {
+   "cancion": "D/Dowland, John/Dowland, John - The Sick Tune.gp3",
+   "artista": "Dowland, John",
+   "etiquetas": [
+    "genre:classical",
+    "genre:early_music",
+    "genre:english_renaissance",
+    "genre:renaissance"
+   ],
+   "genero": "Clásica",
+   "n_notas": 133,
+   "n_traste_5": 3,
+   "n_ataques": 76,
+   "aciertos": {
+    "baseline": 128,
+    "A*": 109,
+    "mixed_t5": 110,
+    "mixed_gpt2": 70,
+    "mixed_bert": 122,
+    "mixed_bert_small": 129
+   }
+  },
+  {
+   "cancion": "D/Down/Down - Pray for the locust.gp3",
+   "artista": "Down",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:nu_metal",
+    "genre:rap_metal",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 226,
+   "n_traste_5": 156,
+   "n_ataques": 197,
+   "aciertos": {
+    "baseline": 124,
+    "A*": 45,
+    "mixed_t5": 175,
+    "mixed_gpt2": 139,
+    "mixed_bert": 128,
+    "mixed_bert_small": 154
+   }
+  },
+  {
+   "cancion": "D/Dream Theater/Dream Theater - Finally Free (intro).gp3",
+   "artista": "Dream Theater",
+   "etiquetas": [
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 186,
+   "n_traste_5": 0,
+   "n_ataques": 181,
+   "aciertos": {
+    "baseline": 170,
+    "A*": 146,
+    "mixed_t5": 182,
+    "mixed_gpt2": 182,
+    "mixed_bert": 180,
+    "mixed_bert_small": 181
+   }
+  },
+  {
+   "cancion": "D/Dream Theater/Dream Theater - Peruvian Skies (2).gp3",
+   "artista": "Dream Theater",
+   "etiquetas": [
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 537,
+   "n_traste_5": 28,
+   "n_ataques": 525,
+   "aciertos": {
+    "baseline": 497,
+    "A*": 467,
+    "mixed_t5": 481,
+    "mixed_gpt2": 478,
+    "mixed_bert": 505,
+    "mixed_bert_small": 499
+   }
+  },
+  {
+   "cancion": "D/Dream Theater/Dream Theater - Peruvian Skies (2).gp3",
+   "artista": "Dream Theater",
+   "etiquetas": [
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 120,
+   "n_traste_5": 22,
+   "n_ataques": 47,
+   "aciertos": {
+    "baseline": 86,
+    "A*": 102,
+    "mixed_t5": 102,
+    "mixed_gpt2": 82,
+    "mixed_bert": 96,
+    "mixed_bert_small": 87
+   }
+  },
+  {
+   "cancion": "D/Dream Theater/Dream Theater - Strange Deja Vu.gp3",
+   "artista": "Dream Theater",
+   "etiquetas": [
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 85,
+   "n_traste_5": 34,
+   "n_ataques": 17,
+   "aciertos": {
+    "baseline": 51,
+    "A*": 85,
+    "mixed_t5": 85,
+    "mixed_gpt2": 85,
+    "mixed_bert": 85,
+    "mixed_bert_small": 85
+   }
+  },
+  {
+   "cancion": "D/Duhamel, Franck/Duhamel, Franck - Guitar Pro Intro Jingle.gp3",
+   "artista": "Duhamel, Franck",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 21,
+   "n_traste_5": 1,
+   "n_ataques": 17,
+   "aciertos": {
+    "baseline": 20,
+    "A*": 20,
+    "mixed_t5": 21,
+    "mixed_gpt2": 10,
+    "mixed_bert": 19,
+    "mixed_bert_small": 20
+   }
+  },
+  {
+   "cancion": "E/Eminem/Eminem - Stan.gp3",
+   "artista": "Eminem",
+   "etiquetas": [
+    "genre:detroit_hip_hop",
+    "genre:hip_hop",
+    "genre:rap"
+   ],
+   "genero": "Otros",
+   "n_notas": 1822,
+   "n_traste_5": 484,
+   "n_ataques": 687,
+   "aciertos": {
+    "baseline": 1193,
+    "A*": 1786,
+    "mixed_t5": 1631,
+    "mixed_gpt2": 1696,
+    "mixed_bert": 1731,
+    "mixed_bert_small": 1696
+   }
+  },
+  {
+   "cancion": "E/Enslavement Of Beauty/Enslavement Of Beauty - C17-h19-no3-h2o.gp4",
+   "artista": "Enslavement Of Beauty",
+   "etiquetas": [
+    "genre:gothic_black_metal",
+    "genre:norwegian_black_metal",
+    "genre:symphonic_black_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 351,
+   "n_traste_5": 203,
+   "n_ataques": 351,
+   "aciertos": {
+    "baseline": 148,
+    "A*": 159,
+    "mixed_t5": 218,
+    "mixed_gpt2": 125,
+    "mixed_bert": 208,
+    "mixed_bert_small": 148
+   }
+  },
+  {
+   "cancion": "E/Enslavement Of Beauty/Enslavement Of Beauty - C17-h19-no3-h2o.gp4",
+   "artista": "Enslavement Of Beauty",
+   "etiquetas": [
+    "genre:gothic_black_metal",
+    "genre:norwegian_black_metal",
+    "genre:symphonic_black_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 94,
+   "n_traste_5": 64,
+   "n_ataques": 42,
+   "aciertos": {
+    "baseline": 30,
+    "A*": 40,
+    "mixed_t5": 38,
+    "mixed_gpt2": 54,
+    "mixed_bert": 33,
+    "mixed_bert_small": 37
+   }
+  },
+  {
+   "cancion": "E/Eresy, Inquizitione/Eresy, Inquizitione - Ange.gp4",
+   "artista": "Eresy, Inquizitione",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 379,
+   "n_traste_5": 33,
+   "n_ataques": 297,
+   "aciertos": {
+    "baseline": 350,
+    "A*": 316,
+    "mixed_t5": 337,
+    "mixed_gpt2": 341,
+    "mixed_bert": 310,
+    "mixed_bert_small": 264
+   }
+  },
+  {
+   "cancion": "E/Evanescence/Evanescence - Bring Me To Life (3).gp4",
+   "artista": "Evanescence",
+   "etiquetas": [
+    "genre:alternative_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 411,
+   "n_traste_5": 0,
+   "n_ataques": 342,
+   "aciertos": {
+    "baseline": 411,
+    "A*": 405,
+    "mixed_t5": 410,
+    "mixed_gpt2": 410,
+    "mixed_bert": 380,
+    "mixed_bert_small": 325
+   }
+  },
+  {
+   "cancion": "E/Evans, Bill/Evans, Bill - Waltz For Debby.gp3",
+   "artista": "Evans, Bill",
+   "etiquetas": [
+    "genre:bebop",
+    "genre:contemporary_post-bop",
+    "genre:cool_jazz",
+    "genre:jazz",
+    "genre:jazz_fusion",
+    "genre:jazz_piano",
+    "genre:vocal_jazz"
+   ],
+   "genero": "Jazz y bossa",
+   "n_notas": 243,
+   "n_traste_5": 116,
+   "n_ataques": 184,
+   "aciertos": {
+    "baseline": 158,
+    "A*": 154,
+    "mixed_t5": 142,
+    "mixed_gpt2": 133,
+    "mixed_bert": 154,
+    "mixed_bert_small": 141
+   }
+  },
+  {
+   "cancion": "E/Evergrey/Evergrey - As Light is our Darkness_Beyond Salvation.gp3",
+   "artista": "Evergrey",
+   "etiquetas": [
+    "genre:melodic_metal",
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:speed_metal",
+    "genre:swedish_progressive_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 590,
+   "n_traste_5": 37,
+   "n_ataques": 555,
+   "aciertos": {
+    "baseline": 526,
+    "A*": 526,
+    "mixed_t5": 474,
+    "mixed_gpt2": 511,
+    "mixed_bert": 479,
+    "mixed_bert_small": 480
+   }
+  },
+  {
+   "cancion": "F/Fade/Fade - Acoustic Guitar Solo.gp4",
+   "artista": "Fade",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 253,
+   "n_traste_5": 2,
+   "n_ataques": 250,
+   "aciertos": {
+    "baseline": 251,
+    "A*": 194,
+    "mixed_t5": 244,
+    "mixed_gpt2": 246,
+    "mixed_bert": 245,
+    "mixed_bert_small": 247
+   }
+  },
+  {
+   "cancion": "F/Fade/Fade - Special.gp4",
+   "artista": "Fade",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 527,
+   "n_traste_5": 138,
+   "n_ataques": 488,
+   "aciertos": {
+    "baseline": 378,
+    "A*": 359,
+    "mixed_t5": 423,
+    "mixed_gpt2": 368,
+    "mixed_bert": 383,
+    "mixed_bert_small": 417
+   }
+  },
+  {
+   "cancion": "F/Faith No More/Faith No More - Jim.gp3",
+   "artista": "Faith No More",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:alternative_rock",
+    "genre:funk_metal",
+    "genre:funk_rock",
+    "genre:hard_rock",
+    "genre:nu_metal",
+    "genre:rap_metal",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 272,
+   "n_traste_5": 3,
+   "n_ataques": 203,
+   "aciertos": {
+    "baseline": 266,
+    "A*": 252,
+    "mixed_t5": 238,
+    "mixed_gpt2": 266,
+    "mixed_bert": 267,
+    "mixed_bert_small": 269
+   }
+  },
+  {
+   "cancion": "F/Faulty (The)/Faulty (The) - Take Everything Back.gp4",
+   "artista": "Faulty (The)",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 267,
+   "n_traste_5": 141,
+   "n_ataques": 265,
+   "aciertos": {
+    "baseline": 126,
+    "A*": 126,
+    "mixed_t5": 126,
+    "mixed_gpt2": 126,
+    "mixed_bert": 126,
+    "mixed_bert_small": 126
+   }
+  },
+  {
+   "cancion": "F/Folclorica Colombiana, Musica/Folclorica Colombiana, Musica - El Bunde Tolimense.gp4",
+   "artista": "Folclorica Colombiana, Musica",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 557,
+   "n_traste_5": 35,
+   "n_ataques": 321,
+   "aciertos": {
+    "baseline": 534,
+    "A*": 415,
+    "mixed_t5": 496,
+    "mixed_gpt2": 549,
+    "mixed_bert": 508,
+    "mixed_bert_small": 531
+   }
+  },
+  {
+   "cancion": "F/Folclorica Colombiana, Musica/Folclorica Colombiana, Musica - Mi Buenaventura.gp4",
+   "artista": "Folclorica Colombiana, Musica",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 268,
+   "n_traste_5": 23,
+   "n_ataques": 176,
+   "aciertos": {
+    "baseline": 239,
+    "A*": 226,
+    "mixed_t5": 232,
+    "mixed_gpt2": 237,
+    "mixed_bert": 234,
+    "mixed_bert_small": 230
+   }
+  },
+  {
+   "cancion": "F/Fugain, Michel/Fugain, Michel - Forteresse.gp3",
+   "artista": "Fugain, Michel",
+   "etiquetas": [
+    "genre:chanson"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 176,
+   "n_traste_5": 43,
+   "n_ataques": 139,
+   "aciertos": {
+    "baseline": 144,
+    "A*": 129,
+    "mixed_t5": 77,
+    "mixed_gpt2": 157,
+    "mixed_bert": 154,
+    "mixed_bert_small": 153
+   }
+  },
+  {
+   "cancion": "G/Gallagher, Rory/Gallagher, Rory - Out On the Western Plain.gp3",
+   "artista": "Gallagher, Rory",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues",
+    "genre:blues_rock",
+    "genre:british_blues",
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:electric_blues",
+    "genre:hard_rock",
+    "genre:modern_blues",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 1548,
+   "n_traste_5": 143,
+   "n_ataques": 1104,
+   "aciertos": {
+    "baseline": 1444,
+    "A*": 1435,
+    "mixed_t5": 1438,
+    "mixed_gpt2": 1371,
+    "mixed_bert": 1227,
+    "mixed_bert_small": 1249
+   }
+  },
+  {
+   "cancion": "G/Gipsy Kings/Gipsy Kings - Feana.gp4",
+   "artista": "Gipsy Kings",
+   "etiquetas": [
+    "genre:flamenco",
+    "genre:rumba",
+    "genre:world"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 234,
+   "n_traste_5": 0,
+   "n_ataques": 162,
+   "aciertos": {
+    "baseline": 232,
+    "A*": 85,
+    "mixed_t5": 183,
+    "mixed_gpt2": 168,
+    "mixed_bert": 179,
+    "mixed_bert_small": 230
+   }
+  },
+  {
+   "cancion": "G/Giuliani, Mauro/Giuliani, Mauro - 32 Easy Pieces For Guitar Opus 30.gp4",
+   "artista": "Giuliani, Mauro",
+   "etiquetas": [
+    "genre:classical_era",
+    "genre:early_romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 7598,
+   "n_traste_5": 308,
+   "n_ataques": 5523,
+   "aciertos": {
+    "baseline": 7490,
+    "A*": 5691,
+    "mixed_t5": 7260,
+    "mixed_gpt2": 7072,
+    "mixed_bert": 6934,
+    "mixed_bert_small": 6911
+   }
+  },
+  {
+   "cancion": "G/Glay/Glay - Time.gp4",
+   "artista": "Glay",
+   "etiquetas": [
+    "genre:j-pop",
+    "genre:j-rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 3329,
+   "n_traste_5": 0,
+   "n_ataques": 643,
+   "aciertos": {
+    "baseline": 3327,
+    "A*": 2994,
+    "mixed_t5": 3329,
+    "mixed_gpt2": 3329,
+    "mixed_bert": 3329,
+    "mixed_bert_small": 3329
+   }
+  },
+  {
+   "cancion": "G/Goldman, Jean-Jacques/Goldman, Jean-Jacques - Bonne Id,e.gp3",
+   "artista": "Goldman, Jean-Jacques",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1513,
+   "n_traste_5": 1211,
+   "n_ataques": 423,
+   "aciertos": {
+    "baseline": 512,
+    "A*": 1048,
+    "mixed_t5": 1383,
+    "mixed_gpt2": 1384,
+    "mixed_bert": 1435,
+    "mixed_bert_small": 1402
+   }
+  },
+  {
+   "cancion": "G/Goldman, Jean-Jacques/Goldman, Jean-Jacques - Juste apras.gp3",
+   "artista": "Goldman, Jean-Jacques",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1519,
+   "n_traste_5": 0,
+   "n_ataques": 1491,
+   "aciertos": {
+    "baseline": 1519,
+    "A*": 1351,
+    "mixed_t5": 1463,
+    "mixed_gpt2": 1514,
+    "mixed_bert": 1475,
+    "mixed_bert_small": 1511
+   }
+  },
+  {
+   "cancion": "G/Guardian Of the Blind/Guardian Of the Blind - Una Vez Mas.gp4",
+   "artista": "Guardian Of the Blind",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 565,
+   "n_traste_5": 0,
+   "n_ataques": 444,
+   "aciertos": {
+    "baseline": 565,
+    "A*": 537,
+    "mixed_t5": 565,
+    "mixed_gpt2": 555,
+    "mixed_bert": 559,
+    "mixed_bert_small": 551
+   }
+  },
+  {
+   "cancion": "G/guitar player licks and lessons/Guitar Player Licks And Lessons - Beginer's Manual.gp4",
+   "artista": "guitar player licks and lessons",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 808,
+   "n_traste_5": 189,
+   "n_ataques": 434,
+   "aciertos": {
+    "baseline": 646,
+    "A*": 640,
+    "mixed_t5": 657,
+    "mixed_gpt2": 663,
+    "mixed_bert": 671,
+    "mixed_bert_small": 572
+   }
+  },
+  {
+   "cancion": "H/Hallyday, Johnny/Hallyday, Johnny - Marie (4).gp4",
+   "artista": "Hallyday, Johnny",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:ye_ye"
+   ],
+   "genero": "Pop",
+   "n_notas": 806,
+   "n_traste_5": 0,
+   "n_ataques": 704,
+   "aciertos": {
+    "baseline": 806,
+    "A*": 788,
+    "mixed_t5": 795,
+    "mixed_gpt2": 800,
+    "mixed_bert": 780,
+    "mixed_bert_small": 805
+   }
+  },
+  {
+   "cancion": "H/Hallyday, Johnny/Hallyday, Johnny - Sang pour sang.gp3",
+   "artista": "Hallyday, Johnny",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:ye_ye"
+   ],
+   "genero": "Pop",
+   "n_notas": 435,
+   "n_traste_5": 7,
+   "n_ataques": 393,
+   "aciertos": {
+    "baseline": 426,
+    "A*": 297,
+    "mixed_t5": 257,
+    "mixed_gpt2": 296,
+    "mixed_bert": 226,
+    "mixed_bert_small": 246
+   }
+  },
+  {
+   "cancion": "H/HammerFall/HammerFall - At the End of the Rainbow.gp3",
+   "artista": "HammerFall",
+   "etiquetas": [
+    "genre:gothenburg_metal",
+    "genre:hard_rock",
+    "genre:melodic_metal",
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:speed_metal",
+    "genre:swedish_power_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 758,
+   "n_traste_5": 449,
+   "n_ataques": 452,
+   "aciertos": {
+    "baseline": 305,
+    "A*": 381,
+    "mixed_t5": 388,
+    "mixed_gpt2": 440,
+    "mixed_bert": 453,
+    "mixed_bert_small": 504
+   }
+  },
+  {
+   "cancion": "H/Harper, Ben/Harper, Ben - Not Fire, Nor Ice.gp4",
+   "artista": "Harper, Ben",
+   "etiquetas": [
+    "genre:neo_mellow"
+   ],
+   "genero": "Pop",
+   "n_notas": 210,
+   "n_traste_5": 0,
+   "n_ataques": 129,
+   "aciertos": {
+    "baseline": 210,
+    "A*": 152,
+    "mixed_t5": 198,
+    "mixed_gpt2": 159,
+    "mixed_bert": 208,
+    "mixed_bert_small": 210
+   }
+  },
+  {
+   "cancion": "H/Harper, Ben/Harper, Ben - So High So Low.gp4",
+   "artista": "Harper, Ben",
+   "etiquetas": [
+    "genre:neo_mellow"
+   ],
+   "genero": "Pop",
+   "n_notas": 37,
+   "n_traste_5": 0,
+   "n_ataques": 34,
+   "aciertos": {
+    "baseline": 37,
+    "A*": 33,
+    "mixed_t5": 37,
+    "mixed_gpt2": 37,
+    "mixed_bert": 37,
+    "mixed_bert_small": 37
+   }
+  },
+  {
+   "cancion": "H/Hide/Hide - Psychommunity.gp4",
+   "artista": "Hide",
+   "etiquetas": [
+    "genre:future_funk",
+    "genre:japanese_vgm"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 108,
+   "n_traste_5": 73,
+   "n_ataques": 86,
+   "aciertos": {
+    "baseline": 51,
+    "A*": 75,
+    "mixed_t5": 61,
+    "mixed_gpt2": 62,
+    "mixed_bert": 77,
+    "mixed_bert_small": 80
+   }
+  },
+  {
+   "cancion": "H/Hiperkarma/Hiperkarma - Hiperkarma.gp4",
+   "artista": "Hiperkarma",
+   "etiquetas": [
+    "genre:hungarian_pop",
+    "genre:hungarian_rock",
+    "genre:magyar_alternative"
+   ],
+   "genero": "Rock",
+   "n_notas": 1568,
+   "n_traste_5": 0,
+   "n_ataques": 450,
+   "aciertos": {
+    "baseline": 1568,
+    "A*": 1547,
+    "mixed_t5": 1529,
+    "mixed_gpt2": 1560,
+    "mixed_bert": 1542,
+    "mixed_bert_small": 1563
+   }
+  },
+  {
+   "cancion": "H/Hole/Hole - I Think That I Would Die.gp4",
+   "artista": "Hole",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:grunge",
+    "genre:lilith",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 998,
+   "n_traste_5": 261,
+   "n_ataques": 408,
+   "aciertos": {
+    "baseline": 763,
+    "A*": 943,
+    "mixed_t5": 829,
+    "mixed_gpt2": 850,
+    "mixed_bert": 843,
+    "mixed_bert_small": 792
+   }
+  },
+  {
+   "cancion": "I/Iced Earth/Iced Earth - The coming course.gp3",
+   "artista": "Iced Earth",
+   "etiquetas": [
+    "genre:hard_rock",
+    "genre:melodic_metal",
+    "genre:metal",
+    "genre:neo_classical_metal",
+    "genre:old_school_thrash",
+    "genre:power_metal",
+    "genre:power_thrash",
+    "genre:progressive_metal",
+    "genre:speed_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 64,
+   "n_traste_5": 42,
+   "n_ataques": 64,
+   "aciertos": {
+    "baseline": 20,
+    "A*": 30,
+    "mixed_t5": 22,
+    "mixed_gpt2": 21,
+    "mixed_bert": 22,
+    "mixed_bert_small": 22
+   }
+  },
+  {
+   "cancion": "I/Irish/Irish - St Anne_'s Reel.gp3",
+   "artista": "Irish",
+   "etiquetas": [
+    "genre:canadian_celtic",
+    "genre:celtic",
+    "genre:irish_folk",
+    "genre:irish_pub_song"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1055,
+   "n_traste_5": 123,
+   "n_ataques": 668,
+   "aciertos": {
+    "baseline": 938,
+    "A*": 754,
+    "mixed_t5": 1007,
+    "mixed_gpt2": 922,
+    "mixed_bert": 868,
+    "mixed_bert_small": 880
+   }
+  },
+  {
+   "cancion": "I/Iron Maiden/Iron Maiden - Afraid To Shoot Strangers.gp3",
+   "artista": "Iron Maiden",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:nwobhm",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 718,
+   "n_traste_5": 432,
+   "n_ataques": 718,
+   "aciertos": {
+    "baseline": 252,
+    "A*": 430,
+    "mixed_t5": 373,
+    "mixed_gpt2": 386,
+    "mixed_bert": 597,
+    "mixed_bert_small": 350
+   }
+  },
+  {
+   "cancion": "I/Iron Maiden/Iron Maiden - Afraid To Shoot Strangers.gp3",
+   "artista": "Iron Maiden",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:nwobhm",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 852,
+   "n_traste_5": 456,
+   "n_ataques": 852,
+   "aciertos": {
+    "baseline": 348,
+    "A*": 560,
+    "mixed_t5": 594,
+    "mixed_gpt2": 433,
+    "mixed_bert": 763,
+    "mixed_bert_small": 569
+   }
+  },
+  {
+   "cancion": "I/Iron Maiden/Iron Maiden - The Loneliness Of The Long Distance Runner (2).gp3",
+   "artista": "Iron Maiden",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:nwobhm",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 144,
+   "n_traste_5": 144,
+   "n_ataques": 144,
+   "aciertos": {
+    "baseline": 0,
+    "A*": 0,
+    "mixed_t5": 0,
+    "mixed_gpt2": 55,
+    "mixed_bert": 59,
+    "mixed_bert_small": 7
+   }
+  },
+  {
+   "cancion": "J/Jethro Tull/Jethro Tull - Cross-Eyed Mary.gp4",
+   "artista": "Jethro Tull",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:hard_rock",
+    "genre:progressive_rock",
+    "genre:psychedelic_rock",
+    "genre:rock",
+    "genre:symphonic_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 201,
+   "n_traste_5": 173,
+   "n_ataques": 57,
+   "aciertos": {
+    "baseline": 45,
+    "A*": 115,
+    "mixed_t5": 78,
+    "mixed_gpt2": 116,
+    "mixed_bert": 69,
+    "mixed_bert_small": 127
+   }
+  },
+  {
+   "cancion": "J/Johnson, Robert/Johnson, Robert - Alman.gp3",
+   "artista": "Johnson, Robert",
+   "etiquetas": [
+    "genre:acoustic_blues",
+    "genre:blues",
+    "genre:blues_rock",
+    "genre:delta_blues",
+    "genre:traditional_blues"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 296,
+   "n_traste_5": 27,
+   "n_ataques": 218,
+   "aciertos": {
+    "baseline": 281,
+    "A*": 244,
+    "mixed_t5": 278,
+    "mixed_gpt2": 247,
+    "mixed_bert": 258,
+    "mixed_bert_small": 273
+   }
+  },
+  {
+   "cancion": "J/Jones, Thad/Jones, Thad - A Child Is Born.gp4",
+   "artista": "Jones, Thad",
+   "etiquetas": [
+    "genre:bebop",
+    "genre:big_band",
+    "genre:contemporary_post-bop",
+    "genre:cool_jazz",
+    "genre:hard_bop",
+    "genre:jazz",
+    "genre:soul_jazz"
+   ],
+   "genero": "Jazz y bossa",
+   "n_notas": 57,
+   "n_traste_5": 57,
+   "n_ataques": 57,
+   "aciertos": {
+    "baseline": 19,
+    "A*": 39,
+    "mixed_t5": 39,
+    "mixed_gpt2": 47,
+    "mixed_bert": 38,
+    "mixed_bert_small": 40
+   }
+  },
+  {
+   "cancion": "J/Jones, Thad/Jones, Thad - A Child Is Born.gp4",
+   "artista": "Jones, Thad",
+   "etiquetas": [
+    "genre:bebop",
+    "genre:big_band",
+    "genre:contemporary_post-bop",
+    "genre:cool_jazz",
+    "genre:hard_bop",
+    "genre:jazz",
+    "genre:soul_jazz"
+   ],
+   "genero": "Jazz y bossa",
+   "n_notas": 255,
+   "n_traste_5": 115,
+   "n_ataques": 188,
+   "aciertos": {
+    "baseline": 145,
+    "A*": 215,
+    "mixed_t5": 170,
+    "mixed_gpt2": 163,
+    "mixed_bert": 182,
+    "mixed_bert_small": 165
+   }
+  },
+  {
+   "cancion": "J/Judas Priest/Judas Priest - Dreamer Deceiver.gp4",
+   "artista": "Judas Priest",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:birmingham_metal",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:power_metal",
+    "genre:rock",
+    "genre:speed_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 1592,
+   "n_traste_5": 59,
+   "n_ataques": 720,
+   "aciertos": {
+    "baseline": 1533,
+    "A*": 1355,
+    "mixed_t5": 1466,
+    "mixed_gpt2": 1541,
+    "mixed_bert": 1552,
+    "mixed_bert_small": 1501
+   }
+  },
+  {
+   "cancion": "J/Judas Priest/Judas Priest - Dreamer Deceiver.gp4",
+   "artista": "Judas Priest",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:birmingham_metal",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:power_metal",
+    "genre:rock",
+    "genre:speed_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 20,
+   "n_traste_5": 4,
+   "n_ataques": 15,
+   "aciertos": {
+    "baseline": 17,
+    "A*": 16,
+    "mixed_t5": 17,
+    "mixed_gpt2": 17,
+    "mixed_bert": 16,
+    "mixed_bert_small": 17
+   }
+  },
+  {
+   "cancion": "K/Kansas/Kansas - Point Of No Return.gp4",
+   "artista": "Kansas",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:bow_pop",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:heartland_rock",
+    "genre:mellow_gold",
+    "genre:progressive_rock",
+    "genre:rock",
+    "genre:soft_rock",
+    "genre:symphonic_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1285,
+   "n_traste_5": 1144,
+   "n_ataques": 664,
+   "aciertos": {
+    "baseline": 438,
+    "A*": 669,
+    "mixed_t5": 443,
+    "mixed_gpt2": 665,
+    "mixed_bert": 624,
+    "mixed_bert_small": 616
+   }
+  },
+  {
+   "cancion": "K/Kansas/Kansas - Point Of No Return.gp4",
+   "artista": "Kansas",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:bow_pop",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:heartland_rock",
+    "genre:mellow_gold",
+    "genre:progressive_rock",
+    "genre:rock",
+    "genre:soft_rock",
+    "genre:symphonic_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 113,
+   "n_traste_5": 113,
+   "n_ataques": 61,
+   "aciertos": {
+    "baseline": 21,
+    "A*": 91,
+    "mixed_t5": 69,
+    "mixed_gpt2": 67,
+    "mixed_bert": 41,
+    "mixed_bert_small": 60
+   }
+  },
+  {
+   "cancion": "K/Karlsson, Johan/Karlsson, Johan - Crying Brood Of Chickens.gp3",
+   "artista": "Karlsson, Johan",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 291,
+   "n_traste_5": 176,
+   "n_ataques": 287,
+   "aciertos": {
+    "baseline": 109,
+    "A*": 177,
+    "mixed_t5": 197,
+    "mixed_gpt2": 196,
+    "mixed_bert": 173,
+    "mixed_bert_small": 199
+   }
+  },
+  {
+   "cancion": "K/Katz, Moritz P.G/Katz, Moritz P.G. - Vacational Jam.gp4",
+   "artista": "Katz, Moritz P.G",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1258,
+   "n_traste_5": 1243,
+   "n_ataques": 314,
+   "aciertos": {
+    "baseline": 18,
+    "A*": 125,
+    "mixed_t5": 18,
+    "mixed_gpt2": 391,
+    "mixed_bert": 22,
+    "mixed_bert_small": 39
+   }
+  },
+  {
+   "cancion": "K/Katz, Moritz P.G/Katz, Moritz P.G. - Vacational Jam.gp4",
+   "artista": "Katz, Moritz P.G",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1258,
+   "n_traste_5": 1243,
+   "n_ataques": 314,
+   "aciertos": {
+    "baseline": 18,
+    "A*": 125,
+    "mixed_t5": 18,
+    "mixed_gpt2": 391,
+    "mixed_bert": 22,
+    "mixed_bert_small": 39
+   }
+  },
+  {
+   "cancion": "K/Keane/Keane - Somewhere Only We Know.gp4",
+   "artista": "Keane",
+   "etiquetas": [
+    "genre:modern_rock",
+    "genre:neo_mellow",
+    "genre:piano_rock",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2126,
+   "n_traste_5": 0,
+   "n_ataques": 540,
+   "aciertos": {
+    "baseline": 2124,
+    "A*": 2088,
+    "mixed_t5": 2126,
+    "mixed_gpt2": 2126,
+    "mixed_bert": 2080,
+    "mixed_bert_small": 2037
+   }
+  },
+  {
+   "cancion": "K/Kemal Cay & Yasin Savci/Kemal Cay & Yasin Savci - L.o.t.o.g..gp4",
+   "artista": "Kemal Cay & Yasin Savci",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 245,
+   "n_traste_5": 15,
+   "n_ataques": 245,
+   "aciertos": {
+    "baseline": 242,
+    "A*": 242,
+    "mixed_t5": 181,
+    "mixed_gpt2": 242,
+    "mixed_bert": 210,
+    "mixed_bert_small": 223
+   }
+  },
+  {
+   "cancion": "K/Kino/Kino - Kogda Tvoya Devushka Boljna.gp4",
+   "artista": "Kino",
+   "etiquetas": [
+    "genre:classic_russian_rock",
+    "genre:russian_chanson",
+    "genre:russian_pop",
+    "genre:russian_post-punk",
+    "genre:russian_punk",
+    "genre:russian_rock"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 2592,
+   "n_traste_5": 0,
+   "n_ataques": 492,
+   "aciertos": {
+    "baseline": 2592,
+    "A*": 2592,
+    "mixed_t5": 2592,
+    "mixed_gpt2": 2592,
+    "mixed_bert": 2592,
+    "mixed_bert_small": 2592
+   }
+  },
+  {
+   "cancion": "K/Kiss/Kiss - Crazy Crazy Nights.gp4",
+   "artista": "Kiss",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:glam_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 174,
+   "n_traste_5": 6,
+   "n_ataques": 162,
+   "aciertos": {
+    "baseline": 168,
+    "A*": 103,
+    "mixed_t5": 152,
+    "mixed_gpt2": 15,
+    "mixed_bert": 166,
+    "mixed_bert_small": 168
+   }
+  },
+  {
+   "cancion": "K/Kottke, Leo/Kottke, Leo - Stealing.gp3",
+   "artista": "Kottke, Leo",
+   "etiquetas": [
+    "genre:american_primitive",
+    "genre:country_rock",
+    "genre:fingerstyle",
+    "genre:folk",
+    "genre:roots_rock",
+    "genre:traditional_folk"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1192,
+   "n_traste_5": 97,
+   "n_ataques": 1024,
+   "aciertos": {
+    "baseline": 1107,
+    "A*": 1052,
+    "mixed_t5": 1102,
+    "mixed_gpt2": 1031,
+    "mixed_bert": 1100,
+    "mixed_bert_small": 1110
+   }
+  },
+  {
+   "cancion": "K/Kottke, Leo/Kottke, Leo - The Fisherman.gp3",
+   "artista": "Kottke, Leo",
+   "etiquetas": [
+    "genre:american_primitive",
+    "genre:country_rock",
+    "genre:fingerstyle",
+    "genre:folk",
+    "genre:roots_rock",
+    "genre:traditional_folk"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1051,
+   "n_traste_5": 2,
+   "n_ataques": 929,
+   "aciertos": {
+    "baseline": 1051,
+    "A*": 1001,
+    "mixed_t5": 1025,
+    "mixed_gpt2": 865,
+    "mixed_bert": 1016,
+    "mixed_bert_small": 1046
+   }
+  },
+  {
+   "cancion": "L/Heitor Villa-Lobos/Villa-Lobos, Heitor - Prelude No. 1.gp4",
+   "artista": "Heitor Villa-Lobos",
+   "etiquetas": [
+    "genre:brazilian_classical",
+    "genre:classical",
+    "genre:early_modern_classical",
+    "genre:latin_classical",
+    "genre:neoclassicism"
+   ],
+   "genero": "Clásica",
+   "n_notas": 2171,
+   "n_traste_5": 773,
+   "n_ataques": 946,
+   "aciertos": {
+    "baseline": 1569,
+    "A*": 1459,
+    "mixed_t5": 1565,
+    "mixed_gpt2": 1561,
+    "mixed_bert": 1629,
+    "mixed_bert_small": 1453
+   }
+  },
+  {
+   "cancion": "L/Heitor Villa-Lobos/Villa-Lobos, Heitor - Suite Populaire Bresilienne - No. 4_ Gavotta-choro.gp4",
+   "artista": "Heitor Villa-Lobos",
+   "etiquetas": [
+    "genre:brazilian_classical",
+    "genre:classical",
+    "genre:early_modern_classical",
+    "genre:latin_classical",
+    "genre:neoclassicism"
+   ],
+   "genero": "Clásica",
+   "n_notas": 1637,
+   "n_traste_5": 317,
+   "n_ataques": 763,
+   "aciertos": {
+    "baseline": 1454,
+    "A*": 1177,
+    "mixed_t5": 1485,
+    "mixed_gpt2": 1428,
+    "mixed_bert": 1353,
+    "mixed_bert_small": 1424
+   }
+  },
+  {
+   "cancion": "L/L'Arc~en~Ciel/L'Arc~en~Ciel - Milky Way.gp3",
+   "artista": "L'Arc~en~Ciel",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2406,
+   "n_traste_5": 1014,
+   "n_ataques": 576,
+   "aciertos": {
+    "baseline": 1518,
+    "A*": 2406,
+    "mixed_t5": 2297,
+    "mixed_gpt2": 2375,
+    "mixed_bert": 2296,
+    "mixed_bert_small": 2390
+   }
+  },
+  {
+   "cancion": "L/LMF/LMF - Dai Lan Tong.gp3",
+   "artista": "LMF",
+   "etiquetas": [
+    "genre:dance_pop",
+    "genre:edm",
+    "genre:pop",
+    "genre:pop_rap"
+   ],
+   "genero": "Pop",
+   "n_notas": 1629,
+   "n_traste_5": 1629,
+   "n_ataques": 677,
+   "aciertos": {
+    "baseline": 549,
+    "A*": 1629,
+    "mixed_t5": 1568,
+    "mixed_gpt2": 1517,
+    "mixed_bert": 1316,
+    "mixed_bert_small": 1629
+   }
+  },
+  {
+   "cancion": "L/Laborde, Christian/Laborde, Christian - Septembre.gp3",
+   "artista": "Laborde, Christian",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 778,
+   "n_traste_5": 205,
+   "n_ataques": 642,
+   "aciertos": {
+    "baseline": 510,
+    "A*": 641,
+    "mixed_t5": 532,
+    "mixed_gpt2": 520,
+    "mixed_bert": 577,
+    "mixed_bert_small": 557
+   }
+  },
+  {
+   "cancion": "L/Lady Pank/Lady Pank - Mala Lady Punk.gp4",
+   "artista": "Lady Pank",
+   "etiquetas": [
+    "genre:polish_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1512,
+   "n_traste_5": 180,
+   "n_ataques": 252,
+   "aciertos": {
+    "baseline": 1232,
+    "A*": 1512,
+    "mixed_t5": 1512,
+    "mixed_gpt2": 1512,
+    "mixed_bert": 1500,
+    "mixed_bert_small": 1479
+   }
+  },
+  {
+   "cancion": "L/Lane, James/Lane, James - Walkin_' by myself.gp3",
+   "artista": "Lane, James",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 694,
+   "n_traste_5": 203,
+   "n_ataques": 416,
+   "aciertos": {
+    "baseline": 481,
+    "A*": 536,
+    "mixed_t5": 508,
+    "mixed_gpt2": 472,
+    "mixed_bert": 512,
+    "mixed_bert_small": 491
+   }
+  },
+  {
+   "cancion": "L/Led Zeppelin/Led Zeppelin - Boogie With Stu (2).gp3",
+   "artista": "Led Zeppelin",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1427,
+   "n_traste_5": 0,
+   "n_ataques": 796,
+   "aciertos": {
+    "baseline": 1427,
+    "A*": 989,
+    "mixed_t5": 1409,
+    "mixed_gpt2": 1390,
+    "mixed_bert": 1417,
+    "mixed_bert_small": 1238
+   }
+  },
+  {
+   "cancion": "L/Lennon, John/Lennon, John - Woman.gp3",
+   "artista": "Lennon, John",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:beatlesque",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:psychedelic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 997,
+   "n_traste_5": 29,
+   "n_ataques": 406,
+   "aciertos": {
+    "baseline": 958,
+    "A*": 673,
+    "mixed_t5": 987,
+    "mixed_gpt2": 975,
+    "mixed_bert": 960,
+    "mixed_bert_small": 957
+   }
+  },
+  {
+   "cancion": "L/Loaded/Loaded - Beneath The Grass.gp3",
+   "artista": "Loaded",
+   "etiquetas": [
+    "genre:dfw_rap"
+   ],
+   "genero": "Otros",
+   "n_notas": 834,
+   "n_traste_5": 726,
+   "n_ataques": 618,
+   "aciertos": {
+    "baseline": 103,
+    "A*": 583,
+    "mixed_t5": 272,
+    "mixed_gpt2": 244,
+    "mixed_bert": 440,
+    "mixed_bert_small": 359
+   }
+  },
+  {
+   "cancion": "L/Lobo/Lobo - Bobby McGee.gp3",
+   "artista": "Lobo",
+   "etiquetas": [
+    "genre:roots_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 544,
+   "n_traste_5": 10,
+   "n_ataques": 452,
+   "aciertos": {
+    "baseline": 536,
+    "A*": 506,
+    "mixed_t5": 534,
+    "mixed_gpt2": 527,
+    "mixed_bert": 459,
+    "mixed_bert_small": 499
+   }
+  },
+  {
+   "cancion": "L/Loquero/Loquero - Vicki Vomito.gp4",
+   "artista": "Loquero",
+   "etiquetas": [
+    "genre:argentine_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 1917,
+   "n_traste_5": 454,
+   "n_ataques": 639,
+   "aciertos": {
+    "baseline": 1183,
+    "A*": 1917,
+    "mixed_t5": 1917,
+    "mixed_gpt2": 1596,
+    "mixed_bert": 1881,
+    "mixed_bert_small": 1672
+   }
+  },
+  {
+   "cancion": "L/Los Jaivas/Los Jaivas - Todos Juntos.gp3",
+   "artista": "Los Jaivas",
+   "etiquetas": [
+    "genre:chilean_rock",
+    "genre:latin_rock",
+    "genre:musica_andina",
+    "genre:nueva_cancion"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 3576,
+   "n_traste_5": 0,
+   "n_ataques": 624,
+   "aciertos": {
+    "baseline": 3576,
+    "A*": 3576,
+    "mixed_t5": 3576,
+    "mixed_gpt2": 3576,
+    "mixed_bert": 3495,
+    "mixed_bert_small": 3576
+   }
+  },
+  {
+   "cancion": "L/Louise Attaque/Louise Attaque - L'Intranquilite.gp3",
+   "artista": "Louise Attaque",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1728,
+   "n_traste_5": 0,
+   "n_ataques": 352,
+   "aciertos": {
+    "baseline": 1728,
+    "A*": 1728,
+    "mixed_t5": 1728,
+    "mixed_gpt2": 1728,
+    "mixed_bert": 1728,
+    "mixed_bert_small": 1728
+   }
+  },
+  {
+   "cancion": "L/Loving Spoonful/Loving Spoonful - Happy Together.gp4",
+   "artista": "Loving Spoonful",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 522,
+   "n_traste_5": 33,
+   "n_ataques": 296,
+   "aciertos": {
+    "baseline": 503,
+    "A*": 498,
+    "mixed_t5": 495,
+    "mixed_gpt2": 512,
+    "mixed_bert": 481,
+    "mixed_bert_small": 511
+   }
+  },
+  {
+   "cancion": "L/Lund, Niklas/Lund, Niklas - Neverending.gp3",
+   "artista": "Lund, Niklas",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 585,
+   "n_traste_5": 386,
+   "n_ataques": 538,
+   "aciertos": {
+    "baseline": 404,
+    "A*": 293,
+    "mixed_t5": 228,
+    "mixed_gpt2": 274,
+    "mixed_bert": 246,
+    "mixed_bert_small": 263
+   }
+  },
+  {
+   "cancion": "L/Lynyrd Skynyrd/Lynyrd Skynyrd - Free Bird (2).gp3",
+   "artista": "Lynyrd Skynyrd",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:country_rock",
+    "genre:hard_rock",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:southern_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 7621,
+   "n_traste_5": 1880,
+   "n_ataques": 1738,
+   "aciertos": {
+    "baseline": 5559,
+    "A*": 7223,
+    "mixed_t5": 7309,
+    "mixed_gpt2": 7483,
+    "mixed_bert": 6632,
+    "mixed_bert_small": 6270
+   }
+  },
+  {
+   "cancion": "M/Machinet/Machinet - Wind.gp4",
+   "artista": "Machinet",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 775,
+   "n_traste_5": 376,
+   "n_ataques": 523,
+   "aciertos": {
+    "baseline": 461,
+    "A*": 511,
+    "mixed_t5": 472,
+    "mixed_gpt2": 529,
+    "mixed_bert": 523,
+    "mixed_bert_small": 483
+   }
+  },
+  {
+   "cancion": "M/Madonna/Madonna - Love Profusion.gp4",
+   "artista": "Madonna",
+   "etiquetas": [
+    "genre:dance_pop",
+    "genre:pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 1692,
+   "n_traste_5": 0,
+   "n_ataques": 328,
+   "aciertos": {
+    "baseline": 1692,
+    "A*": 1468,
+    "mixed_t5": 1692,
+    "mixed_gpt2": 1692,
+    "mixed_bert": 1692,
+    "mixed_bert_small": 1692
+   }
+  },
+  {
+   "cancion": "M/Manuel M. Ponce/Manuel M. Ponce - Suite In A Minor - II. Allemande.gp3",
+   "artista": "Manuel M. Ponce",
+   "etiquetas": [
+    "genre:latin_classical"
+   ],
+   "genero": "Clásica",
+   "n_notas": 558,
+   "n_traste_5": 172,
+   "n_ataques": 532,
+   "aciertos": {
+    "baseline": 394,
+    "A*": 363,
+    "mixed_t5": 416,
+    "mixed_gpt2": 364,
+    "mixed_bert": 402,
+    "mixed_bert_small": 395
+   }
+  },
+  {
+   "cancion": "M/Marilyn Manson/Marilyn Manson - Fall Of Adam.gp3",
+   "artista": "Marilyn Manson",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:industrial",
+    "genre:industrial_metal",
+    "genre:industrial_rock",
+    "genre:nu_metal",
+    "genre:wrestling"
+   ],
+   "genero": "Metal",
+   "n_notas": 720,
+   "n_traste_5": 30,
+   "n_ataques": 120,
+   "aciertos": {
+    "baseline": 690,
+    "A*": 720,
+    "mixed_t5": 716,
+    "mixed_gpt2": 690,
+    "mixed_bert": 690,
+    "mixed_bert_small": 690
+   }
+  },
+  {
+   "cancion": "M/Marilyn Manson/Marilyn Manson - Godeatgod.gp3",
+   "artista": "Marilyn Manson",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:industrial",
+    "genre:industrial_metal",
+    "genre:industrial_rock",
+    "genre:nu_metal",
+    "genre:wrestling"
+   ],
+   "genero": "Metal",
+   "n_notas": 64,
+   "n_traste_5": 60,
+   "n_ataques": 64,
+   "aciertos": {
+    "baseline": 0,
+    "A*": 0,
+    "mixed_t5": 8,
+    "mixed_gpt2": 7,
+    "mixed_bert": 2,
+    "mixed_bert_small": 4
+   }
+  },
+  {
+   "cancion": "M/Marilyn Manson/Marilyn Manson - The Last Day On Earth (live).gp3",
+   "artista": "Marilyn Manson",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:industrial",
+    "genre:industrial_metal",
+    "genre:industrial_rock",
+    "genre:nu_metal",
+    "genre:wrestling"
+   ],
+   "genero": "Metal",
+   "n_notas": 2376,
+   "n_traste_5": 9,
+   "n_ataques": 472,
+   "aciertos": {
+    "baseline": 2289,
+    "A*": 1982,
+    "mixed_t5": 2307,
+    "mixed_gpt2": 2334,
+    "mixed_bert": 2268,
+    "mixed_bert_small": 2283
+   }
+  },
+  {
+   "cancion": "M/Marilyn Manson/Marilyn Manson - The Nobodies (Acoustic) (2).gp3",
+   "artista": "Marilyn Manson",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:industrial",
+    "genre:industrial_metal",
+    "genre:industrial_rock",
+    "genre:nu_metal",
+    "genre:wrestling"
+   ],
+   "genero": "Metal",
+   "n_notas": 1023,
+   "n_traste_5": 459,
+   "n_ataques": 525,
+   "aciertos": {
+    "baseline": 564,
+    "A*": 658,
+    "mixed_t5": 692,
+    "mixed_gpt2": 648,
+    "mixed_bert": 673,
+    "mixed_bert_small": 698
+   }
+  },
+  {
+   "cancion": "M/Marinello, Giancarlo/Marinello, Giancarlo - El chiflon del diablo.gp3",
+   "artista": "Marinello, Giancarlo",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 32,
+   "n_traste_5": 20,
+   "n_ataques": 32,
+   "aciertos": {
+    "baseline": 10,
+    "A*": 22,
+    "mixed_t5": 32,
+    "mixed_gpt2": 32,
+    "mixed_bert": 29,
+    "mixed_bert_small": 28
+   }
+  },
+  {
+   "cancion": "M/Matchbox Twenty/Matchbox Twenty - 3 Am.gp4",
+   "artista": "Matchbox Twenty",
+   "etiquetas": [
+    "genre:neo_mellow",
+    "genre:pop_rock",
+    "genre:post-grunge"
+   ],
+   "genero": "Pop",
+   "n_notas": 1423,
+   "n_traste_5": 585,
+   "n_ataques": 312,
+   "aciertos": {
+    "baseline": 838,
+    "A*": 1378,
+    "mixed_t5": 1419,
+    "mixed_gpt2": 1403,
+    "mixed_bert": 1311,
+    "mixed_bert_small": 1373
+   }
+  },
+  {
+   "cancion": "M/McCartney, Paul/McCartney, Paul - Every Night.gp4",
+   "artista": "McCartney, Paul",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:beatlesque",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2013,
+   "n_traste_5": 126,
+   "n_ataques": 468,
+   "aciertos": {
+    "baseline": 1579,
+    "A*": 950,
+    "mixed_t5": 1753,
+    "mixed_gpt2": 940,
+    "mixed_bert": 1177,
+    "mixed_bert_small": 938
+   }
+  },
+  {
+   "cancion": "M/McCartney, Paul/McCartney, Paul - Every Night.gp4",
+   "artista": "McCartney, Paul",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:beatlesque",
+    "genre:classic_rock",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:rock",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 361,
+   "n_traste_5": 361,
+   "n_ataques": 141,
+   "aciertos": {
+    "baseline": 117,
+    "A*": 221,
+    "mixed_t5": 292,
+    "mixed_gpt2": 250,
+    "mixed_bert": 205,
+    "mixed_bert_small": 323
+   }
+  },
+  {
+   "cancion": "M/McRae, Tom/McRae, Tom - You Cut Her Hair.gp4",
+   "artista": "McRae, Tom",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 319,
+   "n_traste_5": 275,
+   "n_ataques": 319,
+   "aciertos": {
+    "baseline": 44,
+    "A*": 134,
+    "mixed_t5": 44,
+    "mixed_gpt2": 44,
+    "mixed_bert": 48,
+    "mixed_bert_small": 44
+   }
+  },
+  {
+   "cancion": "M/McTell, Ralph/McTell, Ralph - First Song.gp4",
+   "artista": "McTell, Ralph",
+   "etiquetas": [
+    "genre:british_folk",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:traditional_folk"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 732,
+   "n_traste_5": 3,
+   "n_ataques": 508,
+   "aciertos": {
+    "baseline": 720,
+    "A*": 301,
+    "mixed_t5": 727,
+    "mixed_gpt2": 667,
+    "mixed_bert": 709,
+    "mixed_bert_small": 702
+   }
+  },
+  {
+   "cancion": "M/Melancholic Desires/Melancholic Desires - The Great War.gp4",
+   "artista": "Melancholic Desires",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 255,
+   "n_traste_5": 31,
+   "n_ataques": 231,
+   "aciertos": {
+    "baseline": 232,
+    "A*": 219,
+    "mixed_t5": 215,
+    "mixed_gpt2": 230,
+    "mixed_bert": 233,
+    "mixed_bert_small": 232
+   }
+  },
+  {
+   "cancion": "M/Metal Church/Metal Church - Anthem To The Estranged (2).gp4",
+   "artista": "Metal Church",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:hard_rock",
+    "genre:melodic_thrash",
+    "genre:metal",
+    "genre:old_school_thrash",
+    "genre:rock",
+    "genre:speed_metal",
+    "genre:thrash_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 1183,
+   "n_traste_5": 23,
+   "n_ataques": 1179,
+   "aciertos": {
+    "baseline": 1151,
+    "A*": 965,
+    "mixed_t5": 1133,
+    "mixed_gpt2": 1144,
+    "mixed_bert": 1135,
+    "mixed_bert_small": 1148
+   }
+  },
+  {
+   "cancion": "M/Middleton, Danial/Middleton, Danial - The Children Don_'t know.gp3",
+   "artista": "Middleton, Danial",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 558,
+   "n_traste_5": 144,
+   "n_ataques": 489,
+   "aciertos": {
+    "baseline": 414,
+    "A*": 434,
+    "mixed_t5": 385,
+    "mixed_gpt2": 418,
+    "mixed_bert": 440,
+    "mixed_bert_small": 409
+   }
+  },
+  {
+   "cancion": "M/Mitsuda, Yasunori/Mitsuda, Yasunori - Wind Scene.gp3",
+   "artista": "Mitsuda, Yasunori",
+   "etiquetas": [
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 208,
+   "n_traste_5": 20,
+   "n_ataques": 139,
+   "aciertos": {
+    "baseline": 193,
+    "A*": 165,
+    "mixed_t5": 196,
+    "mixed_gpt2": 179,
+    "mixed_bert": 185,
+    "mixed_bert_small": 191
+   }
+  },
+  {
+   "cancion": "M/Mitsuda, Yasunori/Mitsuda, Yasunori - Wind Scene.gp3",
+   "artista": "Mitsuda, Yasunori",
+   "etiquetas": [
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 228,
+   "n_traste_5": 7,
+   "n_ataques": 157,
+   "aciertos": {
+    "baseline": 209,
+    "A*": 180,
+    "mixed_t5": 212,
+    "mixed_gpt2": 197,
+    "mixed_bert": 195,
+    "mixed_bert_small": 217
+   }
+  },
+  {
+   "cancion": "M/Moore, Gary/Moore, Gary - One Day (2).gp3",
+   "artista": "Moore, Gary",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:british_blues",
+    "genre:classic_rock",
+    "genre:electric_blues",
+    "genre:hard_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 450,
+   "n_traste_5": 4,
+   "n_ataques": 430,
+   "aciertos": {
+    "baseline": 432,
+    "A*": 406,
+    "mixed_t5": 439,
+    "mixed_gpt2": 432,
+    "mixed_bert": 443,
+    "mixed_bert_small": 436
+   }
+  },
+  {
+   "cancion": "M/Moricone, Ennio/Morricone, Ennio - Le Clan Des Siciliens.gp4",
+   "artista": "Moricone, Ennio",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1023,
+   "n_traste_5": 0,
+   "n_ataques": 511,
+   "aciertos": {
+    "baseline": 1023,
+    "A*": 849,
+    "mixed_t5": 1023,
+    "mixed_gpt2": 1023,
+    "mixed_bert": 1001,
+    "mixed_bert_small": 1002
+   }
+  },
+  {
+   "cancion": "M/Morissette, Alanis/Morissette, Alanis - Hands Clean.gp3",
+   "artista": "Morissette, Alanis",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:canadian_pop",
+    "genre:canadian_singer-songwriter",
+    "genre:pop_rock",
+    "genre:singer-songwriter"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 300,
+   "n_traste_5": 0,
+   "n_ataques": 300,
+   "aciertos": {
+    "baseline": 300,
+    "A*": 225,
+    "mixed_t5": 300,
+    "mixed_gpt2": 300,
+    "mixed_bert": 300,
+    "mixed_bert_small": 300
+   }
+  },
+  {
+   "cancion": "M/Morons Company/Morons Company - Gyors.gp4",
+   "artista": "Morons Company",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1185,
+   "n_traste_5": 0,
+   "n_ataques": 312,
+   "aciertos": {
+    "baseline": 1185,
+    "A*": 1185,
+    "mixed_t5": 1185,
+    "mixed_gpt2": 1185,
+    "mixed_bert": 1182,
+    "mixed_bert_small": 1185
+   }
+  },
+  {
+   "cancion": "M/Morrissey/Morrissey - All The Lazy Dykes.gp4",
+   "artista": "Morrissey",
+   "etiquetas": [
+    "genre:britpop",
+    "genre:dance_rock",
+    "genre:madchester",
+    "genre:new_wave",
+    "genre:permanent_wave",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 40,
+   "n_traste_5": 6,
+   "n_ataques": 8,
+   "aciertos": {
+    "baseline": 35,
+    "A*": 12,
+    "mixed_t5": 35,
+    "mixed_gpt2": 35,
+    "mixed_bert": 35,
+    "mixed_bert_small": 35
+   }
+  },
+  {
+   "cancion": "M/Mose Allison/Mose Allison - Allison's Piano Blues.gp3",
+   "artista": "Mose Allison",
+   "etiquetas": [
+    "genre:jazz",
+    "genre:jazz_blues",
+    "genre:jazz_piano",
+    "genre:soul_jazz",
+    "genre:vocal_jazz"
+   ],
+   "genero": "Jazz y bossa",
+   "n_notas": 336,
+   "n_traste_5": 23,
+   "n_ataques": 248,
+   "aciertos": {
+    "baseline": 294,
+    "A*": 258,
+    "mixed_t5": 314,
+    "mixed_gpt2": 304,
+    "mixed_bert": 302,
+    "mixed_bert_small": 292
+   }
+  },
+  {
+   "cancion": "M/Murray Head/Murray Head - Say It Ain't So Joe (2).gp4",
+   "artista": "Murray Head",
+   "etiquetas": [
+    "genre:new_wave_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 1197,
+   "n_traste_5": 0,
+   "n_ataques": 476,
+   "aciertos": {
+    "baseline": 1167,
+    "A*": 1079,
+    "mixed_t5": 1194,
+    "mixed_gpt2": 1186,
+    "mixed_bert": 1185,
+    "mixed_bert_small": 1189
+   }
+  },
+  {
+   "cancion": "M/Murray Head/Murray Head - Say It Ain't So Joe (2).gp4",
+   "artista": "Murray Head",
+   "etiquetas": [
+    "genre:new_wave_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 900,
+   "n_traste_5": 236,
+   "n_ataques": 544,
+   "aciertos": {
+    "baseline": 728,
+    "A*": 792,
+    "mixed_t5": 760,
+    "mixed_gpt2": 754,
+    "mixed_bert": 753,
+    "mixed_bert_small": 803
+   }
+  },
+  {
+   "cancion": "M/Muse/Muse - Dark Shines (Intro).gp3",
+   "artista": "Muse",
+   "etiquetas": [
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 36,
+   "n_traste_5": 36,
+   "n_ataques": 33,
+   "aciertos": {
+    "baseline": 1,
+    "A*": 6,
+    "mixed_t5": 1,
+    "mixed_gpt2": 4,
+    "mixed_bert": 3,
+    "mixed_bert_small": 1
+   }
+  },
+  {
+   "cancion": "M/Muse/Muse - Uno (2).gp4",
+   "artista": "Muse",
+   "etiquetas": [
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 726,
+   "n_traste_5": 334,
+   "n_ataques": 389,
+   "aciertos": {
+    "baseline": 362,
+    "A*": 543,
+    "mixed_t5": 363,
+    "mixed_gpt2": 444,
+    "mixed_bert": 537,
+    "mixed_bert_small": 456
+   }
+  },
+  {
+   "cancion": "M/Muse/Muse - Uno (2).gp4",
+   "artista": "Muse",
+   "etiquetas": [
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 606,
+   "n_traste_5": 0,
+   "n_ataques": 111,
+   "aciertos": {
+    "baseline": 606,
+    "A*": 606,
+    "mixed_t5": 606,
+    "mixed_gpt2": 606,
+    "mixed_bert": 606,
+    "mixed_bert_small": 606
+   }
+  },
+  {
+   "cancion": "N/NOFX/NOFX - Six Pack Girl.gp3",
+   "artista": "NOFX",
+   "etiquetas": [
+    "genre:pop_punk",
+    "genre:punk",
+    "genre:skate_punk",
+    "genre:socal_pop_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 342,
+   "n_traste_5": 222,
+   "n_ataques": 171,
+   "aciertos": {
+    "baseline": 96,
+    "A*": 120,
+    "mixed_t5": 154,
+    "mixed_gpt2": 104,
+    "mixed_bert": 69,
+    "mixed_bert_small": 125
+   }
+  },
+  {
+   "cancion": "N/Naked Lunch/Naked Lunch - Orange Dolphins.gp4",
+   "artista": "Naked Lunch",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2545,
+   "n_traste_5": 1026,
+   "n_ataques": 760,
+   "aciertos": {
+    "baseline": 1409,
+    "A*": 2281,
+    "mixed_t5": 2260,
+    "mixed_gpt2": 1837,
+    "mixed_bert": 2101,
+    "mixed_bert_small": 2044
+   }
+  },
+  {
+   "cancion": "N/Nelson, Willie/Nelson, Willie - Blue Eyes Crying In The Rain.gp4",
+   "artista": "Nelson, Willie",
+   "etiquetas": [
+    "genre:classic_country_pop",
+    "genre:country",
+    "genre:country_rock",
+    "genre:nashville_sound",
+    "genre:outlaw_country",
+    "genre:singer-songwriter",
+    "genre:texas_country"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 448,
+   "n_traste_5": 58,
+   "n_ataques": 297,
+   "aciertos": {
+    "baseline": 366,
+    "A*": 367,
+    "mixed_t5": 404,
+    "mixed_gpt2": 403,
+    "mixed_bert": 405,
+    "mixed_bert_small": 409
+   }
+  },
+  {
+   "cancion": "N/Nettles, Greg/Nettles, Greg - Short Lived.gp3",
+   "artista": "Nettles, Greg",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 172,
+   "n_traste_5": 0,
+   "n_ataques": 142,
+   "aciertos": {
+    "baseline": 171,
+    "A*": 171,
+    "mixed_t5": 171,
+    "mixed_gpt2": 172,
+    "mixed_bert": 171,
+    "mixed_bert_small": 170
+   }
+  },
+  {
+   "cancion": "N/Nettles, Greg/Nettles, Greg - Short Lived.gp3",
+   "artista": "Nettles, Greg",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 143,
+   "n_traste_5": 15,
+   "n_ataques": 67,
+   "aciertos": {
+    "baseline": 127,
+    "A*": 143,
+    "mixed_t5": 143,
+    "mixed_gpt2": 143,
+    "mixed_bert": 132,
+    "mixed_bert_small": 135
+   }
+  },
+  {
+   "cancion": "N/Nine Inch Nails/Nine Inch Nails - Hurt (2).gp3",
+   "artista": "Nine Inch Nails",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:alternative_rock",
+    "genre:cyberpunk",
+    "genre:electronic_rock",
+    "genre:industrial",
+    "genre:industrial_metal",
+    "genre:industrial_rock",
+    "genre:nu_metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 704,
+   "n_traste_5": 224,
+   "n_ataques": 302,
+   "aciertos": {
+    "baseline": 465,
+    "A*": 534,
+    "mixed_t5": 624,
+    "mixed_gpt2": 600,
+    "mixed_bert": 588,
+    "mixed_bert_small": 507
+   }
+  },
+  {
+   "cancion": "N/Nirvana/Nirvana - In Bloom (2).gp3",
+   "artista": "Nirvana",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:grunge",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 312,
+   "n_traste_5": 72,
+   "n_ataques": 104,
+   "aciertos": {
+    "baseline": 224,
+    "A*": 240,
+    "mixed_t5": 300,
+    "mixed_gpt2": 165,
+    "mixed_bert": 310,
+    "mixed_bert_small": 244
+   }
+  },
+  {
+   "cancion": "N/Noir Desir/Noir DCsir - One Trip One Noise.gp4",
+   "artista": "Noir Desir",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_reggae",
+    "genre:french_rock",
+    "genre:rock_alternatif_francais"
+   ],
+   "genero": "Rock",
+   "n_notas": 2319,
+   "n_traste_5": 0,
+   "n_ataques": 973,
+   "aciertos": {
+    "baseline": 2319,
+    "A*": 2319,
+    "mixed_t5": 2319,
+    "mixed_gpt2": 2319,
+    "mixed_bert": 2317,
+    "mixed_bert_small": 2319
+   }
+  },
+  {
+   "cancion": "O/Oasis/Oasis - Live Forever.gp3",
+   "artista": "Oasis",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:britpop",
+    "genre:madchester",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 3570,
+   "n_traste_5": 2,
+   "n_ataques": 773,
+   "aciertos": {
+    "baseline": 3568,
+    "A*": 3328,
+    "mixed_t5": 3568,
+    "mixed_gpt2": 3529,
+    "mixed_bert": 3568,
+    "mixed_bert_small": 3567
+   }
+  },
+  {
+   "cancion": "O/Oasis/Oasis - Lyla (2).gp4",
+   "artista": "Oasis",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:britpop",
+    "genre:madchester",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2640,
+   "n_traste_5": 0,
+   "n_ataques": 532,
+   "aciertos": {
+    "baseline": 2640,
+    "A*": 1723,
+    "mixed_t5": 2640,
+    "mixed_gpt2": 2640,
+    "mixed_bert": 2584,
+    "mixed_bert_small": 2629
+   }
+  },
+  {
+   "cancion": "O/Oasis/Oasis - Magic Pie.gp3",
+   "artista": "Oasis",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:britpop",
+    "genre:madchester",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 4107,
+   "n_traste_5": 336,
+   "n_ataques": 805,
+   "aciertos": {
+    "baseline": 3723,
+    "A*": 3556,
+    "mixed_t5": 4080,
+    "mixed_gpt2": 4048,
+    "mixed_bert": 3986,
+    "mixed_bert_small": 4076
+   }
+  },
+  {
+   "cancion": "O/Oasis/Oasis - Roll With It.gp3",
+   "artista": "Oasis",
+   "etiquetas": [
+    "genre:beatlesque",
+    "genre:britpop",
+    "genre:madchester",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 578,
+   "n_traste_5": 0,
+   "n_ataques": 107,
+   "aciertos": {
+    "baseline": 578,
+    "A*": 578,
+    "mixed_t5": 578,
+    "mixed_gpt2": 578,
+    "mixed_bert": 578,
+    "mixed_bert_small": 578
+   }
+  },
+  {
+   "cancion": "O/Offspring (The)/Offspring (The) - Americana 2nd Single.gp3",
+   "artista": "Offspring (The)",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:permanent_wave",
+    "genre:pop_punk",
+    "genre:punk",
+    "genre:rock",
+    "genre:skate_punk",
+    "genre:socal_pop_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 3798,
+   "n_traste_5": 420,
+   "n_ataques": 777,
+   "aciertos": {
+    "baseline": 3366,
+    "A*": 3798,
+    "mixed_t5": 3795,
+    "mixed_gpt2": 3786,
+    "mixed_bert": 3619,
+    "mixed_bert_small": 3656
+   }
+  },
+  {
+   "cancion": "O/Osbourne, Ozzy/Osbourne, Ozzy - Believer (2).gp3",
+   "artista": "Osbourne, Ozzy",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:birmingham_metal",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 67,
+   "n_traste_5": 9,
+   "n_ataques": 63,
+   "aciertos": {
+    "baseline": 63,
+    "A*": 58,
+    "mixed_t5": 63,
+    "mixed_gpt2": 66,
+    "mixed_bert": 65,
+    "mixed_bert_small": 65
+   }
+  },
+  {
+   "cancion": "O/Overload/Overload - OverLoad - Lonesome.gp3",
+   "artista": "Overload",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 48,
+   "n_traste_5": 0,
+   "n_ataques": 48,
+   "aciertos": {
+    "baseline": 48,
+    "A*": 42,
+    "mixed_t5": 48,
+    "mixed_gpt2": 48,
+    "mixed_bert": 48,
+    "mixed_bert_small": 48
+   }
+  },
+  {
+   "cancion": "P/PFM/PFM - Impressioni Di Settembre.gp3",
+   "artista": "PFM",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 419,
+   "n_traste_5": 419,
+   "n_ataques": 388,
+   "aciertos": {
+    "baseline": 47,
+    "A*": 142,
+    "mixed_t5": 79,
+    "mixed_gpt2": 253,
+    "mixed_bert": 197,
+    "mixed_bert_small": 275
+   }
+  },
+  {
+   "cancion": "P/PFM/PFM - Impressioni Di Settembre.gp3",
+   "artista": "PFM",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 33,
+   "n_traste_5": 33,
+   "n_ataques": 33,
+   "aciertos": {
+    "baseline": 1,
+    "A*": 1,
+    "mixed_t5": 20,
+    "mixed_gpt2": 10,
+    "mixed_bert": 11,
+    "mixed_bert_small": 18
+   }
+  },
+  {
+   "cancion": "P/Padilla, Alejandro/Padilla, Alejandro - Untitled 22.gp4",
+   "artista": "Padilla, Alejandro",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 248,
+   "n_traste_5": 32,
+   "n_ataques": 149,
+   "aciertos": {
+    "baseline": 199,
+    "A*": 170,
+    "mixed_t5": 210,
+    "mixed_gpt2": 74,
+    "mixed_bert": 209,
+    "mixed_bert_small": 147
+   }
+  },
+  {
+   "cancion": "P/Paranoia/Paranoia - Fainting.gp4",
+   "artista": "Paranoia",
+   "etiquetas": [
+    "genre:ska_mexicano"
+   ],
+   "genero": "Otros",
+   "n_notas": 4805,
+   "n_traste_5": 3555,
+   "n_ataques": 961,
+   "aciertos": {
+    "baseline": 1154,
+    "A*": 3605,
+    "mixed_t5": 2885,
+    "mixed_gpt2": 2885,
+    "mixed_bert": 3005,
+    "mixed_bert_small": 2877
+   }
+  },
+  {
+   "cancion": "P/Paranoia/Paranoia - Only.gp4",
+   "artista": "Paranoia",
+   "etiquetas": [
+    "genre:ska_mexicano"
+   ],
+   "genero": "Otros",
+   "n_notas": 1785,
+   "n_traste_5": 0,
+   "n_ataques": 499,
+   "aciertos": {
+    "baseline": 1699,
+    "A*": 1479,
+    "mixed_t5": 1785,
+    "mixed_gpt2": 1785,
+    "mixed_bert": 1717,
+    "mixed_bert_small": 1785
+   }
+  },
+  {
+   "cancion": "P/Pasexy (The)/Pasexy (The) - Oy Haya.gp3",
+   "artista": "Pasexy (The)",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 2688,
+   "n_traste_5": 626,
+   "n_ataques": 531,
+   "aciertos": {
+    "baseline": 2014,
+    "A*": 2360,
+    "mixed_t5": 2455,
+    "mixed_gpt2": 2293,
+    "mixed_bert": 2452,
+    "mixed_bert_small": 2433
+   }
+  },
+  {
+   "cancion": "P/Pedro Guerra/Pedro Guerra - Dibujos Animados.gp4",
+   "artista": "Pedro Guerra",
+   "etiquetas": [
+    "genre:cantautor",
+    "genre:nueva_cancion",
+    "genre:spanish_pop",
+    "genre:trova"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 654,
+   "n_traste_5": 42,
+   "n_ataques": 524,
+   "aciertos": {
+    "baseline": 628,
+    "A*": 501,
+    "mixed_t5": 630,
+    "mixed_gpt2": 597,
+    "mixed_bert": 613,
+    "mixed_bert_small": 606
+   }
+  },
+  {
+   "cancion": "P/Piazzola Astor/Piazzola Astor - Adios Nonino (2 guitars).gp3",
+   "artista": "Piazzola Astor",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 887,
+   "n_traste_5": 241,
+   "n_ataques": 575,
+   "aciertos": {
+    "baseline": 800,
+    "A*": 707,
+    "mixed_t5": 679,
+    "mixed_gpt2": 629,
+    "mixed_bert": 650,
+    "mixed_bert_small": 703
+   }
+  },
+  {
+   "cancion": "P/Piazzola Astor/Piazzola Astor - Adios Nonino (2 guitars).gp3",
+   "artista": "Piazzola Astor",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 728,
+   "n_traste_5": 73,
+   "n_ataques": 514,
+   "aciertos": {
+    "baseline": 696,
+    "A*": 541,
+    "mixed_t5": 675,
+    "mixed_gpt2": 647,
+    "mixed_bert": 615,
+    "mixed_bert_small": 682
+   }
+  },
+  {
+   "cancion": "P/Pink, Al/Pink, Al - Busy Day.gp4",
+   "artista": "Pink, Al",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 808,
+   "n_traste_5": 687,
+   "n_ataques": 551,
+   "aciertos": {
+    "baseline": 306,
+    "A*": 363,
+    "mixed_t5": 461,
+    "mixed_gpt2": 512,
+    "mixed_bert": 481,
+    "mixed_bert_small": 531
+   }
+  },
+  {
+   "cancion": "P/Polnareff, Michel/Polnareff, Michel - La PoupCe Qui Fait Non.gp3",
+   "artista": "Polnareff, Michel",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock",
+    "genre:ye_ye"
+   ],
+   "genero": "Pop",
+   "n_notas": 1520,
+   "n_traste_5": 0,
+   "n_ataques": 341,
+   "aciertos": {
+    "baseline": 1520,
+    "A*": 95,
+    "mixed_t5": 1520,
+    "mixed_gpt2": 1520,
+    "mixed_bert": 1520,
+    "mixed_bert_small": 1489
+   }
+  },
+  {
+   "cancion": "P/Powderfinger/Powderfinger - Trading Places.gp4",
+   "artista": "Powderfinger",
+   "etiquetas": [
+    "genre:australian_alternative_rock",
+    "genre:australian_indie",
+    "genre:australian_pop",
+    "genre:australian_rock",
+    "genre:pop_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1345,
+   "n_traste_5": 18,
+   "n_ataques": 882,
+   "aciertos": {
+    "baseline": 1261,
+    "A*": 1327,
+    "mixed_t5": 1198,
+    "mixed_gpt2": 1140,
+    "mixed_bert": 1252,
+    "mixed_bert_small": 1327
+   }
+  },
+  {
+   "cancion": "P/Prendergast, Kevin/Prendergast, Kevin - Life.gp4",
+   "artista": "Prendergast, Kevin",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1245,
+   "n_traste_5": 7,
+   "n_ataques": 338,
+   "aciertos": {
+    "baseline": 1238,
+    "A*": 1238,
+    "mixed_t5": 1240,
+    "mixed_gpt2": 1241,
+    "mixed_bert": 1240,
+    "mixed_bert_small": 1239
+   }
+  },
+  {
+   "cancion": "P/Presley, Elvis/Presley, Elvis - A Little Less Conversation.gp4",
+   "artista": "Presley, Elvis",
+   "etiquetas": [
+    "genre:rock-and-roll",
+    "genre:rockabilly"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 810,
+   "n_traste_5": 2,
+   "n_ataques": 279,
+   "aciertos": {
+    "baseline": 738,
+    "A*": 492,
+    "mixed_t5": 808,
+    "mixed_gpt2": 799,
+    "mixed_bert": 735,
+    "mixed_bert_small": 742
+   }
+  },
+  {
+   "cancion": "P/Presley, Elvis/Presley, Elvis - In The Ghetto.gp4",
+   "artista": "Presley, Elvis",
+   "etiquetas": [
+    "genre:rock-and-roll",
+    "genre:rockabilly"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 679,
+   "n_traste_5": 0,
+   "n_ataques": 438,
+   "aciertos": {
+    "baseline": 677,
+    "A*": 531,
+    "mixed_t5": 287,
+    "mixed_gpt2": 156,
+    "mixed_bert": 650,
+    "mixed_bert_small": 665
+   }
+  },
+  {
+   "cancion": "P/Priessnitz/Priessnitz - Divoka a chladna - INTRO.gp3",
+   "artista": "Priessnitz",
+   "etiquetas": [
+    "genre:czech_folk",
+    "genre:czech_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 98,
+   "n_traste_5": 98,
+   "n_ataques": 98,
+   "aciertos": {
+    "baseline": 14,
+    "A*": 75,
+    "mixed_t5": 14,
+    "mixed_gpt2": 45,
+    "mixed_bert": 96,
+    "mixed_bert_small": 95
+   }
+  },
+  {
+   "cancion": "P/panther (The)/panther (The) - see sky(solo).gp3",
+   "artista": "panther (The)",
+   "etiquetas": [
+    "genre:acoustic_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 1930,
+   "n_traste_5": 801,
+   "n_ataques": 685,
+   "aciertos": {
+    "baseline": 1319,
+    "A*": 1647,
+    "mixed_t5": 1686,
+    "mixed_gpt2": 1872,
+    "mixed_bert": 1740,
+    "mixed_bert_small": 1815
+   }
+  },
+  {
+   "cancion": "Q/Queen/Queen - Another Rainy Night.gp3",
+   "artista": "Queen",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:glam_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 704,
+   "n_traste_5": 136,
+   "n_ataques": 334,
+   "aciertos": {
+    "baseline": 558,
+    "A*": 656,
+    "mixed_t5": 560,
+    "mixed_gpt2": 573,
+    "mixed_bert": 603,
+    "mixed_bert_small": 602
+   }
+  },
+  {
+   "cancion": "Q/Queen/Queen - White Queen (as it began).gp3",
+   "artista": "Queen",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:glam_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 281,
+   "n_traste_5": 14,
+   "n_ataques": 193,
+   "aciertos": {
+    "baseline": 263,
+    "A*": 222,
+    "mixed_t5": 264,
+    "mixed_gpt2": 269,
+    "mixed_bert": 264,
+    "mixed_bert_small": 263
+   }
+  },
+  {
+   "cancion": "Q/Queen/Queen - Who Needs You (Acoustic).gp4",
+   "artista": "Queen",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:glam_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1060,
+   "n_traste_5": 216,
+   "n_ataques": 597,
+   "aciertos": {
+    "baseline": 847,
+    "A*": 867,
+    "mixed_t5": 968,
+    "mixed_gpt2": 942,
+    "mixed_bert": 907,
+    "mixed_bert_small": 905
+   }
+  },
+  {
+   "cancion": "Q/Queen/Queen - Who Wants To Live Forever (Acoustic Version).gp4",
+   "artista": "Queen",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:glam_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 671,
+   "n_traste_5": 151,
+   "n_ataques": 322,
+   "aciertos": {
+    "baseline": 572,
+    "A*": 488,
+    "mixed_t5": 597,
+    "mixed_gpt2": 602,
+    "mixed_bert": 559,
+    "mixed_bert_small": 530
+   }
+  },
+  {
+   "cancion": "Q/Queensryche/Queensryche - Waiting For 22 (2).gp3",
+   "artista": "Queensryche",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:progressive_metal",
+    "genre:rock",
+    "genre:speed_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 293,
+   "n_traste_5": 45,
+   "n_ataques": 290,
+   "aciertos": {
+    "baseline": 248,
+    "A*": 199,
+    "mixed_t5": 243,
+    "mixed_gpt2": 247,
+    "mixed_bert": 243,
+    "mixed_bert_small": 252
+   }
+  },
+  {
+   "cancion": "R/R.E.M/R.E.M - Losing My Religion.gp4",
+   "artista": "R.E.M",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:classic_rock",
+    "genre:permanent_wave",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 910,
+   "n_traste_5": 910,
+   "n_ataques": 346,
+   "aciertos": {
+    "baseline": 255,
+    "A*": 701,
+    "mixed_t5": 730,
+    "mixed_gpt2": 420,
+    "mixed_bert": 513,
+    "mixed_bert_small": 795
+   }
+  },
+  {
+   "cancion": "R/R.E.M/R.E.M - Losing My Religion.gp4",
+   "artista": "R.E.M",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:classic_rock",
+    "genre:permanent_wave",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1033,
+   "n_traste_5": 0,
+   "n_ataques": 240,
+   "aciertos": {
+    "baseline": 1033,
+    "A*": 653,
+    "mixed_t5": 1030,
+    "mixed_gpt2": 1033,
+    "mixed_bert": 1027,
+    "mixed_bert_small": 994
+   }
+  },
+  {
+   "cancion": "R/Raphael/Raphael - Shengen.gp4",
+   "artista": "Raphael",
+   "etiquetas": [
+    "genre:funk",
+    "genre:r&b",
+    "genre:soul",
+    "genre:urban_contemporary"
+   ],
+   "genero": "Pop",
+   "n_notas": 616,
+   "n_traste_5": 616,
+   "n_ataques": 616,
+   "aciertos": {
+    "baseline": 176,
+    "A*": 245,
+    "mixed_t5": 176,
+    "mixed_gpt2": 607,
+    "mixed_bert": 326,
+    "mixed_bert_small": 401
+   }
+  },
+  {
+   "cancion": "R/Raphael/Raphael - Shengen.gp4",
+   "artista": "Raphael",
+   "etiquetas": [
+    "genre:funk",
+    "genre:r&b",
+    "genre:soul",
+    "genre:urban_contemporary"
+   ],
+   "genero": "Pop",
+   "n_notas": 1632,
+   "n_traste_5": 1632,
+   "n_ataques": 384,
+   "aciertos": {
+    "baseline": 384,
+    "A*": 1632,
+    "mixed_t5": 980,
+    "mixed_gpt2": 1602,
+    "mixed_bert": 1300,
+    "mixed_bert_small": 1607
+   }
+  },
+  {
+   "cancion": "R/Rastenburg/Rastenburg - Cisza.gp3",
+   "artista": "Rastenburg",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 454,
+   "n_traste_5": 203,
+   "n_ataques": 162,
+   "aciertos": {
+    "baseline": 216,
+    "A*": 221,
+    "mixed_t5": 361,
+    "mixed_gpt2": 294,
+    "mixed_bert": 319,
+    "mixed_bert_small": 261
+   }
+  },
+  {
+   "cancion": "R/Red Hot Chili Peppers/Red Hot Chili Pepers - Road Trippin'.gp3",
+   "artista": "Red Hot Chili Peppers",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:funk_metal",
+    "genre:funk_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 320,
+   "n_traste_5": 100,
+   "n_ataques": 307,
+   "aciertos": {
+    "baseline": 235,
+    "A*": 241,
+    "mixed_t5": 181,
+    "mixed_gpt2": 220,
+    "mixed_bert": 220,
+    "mixed_bert_small": 149
+   }
+  },
+  {
+   "cancion": "R/Red Hot Chili Peppers/Red Hot Chili Pepers - Road Trippin'.gp3",
+   "artista": "Red Hot Chili Peppers",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:funk_metal",
+    "genre:funk_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 426,
+   "n_traste_5": 56,
+   "n_ataques": 426,
+   "aciertos": {
+    "baseline": 370,
+    "A*": 335,
+    "mixed_t5": 374,
+    "mixed_gpt2": 374,
+    "mixed_bert": 374,
+    "mixed_bert_small": 370
+   }
+  },
+  {
+   "cancion": "R/Red Hot Chili Peppers/Red Hot Chili Peppers - I Could Have Lied (2).gp3",
+   "artista": "Red Hot Chili Peppers",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:funk_metal",
+    "genre:funk_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1406,
+   "n_traste_5": 851,
+   "n_ataques": 636,
+   "aciertos": {
+    "baseline": 519,
+    "A*": 846,
+    "mixed_t5": 719,
+    "mixed_gpt2": 704,
+    "mixed_bert": 682,
+    "mixed_bert_small": 726
+   }
+  },
+  {
+   "cancion": "R/Red Hot Chili Peppers/Red Hot Chili Peppers - Road Trippin' (2).gp3",
+   "artista": "Red Hot Chili Peppers",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:funk_metal",
+    "genre:funk_rock",
+    "genre:permanent_wave",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 721,
+   "n_traste_5": 134,
+   "n_ataques": 612,
+   "aciertos": {
+    "baseline": 602,
+    "A*": 597,
+    "mixed_t5": 596,
+    "mixed_gpt2": 337,
+    "mixed_bert": 586,
+    "mixed_bert_small": 587
+   }
+  },
+  {
+   "cancion": "R/Reed, Jerry/Reed, Jerry - Struttin'.gp3",
+   "artista": "Reed, Jerry",
+   "etiquetas": [
+    "genre:country",
+    "genre:country_rock"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 493,
+   "n_traste_5": 257,
+   "n_ataques": 310,
+   "aciertos": {
+    "baseline": 267,
+    "A*": 281,
+    "mixed_t5": 288,
+    "mixed_gpt2": 288,
+    "mixed_bert": 307,
+    "mixed_bert_small": 291
+   }
+  },
+  {
+   "cancion": "R/Rehpenning, Daniel/Rehpenning, Daniel - My World (Part I).gp4",
+   "artista": "Rehpenning, Daniel",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1809,
+   "n_traste_5": 1153,
+   "n_ataques": 329,
+   "aciertos": {
+    "baseline": 821,
+    "A*": 1809,
+    "mixed_t5": 1809,
+    "mixed_gpt2": 1789,
+    "mixed_bert": 1550,
+    "mixed_bert_small": 1616
+   }
+  },
+  {
+   "cancion": "R/Renaud/Renaud - Das Que le Vent Soufflera.gp3",
+   "artista": "Renaud",
+   "etiquetas": [
+    "genre:violin"
+   ],
+   "genero": "Otros",
+   "n_notas": 5802,
+   "n_traste_5": 268,
+   "n_ataques": 1036,
+   "aciertos": {
+    "baseline": 5514,
+    "A*": 5562,
+    "mixed_t5": 5802,
+    "mixed_gpt2": 5802,
+    "mixed_bert": 5628,
+    "mixed_bert_small": 5747
+   }
+  },
+  {
+   "cancion": "R/Renbourn, John/Renbourn, John - Black Balloon.gp3",
+   "artista": "Renbourn, John",
+   "etiquetas": [
+    "genre:british_blues",
+    "genre:british_folk",
+    "genre:drone_folk",
+    "genre:fingerstyle",
+    "genre:folk",
+    "genre:library_music",
+    "genre:traditional_folk"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 517,
+   "n_traste_5": 282,
+   "n_ataques": 479,
+   "aciertos": {
+    "baseline": 294,
+    "A*": 324,
+    "mixed_t5": 353,
+    "mixed_gpt2": 301,
+    "mixed_bert": 351,
+    "mixed_bert_small": 307
+   }
+  },
+  {
+   "cancion": "R/Rhapsody/Rhapsody - Virgin Skies.gp4",
+   "artista": "Rhapsody",
+   "etiquetas": [
+    "genre:italian_power_metal",
+    "genre:melodic_metal",
+    "genre:neo_classical_metal",
+    "genre:power_metal",
+    "genre:progressive_metal",
+    "genre:speed_metal",
+    "genre:symphonic_metal"
+   ],
+   "genero": "Metal",
+   "n_notas": 238,
+   "n_traste_5": 54,
+   "n_ataques": 134,
+   "aciertos": {
+    "baseline": 180,
+    "A*": 80,
+    "mixed_t5": 205,
+    "mixed_gpt2": 205,
+    "mixed_bert": 190,
+    "mixed_bert_small": 183
+   }
+  },
+  {
+   "cancion": "R/Rodgers & Hammerstein/Rodgers & Hammerstein - My FavoriteThings.gp3",
+   "artista": "Rodgers & Hammerstein",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 347,
+   "n_traste_5": 154,
+   "n_ataques": 159,
+   "aciertos": {
+    "baseline": 214,
+    "A*": 279,
+    "mixed_t5": 265,
+    "mixed_gpt2": 258,
+    "mixed_bert": 237,
+    "mixed_bert_small": 238
+   }
+  },
+  {
+   "cancion": "R/Rodrigo/Rodrigo - Concerto De Aranjuez (Adagio).gp4",
+   "artista": "Rodrigo",
+   "etiquetas": [
+    "genre:pop",
+    "genre:post-teen_pop",
+    "genre:social_media_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 1053,
+   "n_traste_5": 308,
+   "n_ataques": 645,
+   "aciertos": {
+    "baseline": 920,
+    "A*": 769,
+    "mixed_t5": 956,
+    "mixed_gpt2": 925,
+    "mixed_bert": 875,
+    "mixed_bert_small": 855
+   }
+  },
+  {
+   "cancion": "R/Rolling Stones (The)/Rolling Stones (The) - Sweet Black Angel.gp4",
+   "artista": "Rolling Stones (The)",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1221,
+   "n_traste_5": 0,
+   "n_ataques": 870,
+   "aciertos": {
+    "baseline": 1221,
+    "A*": 957,
+    "mixed_t5": 1064,
+    "mixed_gpt2": 1048,
+    "mixed_bert": 690,
+    "mixed_bert_small": 831
+   }
+  },
+  {
+   "cancion": "R/Rolling Stones (The)/Rolling Stones (The) - Sweet Black Angel.gp4",
+   "artista": "Rolling Stones (The)",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:british_invasion",
+    "genre:classic_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1892,
+   "n_traste_5": 520,
+   "n_ataques": 580,
+   "aciertos": {
+    "baseline": 1557,
+    "A*": 766,
+    "mixed_t5": 1284,
+    "mixed_gpt2": 1319,
+    "mixed_bert": 1207,
+    "mixed_bert_small": 1108
+   }
+  },
+  {
+   "cancion": "R/Rosa De Saron/Rosa De Saron - Do Alto Da Pedra.gp4",
+   "artista": "Rosa De Saron",
+   "etiquetas": [
+    "genre:brazilian_rock",
+    "genre:rock_gospel_brasileiro"
+   ],
+   "genero": "Rock",
+   "n_notas": 477,
+   "n_traste_5": 51,
+   "n_ataques": 173,
+   "aciertos": {
+    "baseline": 410,
+    "A*": 440,
+    "mixed_t5": 362,
+    "mixed_gpt2": 441,
+    "mixed_bert": 437,
+    "mixed_bert_small": 421
+   }
+  },
+  {
+   "cancion": "R/Rota, Nino/Rota, Nino - God Father Theme.gp3",
+   "artista": "Rota, Nino",
+   "etiquetas": [
+    "genre:classic_soundtrack",
+    "genre:italian_soundtrack",
+    "genre:soundtrack",
+    "genre:vintage_italian_soundtrack"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 73,
+   "n_traste_5": 19,
+   "n_ataques": 43,
+   "aciertos": {
+    "baseline": 53,
+    "A*": 50,
+    "mixed_t5": 33,
+    "mixed_gpt2": 34,
+    "mixed_bert": 53,
+    "mixed_bert_small": 50
+   }
+  },
+  {
+   "cancion": "R/Rush/Rush - 2112 (III) Discovery.gp4",
+   "artista": "Rush",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:canadian_metal",
+    "genre:classic_canadian_rock",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 24,
+   "n_traste_5": 0,
+   "n_ataques": 24,
+   "aciertos": {
+    "baseline": 24,
+    "A*": 24,
+    "mixed_t5": 9,
+    "mixed_gpt2": 24,
+    "mixed_bert": 6,
+    "mixed_bert_small": 22
+   }
+  },
+  {
+   "cancion": "R/Rush/Rush - 2112 (IV) Presentation.gp4",
+   "artista": "Rush",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:art_rock",
+    "genre:canadian_metal",
+    "genre:classic_canadian_rock",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:progressive_rock",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 442,
+   "n_traste_5": 80,
+   "n_ataques": 176,
+   "aciertos": {
+    "baseline": 320,
+    "A*": 360,
+    "mixed_t5": 413,
+    "mixed_gpt2": 414,
+    "mixed_bert": 378,
+    "mixed_bert_small": 392
+   }
+  },
+  {
+   "cancion": "S/Saez/Saez - A Ton Nom.gp4",
+   "artista": "Saez",
+   "etiquetas": [
+    "genre:latin_viral_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 150,
+   "n_traste_5": 0,
+   "n_ataques": 115,
+   "aciertos": {
+    "baseline": 150,
+    "A*": 107,
+    "mixed_t5": 150,
+    "mixed_gpt2": 150,
+    "mixed_bert": 150,
+    "mixed_bert_small": 150
+   }
+  },
+  {
+   "cancion": "S/Saez/Saez - Jeune Et Con  (Acoustique).gp3",
+   "artista": "Saez",
+   "etiquetas": [
+    "genre:latin_viral_pop"
+   ],
+   "genero": "Pop",
+   "n_notas": 2119,
+   "n_traste_5": 0,
+   "n_ataques": 695,
+   "aciertos": {
+    "baseline": 2119,
+    "A*": 1463,
+    "mixed_t5": 2118,
+    "mixed_gpt2": 2118,
+    "mixed_bert": 2119,
+    "mixed_bert_small": 2116
+   }
+  },
+  {
+   "cancion": "S/Saint Seya/Los Caballeros - Mime's Harp.gp3",
+   "artista": "Saint Seya",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 96,
+   "n_traste_5": 13,
+   "n_ataques": 91,
+   "aciertos": {
+    "baseline": 73,
+    "A*": 79,
+    "mixed_t5": 82,
+    "mixed_gpt2": 81,
+    "mixed_bert": 85,
+    "mixed_bert_small": 80
+   }
+  },
+  {
+   "cancion": "S/Sanz, Gaspar/Sanz, Gaspar - Corranda.gp3",
+   "artista": "Sanz, Gaspar",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:musica_antigua",
+    "genre:spanish_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 432,
+   "n_traste_5": 50,
+   "n_ataques": 272,
+   "aciertos": {
+    "baseline": 425,
+    "A*": 302,
+    "mixed_t5": 423,
+    "mixed_gpt2": 390,
+    "mixed_bert": 379,
+    "mixed_bert_small": 326
+   }
+  },
+  {
+   "cancion": "S/Sanz, Gaspar/Sanz, Gaspar - Espagnoletta.gp3",
+   "artista": "Sanz, Gaspar",
+   "etiquetas": [
+    "genre:baroque",
+    "genre:musica_antigua",
+    "genre:spanish_baroque"
+   ],
+   "genero": "Clásica",
+   "n_notas": 300,
+   "n_traste_5": 8,
+   "n_ataques": 222,
+   "aciertos": {
+    "baseline": 297,
+    "A*": 228,
+    "mixed_t5": 288,
+    "mixed_gpt2": 298,
+    "mixed_bert": 293,
+    "mixed_bert_small": 282
+   }
+  },
+  {
+   "cancion": "S/Scissor Sisters/Scissor Sisters - Take Your Mama Out.gp4",
+   "artista": "Scissor Sisters",
+   "etiquetas": [
+    "genre:dance_pop",
+    "genre:electropop",
+    "genre:europop",
+    "genre:pop_rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 4072,
+   "n_traste_5": 3169,
+   "n_ataques": 778,
+   "aciertos": {
+    "baseline": 1378,
+    "A*": 4072,
+    "mixed_t5": 3840,
+    "mixed_gpt2": 3878,
+    "mixed_bert": 3991,
+    "mixed_bert_small": 3869
+   }
+  },
+  {
+   "cancion": "S/Scorpions/Scorpions - Moment Of Glory.gp4",
+   "artista": "Scorpions",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:german_hard_rock",
+    "genre:german_metal",
+    "genre:german_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2184,
+   "n_traste_5": 0,
+   "n_ataques": 438,
+   "aciertos": {
+    "baseline": 2133,
+    "A*": 1657,
+    "mixed_t5": 2184,
+    "mixed_gpt2": 2184,
+    "mixed_bert": 2180,
+    "mixed_bert_small": 2181
+   }
+  },
+  {
+   "cancion": "S/Scottish/Scottish - Black Mary.gp3",
+   "artista": "Scottish",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 415,
+   "n_traste_5": 0,
+   "n_ataques": 415,
+   "aciertos": {
+    "baseline": 415,
+    "A*": 415,
+    "mixed_t5": 403,
+    "mixed_gpt2": 400,
+    "mixed_bert": 408,
+    "mixed_bert_small": 412
+   }
+  },
+  {
+   "cancion": "S/Screw Crew/Screw Crew - Fuzzy Summer Jazz.gp4",
+   "artista": "Screw Crew",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1340,
+   "n_traste_5": 1248,
+   "n_ataques": 421,
+   "aciertos": {
+    "baseline": 405,
+    "A*": 1176,
+    "mixed_t5": 996,
+    "mixed_gpt2": 1053,
+    "mixed_bert": 864,
+    "mixed_bert_small": 1046
+   }
+  },
+  {
+   "cancion": "S/Sedro/Sedro - Forsaken Place.gp4",
+   "artista": "Sedro",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1137,
+   "n_traste_5": 233,
+   "n_ataques": 677,
+   "aciertos": {
+    "baseline": 997,
+    "A*": 871,
+    "mixed_t5": 1121,
+    "mixed_gpt2": 1062,
+    "mixed_bert": 1043,
+    "mixed_bert_small": 1103
+   }
+  },
+  {
+   "cancion": "S/Side/Side-A - Forevermore.gp3",
+   "artista": "Side",
+   "etiquetas": [
+    "genre:atl_hip_hop",
+    "genre:gangster_rap",
+    "genre:pop_rap",
+    "genre:rap",
+    "genre:southern_hip_hop",
+    "genre:trap"
+   ],
+   "genero": "Otros",
+   "n_notas": 580,
+   "n_traste_5": 89,
+   "n_ataques": 391,
+   "aciertos": {
+    "baseline": 461,
+    "A*": 485,
+    "mixed_t5": 496,
+    "mixed_gpt2": 476,
+    "mixed_bert": 478,
+    "mixed_bert_small": 464
+   }
+  },
+  {
+   "cancion": "S/Side/Side-A - Forevermore.gp3",
+   "artista": "Side",
+   "etiquetas": [
+    "genre:atl_hip_hop",
+    "genre:gangster_rap",
+    "genre:pop_rap",
+    "genre:rap",
+    "genre:southern_hip_hop",
+    "genre:trap"
+   ],
+   "genero": "Otros",
+   "n_notas": 41,
+   "n_traste_5": 23,
+   "n_ataques": 41,
+   "aciertos": {
+    "baseline": 17,
+    "A*": 21,
+    "mixed_t5": 30,
+    "mixed_gpt2": 17,
+    "mixed_bert": 20,
+    "mixed_bert_small": 15
+   }
+  },
+  {
+   "cancion": "S/Simon & Garfunkel/Simon & Garfunkel - Mrs. Robinson (2).gp4",
+   "artista": "Simon & Garfunkel",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:melancholia",
+    "genre:mellow_gold",
+    "genre:rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 494,
+   "n_traste_5": 46,
+   "n_ataques": 282,
+   "aciertos": {
+    "baseline": 458,
+    "A*": 376,
+    "mixed_t5": 478,
+    "mixed_gpt2": 375,
+    "mixed_bert": 454,
+    "mixed_bert_small": 441
+   }
+  },
+  {
+   "cancion": "S/Simon, Paul/Simon, Paul - Hobo_'s Blues.gp3",
+   "artista": "Simon, Paul",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:permanent_wave",
+    "genre:rock",
+    "genre:roots_rock",
+    "genre:singer-songwriter",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 297,
+   "n_traste_5": 264,
+   "n_ataques": 297,
+   "aciertos": {
+    "baseline": 137,
+    "A*": 128,
+    "mixed_t5": 206,
+    "mixed_gpt2": 192,
+    "mixed_bert": 154,
+    "mixed_bert_small": 161
+   }
+  },
+  {
+   "cancion": "S/Simon, Paul/Simon, Paul - Hobo_'s Blues.gp3",
+   "artista": "Simon, Paul",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:folk",
+    "genre:folk_rock",
+    "genre:mellow_gold",
+    "genre:permanent_wave",
+    "genre:rock",
+    "genre:roots_rock",
+    "genre:singer-songwriter",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 454,
+   "n_traste_5": 134,
+   "n_ataques": 207,
+   "aciertos": {
+    "baseline": 314,
+    "A*": 437,
+    "mixed_t5": 403,
+    "mixed_gpt2": 403,
+    "mixed_bert": 363,
+    "mixed_bert_small": 365
+   }
+  },
+  {
+   "cancion": "S/Smith, Elliott/Smith, Elliott - 2_45 A.M..gp4",
+   "artista": "Smith, Elliott",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:anti-folk",
+    "genre:indie_folk",
+    "genre:indie_pop",
+    "genre:indie_rock",
+    "genre:melancholia",
+    "genre:singer-songwriter"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 1511,
+   "n_traste_5": 0,
+   "n_ataques": 492,
+   "aciertos": {
+    "baseline": 1511,
+    "A*": 1283,
+    "mixed_t5": 1511,
+    "mixed_gpt2": 1511,
+    "mixed_bert": 1511,
+    "mixed_bert_small": 1511
+   }
+  },
+  {
+   "cancion": "S/Sonic Magnum/Sonic Magnum - marry tommrrow.gp3",
+   "artista": "Sonic Magnum",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 735,
+   "n_traste_5": 11,
+   "n_ataques": 711,
+   "aciertos": {
+    "baseline": 733,
+    "A*": 644,
+    "mixed_t5": 708,
+    "mixed_gpt2": 533,
+    "mixed_bert": 710,
+    "mixed_bert_small": 593
+   }
+  },
+  {
+   "cancion": "S/Sor, Fernando/Sor, Fernando - Estudio No. 10.gp4",
+   "artista": "Sor, Fernando",
+   "etiquetas": [
+    "genre:sertanejo",
+    "genre:sertanejo_pop",
+    "genre:sertanejo_universitario"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 581,
+   "n_traste_5": 342,
+   "n_ataques": 392,
+   "aciertos": {
+    "baseline": 369,
+    "A*": 270,
+    "mixed_t5": 384,
+    "mixed_gpt2": 411,
+    "mixed_bert": 375,
+    "mixed_bert_small": 394
+   }
+  },
+  {
+   "cancion": "S/Spice Girls/Spice Girls - 2 Become 1 (solo).gp3",
+   "artista": "Spice Girls",
+   "etiquetas": [
+    "genre:dance_pop",
+    "genre:europop",
+    "genre:pop",
+    "genre:pop_rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 29,
+   "n_traste_5": 29,
+   "n_ataques": 29,
+   "aciertos": {
+    "baseline": 3,
+    "A*": 10,
+    "mixed_t5": 3,
+    "mixed_gpt2": 3,
+    "mixed_bert": 11,
+    "mixed_bert_small": 8
+   }
+  },
+  {
+   "cancion": "S/Springsteen, Bruce/Springsteen, Bruce - Secret Garden.gp3",
+   "artista": "Springsteen, Bruce",
+   "etiquetas": [
+    "genre:classic_rock",
+    "genre:heartland_rock",
+    "genre:mellow_gold",
+    "genre:permanent_wave",
+    "genre:rock",
+    "genre:singer-songwriter"
+   ],
+   "genero": "Rock",
+   "n_notas": 3556,
+   "n_traste_5": 0,
+   "n_ataques": 1009,
+   "aciertos": {
+    "baseline": 3556,
+    "A*": 3469,
+    "mixed_t5": 3556,
+    "mixed_gpt2": 3556,
+    "mixed_bert": 3478,
+    "mixed_bert_small": 3528
+   }
+  },
+  {
+   "cancion": "S/Spy Ladder/Spy Ladder - Fantastic dream.gp3",
+   "artista": "Spy Ladder",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 769,
+   "n_traste_5": 271,
+   "n_ataques": 331,
+   "aciertos": {
+    "baseline": 565,
+    "A*": 203,
+    "mixed_t5": 658,
+    "mixed_gpt2": 562,
+    "mixed_bert": 676,
+    "mixed_bert_small": 545
+   }
+  },
+  {
+   "cancion": "S/Starting Line (The)/Starting Line (The) - Best Of Me (Acoustic).gp4",
+   "artista": "Starting Line (The)",
+   "etiquetas": [
+    "genre:dreamo",
+    "genre:emo",
+    "genre:neon_pop_punk",
+    "genre:pop_emo",
+    "genre:pop_punk",
+    "genre:screamo"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 4211,
+   "n_traste_5": 595,
+   "n_ataques": 1115,
+   "aciertos": {
+    "baseline": 3468,
+    "A*": 3832,
+    "mixed_t5": 3819,
+    "mixed_gpt2": 3715,
+    "mixed_bert": 3780,
+    "mixed_bert_small": 2765
+   }
+  },
+  {
+   "cancion": "S/Starting Line (The)/Starting Line (The) - Best Of Me (Acoustic).gp4",
+   "artista": "Starting Line (The)",
+   "etiquetas": [
+    "genre:dreamo",
+    "genre:emo",
+    "genre:neon_pop_punk",
+    "genre:pop_emo",
+    "genre:pop_punk",
+    "genre:screamo"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 3804,
+   "n_traste_5": 680,
+   "n_ataques": 894,
+   "aciertos": {
+    "baseline": 3021,
+    "A*": 3366,
+    "mixed_t5": 3467,
+    "mixed_gpt2": 3504,
+    "mixed_bert": 3413,
+    "mixed_bert_small": 1901
+   }
+  },
+  {
+   "cancion": "S/Sting/Sting - Shape Of My Heart (3).gp3",
+   "artista": "Sting",
+   "etiquetas": [
+    "genre:permanent_wave",
+    "genre:soft_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1171,
+   "n_traste_5": 384,
+   "n_ataques": 773,
+   "aciertos": {
+    "baseline": 773,
+    "A*": 1047,
+    "mixed_t5": 1061,
+    "mixed_gpt2": 983,
+    "mixed_bert": 894,
+    "mixed_bert_small": 918
+   }
+  },
+  {
+   "cancion": "S/Stone Temple Pilots/Stone Temple Pilots - Daisy.gp3",
+   "artista": "Stone Temple Pilots",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:alternative_rock",
+    "genre:grunge",
+    "genre:hard_rock",
+    "genre:nu_metal",
+    "genre:pop_rock",
+    "genre:post-grunge",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 87,
+   "n_traste_5": 82,
+   "n_ataques": 87,
+   "aciertos": {
+    "baseline": 5,
+    "A*": 7,
+    "mixed_t5": 4,
+    "mixed_gpt2": 25,
+    "mixed_bert": 61,
+    "mixed_bert_small": 40
+   }
+  },
+  {
+   "cancion": "S/Stone Temple Pilots/Stone Temple Pilots - Daisy.gp3",
+   "artista": "Stone Temple Pilots",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:alternative_rock",
+    "genre:grunge",
+    "genre:hard_rock",
+    "genre:nu_metal",
+    "genre:pop_rock",
+    "genre:post-grunge",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 851,
+   "n_traste_5": 696,
+   "n_ataques": 179,
+   "aciertos": {
+    "baseline": 231,
+    "A*": 775,
+    "mixed_t5": 755,
+    "mixed_gpt2": 816,
+    "mixed_bert": 800,
+    "mixed_bert_small": 828
+   }
+  },
+  {
+   "cancion": "S/Streetlight Manifesto/Streetlight Manifesto - Point - Counterpoint.gp4",
+   "artista": "Streetlight Manifesto",
+   "etiquetas": [
+    "genre:modern_ska_punk",
+    "genre:punk",
+    "genre:ska",
+    "genre:ska_punk",
+    "genre:skate_punk"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 2713,
+   "n_traste_5": 2186,
+   "n_ataques": 854,
+   "aciertos": {
+    "baseline": 962,
+    "A*": 2182,
+    "mixed_t5": 2066,
+    "mixed_gpt2": 2125,
+    "mixed_bert": 1458,
+    "mixed_bert_small": 2256
+   }
+  },
+  {
+   "cancion": "S/Sublett, Ryan/Sublett, Ryan - I. Nocturne Prelude.gp3",
+   "artista": "Sublett, Ryan",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 340,
+   "n_traste_5": 247,
+   "n_ataques": 335,
+   "aciertos": {
+    "baseline": 88,
+    "A*": 177,
+    "mixed_t5": 116,
+    "mixed_gpt2": 227,
+    "mixed_bert": 178,
+    "mixed_bert_small": 124
+   }
+  },
+  {
+   "cancion": "S/Subway/Subway - Le Monde Selon Moi.gp4",
+   "artista": "Subway",
+   "etiquetas": [
+    "genre:dance-punk",
+    "genre:garage_rock",
+    "genre:garage_rock_revival",
+    "genre:modern_rock",
+    "genre:new_rave"
+   ],
+   "genero": "Rock",
+   "n_notas": 52,
+   "n_traste_5": 44,
+   "n_ataques": 52,
+   "aciertos": {
+    "baseline": 8,
+    "A*": 8,
+    "mixed_t5": 8,
+    "mixed_gpt2": 8,
+    "mixed_bert": 15,
+    "mixed_bert_small": 44
+   }
+  },
+  {
+   "cancion": "S/Sunny Day Real Estate/Sunny Day Real Estate - Pheurton Skeurto.gp4",
+   "artista": "Sunny Day Real Estate",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:emo",
+    "genre:emo_punk",
+    "genre:indie_rock",
+    "genre:post-hardcore",
+    "genre:screamo"
+   ],
+   "genero": "Punk y emo",
+   "n_notas": 337,
+   "n_traste_5": 46,
+   "n_ataques": 190,
+   "aciertos": {
+    "baseline": 288,
+    "A*": 248,
+    "mixed_t5": 288,
+    "mixed_gpt2": 288,
+    "mixed_bert": 282,
+    "mixed_bert_small": 288
+   }
+  },
+  {
+   "cancion": "T/Taj Mahal/Taj Mahal - Fishing Blues.gp3",
+   "artista": "Taj Mahal",
+   "etiquetas": [
+    "genre:acoustic_blues",
+    "genre:blues",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:country_blues",
+    "genre:country_rock",
+    "genre:folk_rock",
+    "genre:funk",
+    "genre:jam_band",
+    "genre:jazz_blues",
+    "genre:modern_blues",
+    "genre:roots_rock",
+    "genre:soul",
+    "genre:traditional_blues"
+   ],
+   "genero": "Blues y country",
+   "n_notas": 415,
+   "n_traste_5": 26,
+   "n_ataques": 271,
+   "aciertos": {
+    "baseline": 403,
+    "A*": 191,
+    "mixed_t5": 401,
+    "mixed_gpt2": 403,
+    "mixed_bert": 328,
+    "mixed_bert_small": 384
+   }
+  },
+  {
+   "cancion": "T/Tang Chao/Tang Chao - Paradise.gp3",
+   "artista": "Tang Chao",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 32,
+   "n_traste_5": 8,
+   "n_ataques": 32,
+   "aciertos": {
+    "baseline": 22,
+    "A*": 24,
+    "mixed_t5": 24,
+    "mixed_gpt2": 24,
+    "mixed_bert": 24,
+    "mixed_bert_small": 24
+   }
+  },
+  {
+   "cancion": "T/Tapping Licks/Tapping Licks - E Minor Tapping Exercise.gp3",
+   "artista": "Tapping Licks",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 17,
+   "n_traste_5": 17,
+   "n_ataques": 17,
+   "aciertos": {
+    "baseline": 4,
+    "A*": 4,
+    "mixed_t5": 10,
+    "mixed_gpt2": 6,
+    "mixed_bert": 8,
+    "mixed_bert_small": 8
+   }
+  },
+  {
+   "cancion": "T/Tarrega, Francisco/Tarrega, Francisco - Etude In E Minor (2).gp3",
+   "artista": "Tarrega, Francisco",
+   "etiquetas": [
+    "genre:chill_guitar",
+    "genre:late_romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 150,
+   "n_traste_5": 23,
+   "n_ataques": 130,
+   "aciertos": {
+    "baseline": 141,
+    "A*": 137,
+    "mixed_t5": 137,
+    "mixed_gpt2": 141,
+    "mixed_bert": 129,
+    "mixed_bert_small": 144
+   }
+  },
+  {
+   "cancion": "T/Tarrega, Francisco/Tarrega, Francisco - Maria.gp3",
+   "artista": "Tarrega, Francisco",
+   "etiquetas": [
+    "genre:chill_guitar",
+    "genre:late_romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 402,
+   "n_traste_5": 266,
+   "n_ataques": 259,
+   "aciertos": {
+    "baseline": 223,
+    "A*": 264,
+    "mixed_t5": 286,
+    "mixed_gpt2": 289,
+    "mixed_bert": 259,
+    "mixed_bert_small": 271
+   }
+  },
+  {
+   "cancion": "T/Tarrega, Francisco/Tarrega, Francisco - Scherzo en La Majeur.gp4",
+   "artista": "Tarrega, Francisco",
+   "etiquetas": [
+    "genre:chill_guitar",
+    "genre:late_romantic_era"
+   ],
+   "genero": "Clásica",
+   "n_notas": 371,
+   "n_traste_5": 67,
+   "n_ataques": 333,
+   "aciertos": {
+    "baseline": 339,
+    "A*": 294,
+    "mixed_t5": 297,
+    "mixed_gpt2": 310,
+    "mixed_bert": 265,
+    "mixed_bert_small": 226
+   }
+  },
+  {
+   "cancion": "T/Tchaikovsky, Pioter Ilych/Tchaikovsky, Pioter Ilych - Theme From Swan Lake, Op 20.gp3",
+   "artista": "Tchaikovsky, Pioter Ilych",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 251,
+   "n_traste_5": 51,
+   "n_ataques": 166,
+   "aciertos": {
+    "baseline": 220,
+    "A*": 222,
+    "mixed_t5": 235,
+    "mixed_gpt2": 224,
+    "mixed_bert": 217,
+    "mixed_bert_small": 222
+   }
+  },
+  {
+   "cancion": "T/Telephone/Telephone - le jour s_'est levC.gp3",
+   "artista": "Telephone",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 413,
+   "n_traste_5": 378,
+   "n_ataques": 260,
+   "aciertos": {
+    "baseline": 35,
+    "A*": 119,
+    "mixed_t5": 224,
+    "mixed_gpt2": 374,
+    "mixed_bert": 198,
+    "mixed_bert_small": 62
+   }
+  },
+  {
+   "cancion": "T/Tenacious D/Tenacious D - Fuck Her Gently.gp3",
+   "artista": "Tenacious D",
+   "etiquetas": [
+    "genre:alternative_metal",
+    "genre:comedy_rock",
+    "genre:comic",
+    "genre:comic_metal",
+    "genre:parody",
+    "genre:rock"
+   ],
+   "genero": "Metal",
+   "n_notas": 719,
+   "n_traste_5": 36,
+   "n_ataques": 256,
+   "aciertos": {
+    "baseline": 662,
+    "A*": 356,
+    "mixed_t5": 691,
+    "mixed_gpt2": 687,
+    "mixed_bert": 682,
+    "mixed_bert_small": 697
+   }
+  },
+  {
+   "cancion": "T/Terminaator/Terminaator - Muinasjutu Mets.gp4",
+   "artista": "Terminaator",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1859,
+   "n_traste_5": 0,
+   "n_ataques": 368,
+   "aciertos": {
+    "baseline": 1859,
+    "A*": 1547,
+    "mixed_t5": 1859,
+    "mixed_gpt2": 1859,
+    "mixed_bert": 1859,
+    "mixed_bert_small": 1843
+   }
+  },
+  {
+   "cancion": "T/Tesla/Tesla - Love Song Acoustic Version.gp4",
+   "artista": "Tesla",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:rock",
+    "genre:sacramento_indie"
+   ],
+   "genero": "Rock",
+   "n_notas": 1698,
+   "n_traste_5": 549,
+   "n_ataques": 1132,
+   "aciertos": {
+    "baseline": 1383,
+    "A*": 1093,
+    "mixed_t5": 1397,
+    "mixed_gpt2": 1291,
+    "mixed_bert": 1140,
+    "mixed_bert_small": 1234
+   }
+  },
+  {
+   "cancion": "T/Tesla/Tesla - Love Song Acoustic Version.gp4",
+   "artista": "Tesla",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:rock",
+    "genre:sacramento_indie"
+   ],
+   "genero": "Rock",
+   "n_notas": 3869,
+   "n_traste_5": 35,
+   "n_ataques": 898,
+   "aciertos": {
+    "baseline": 3747,
+    "A*": 2923,
+    "mixed_t5": 3821,
+    "mixed_gpt2": 3815,
+    "mixed_bert": 3839,
+    "mixed_bert_small": 3855
+   }
+  },
+  {
+   "cancion": "T/Tindersticks/Tindersticks - Can We Start Again.gp4",
+   "artista": "Tindersticks",
+   "etiquetas": [
+    "genre:art_pop",
+    "genre:art_rock",
+    "genre:chamber_pop",
+    "genre:electronica",
+    "genre:melancholia"
+   ],
+   "genero": "Pop",
+   "n_notas": 4102,
+   "n_traste_5": 2320,
+   "n_ataques": 746,
+   "aciertos": {
+    "baseline": 1770,
+    "A*": 4102,
+    "mixed_t5": 3836,
+    "mixed_gpt2": 3764,
+    "mixed_bert": 3036,
+    "mixed_bert_small": 3695
+   }
+  },
+  {
+   "cancion": "T/Toad The Wet Sprocket/Toad The Wet Sprocket - Pray Your Gods.gp3",
+   "artista": "Toad The Wet Sprocket",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:neo_mellow",
+    "genre:pop_rock",
+    "genre:rock"
+   ],
+   "genero": "Pop",
+   "n_notas": 742,
+   "n_traste_5": 34,
+   "n_ataques": 498,
+   "aciertos": {
+    "baseline": 714,
+    "A*": 706,
+    "mixed_t5": 728,
+    "mixed_gpt2": 720,
+    "mixed_bert": 711,
+    "mixed_bert_small": 722
+   }
+  },
+  {
+   "cancion": "T/Torrini, Emiliana/Torrini, Emiliana - Summerbreeze.gp4",
+   "artista": "Torrini, Emiliana",
+   "etiquetas": [
+    "genre:electronica",
+    "genre:trip_hop"
+   ],
+   "genero": "Otros",
+   "n_notas": 540,
+   "n_traste_5": 394,
+   "n_ataques": 486,
+   "aciertos": {
+    "baseline": 146,
+    "A*": 194,
+    "mixed_t5": 233,
+    "mixed_gpt2": 170,
+    "mixed_bert": 167,
+    "mixed_bert_small": 146
+   }
+  },
+  {
+   "cancion": "T/Traditional/Traditional - Blackberry Blossom (2).gp4",
+   "artista": "Traditional",
+   "etiquetas": [
+    "genre:sleep"
+   ],
+   "genero": "Otros",
+   "n_notas": 1219,
+   "n_traste_5": 462,
+   "n_ataques": 1195,
+   "aciertos": {
+    "baseline": 952,
+    "A*": 870,
+    "mixed_t5": 888,
+    "mixed_gpt2": 778,
+    "mixed_bert": 811,
+    "mixed_bert_small": 724
+   }
+  },
+  {
+   "cancion": "T/Trois Accords (Les)/Trois Accords (Les) - Vraiment Beau.gp4",
+   "artista": "Trois Accords (Les)",
+   "etiquetas": [
+    "genre:indie_quebecois",
+    "genre:rock_quebecois"
+   ],
+   "genero": "Rock",
+   "n_notas": 1662,
+   "n_traste_5": 0,
+   "n_ataques": 489,
+   "aciertos": {
+    "baseline": 1662,
+    "A*": 1342,
+    "mixed_t5": 1660,
+    "mixed_gpt2": 1662,
+    "mixed_bert": 1656,
+    "mixed_bert_small": 1656
+   }
+  },
+  {
+   "cancion": "T/Tronic/Tronic - Malos Amigos.gp4",
+   "artista": "Tronic",
+   "etiquetas": [
+    "genre:chilean_rock",
+    "genre:latincore"
+   ],
+   "genero": "Metal",
+   "n_notas": 15,
+   "n_traste_5": 11,
+   "n_ataques": 15,
+   "aciertos": {
+    "baseline": 4,
+    "A*": 4,
+    "mixed_t5": 4,
+    "mixed_gpt2": 4,
+    "mixed_bert": 4,
+    "mixed_bert_small": 4
+   }
+  },
+  {
+   "cancion": "T/Tue Loup/Tue Loup - l_'amant de Saint Jean.gp3",
+   "artista": "Tue Loup",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 5722,
+   "n_traste_5": 0,
+   "n_ataques": 1054,
+   "aciertos": {
+    "baseline": 5578,
+    "A*": 5650,
+    "mixed_t5": 5722,
+    "mixed_gpt2": 5722,
+    "mixed_bert": 5649,
+    "mixed_bert_small": 5709
+   }
+  },
+  {
+   "cancion": "T/theonic, jo/Theonic, Jo - Le Rag De Malvoisine.gp3",
+   "artista": "theonic, jo",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 455,
+   "n_traste_5": 0,
+   "n_ataques": 326,
+   "aciertos": {
+    "baseline": 453,
+    "A*": 363,
+    "mixed_t5": 450,
+    "mixed_gpt2": 446,
+    "mixed_bert": 421,
+    "mixed_bert_small": 438
+   }
+  },
+  {
+   "cancion": "T/tryo/tryo - Yakamoneye (2).gp4",
+   "artista": "tryo",
+   "etiquetas": [
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2219,
+   "n_traste_5": 424,
+   "n_ataques": 574,
+   "aciertos": {
+    "baseline": 1583,
+    "A*": 2219,
+    "mixed_t5": 2219,
+    "mixed_gpt2": 2048,
+    "mixed_bert": 2208,
+    "mixed_bert_small": 2201
+   }
+  },
+  {
+   "cancion": "U/UFO/UFO - Time On My Hands.gp4",
+   "artista": "UFO",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:blues_rock",
+    "genre:classic_rock",
+    "genre:glam_metal",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 1521,
+   "n_traste_5": 0,
+   "n_ataques": 695,
+   "aciertos": {
+    "baseline": 1485,
+    "A*": 849,
+    "mixed_t5": 1521,
+    "mixed_gpt2": 1521,
+    "mixed_bert": 1477,
+    "mixed_bert_small": 1512
+   }
+  },
+  {
+   "cancion": "U/Uematsu, Nobuo/Uematsu, Nobuo - Breezy.gp3",
+   "artista": "Uematsu, Nobuo",
+   "etiquetas": [
+    "genre:anime_score",
+    "genre:chiptune",
+    "genre:final_fantasy",
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 236,
+   "n_traste_5": 43,
+   "n_ataques": 214,
+   "aciertos": {
+    "baseline": 205,
+    "A*": 187,
+    "mixed_t5": 227,
+    "mixed_gpt2": 221,
+    "mixed_bert": 208,
+    "mixed_bert_small": 211
+   }
+  },
+  {
+   "cancion": "U/Uematsu, Nobuo/Uematsu, Nobuo - Passive Sorrow (FF-IX).gp3",
+   "artista": "Uematsu, Nobuo",
+   "etiquetas": [
+    "genre:anime_score",
+    "genre:chiptune",
+    "genre:final_fantasy",
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 298,
+   "n_traste_5": 64,
+   "n_ataques": 114,
+   "aciertos": {
+    "baseline": 234,
+    "A*": 240,
+    "mixed_t5": 214,
+    "mixed_gpt2": 218,
+    "mixed_bert": 185,
+    "mixed_bert_small": 171
+   }
+  },
+  {
+   "cancion": "U/Uematsu, Nobuo/Uematsu, Nobuo - Terra.gp4",
+   "artista": "Uematsu, Nobuo",
+   "etiquetas": [
+    "genre:anime_score",
+    "genre:chiptune",
+    "genre:final_fantasy",
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 407,
+   "n_traste_5": 54,
+   "n_ataques": 387,
+   "aciertos": {
+    "baseline": 359,
+    "A*": 362,
+    "mixed_t5": 369,
+    "mixed_gpt2": 375,
+    "mixed_bert": 360,
+    "mixed_bert_small": 363
+   }
+  },
+  {
+   "cancion": "U/Uematsu, Nobuo/Uematsu, Nobuo - Terra.gp4",
+   "artista": "Uematsu, Nobuo",
+   "etiquetas": [
+    "genre:anime_score",
+    "genre:chiptune",
+    "genre:final_fantasy",
+    "genre:japanese_classical",
+    "genre:japanese_vgm",
+    "genre:scorecore",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 132,
+   "n_traste_5": 85,
+   "n_ataques": 114,
+   "aciertos": {
+    "baseline": 66,
+    "A*": 66,
+    "mixed_t5": 83,
+    "mixed_gpt2": 28,
+    "mixed_bert": 64,
+    "mixed_bert_small": 50
+   }
+  },
+  {
+   "cancion": "U/Unknown TV/TV And Movie Theme Songs - The Avengers (2).gp4",
+   "artista": "Unknown TV",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 330,
+   "n_traste_5": 218,
+   "n_ataques": 175,
+   "aciertos": {
+    "baseline": 112,
+    "A*": 242,
+    "mixed_t5": 245,
+    "mixed_gpt2": 188,
+    "mixed_bert": 205,
+    "mixed_bert_small": 153
+   }
+  },
+  {
+   "cancion": "U/Unknown TV/Unknown - The Addams Family.gp3",
+   "artista": "Unknown TV",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 57,
+   "n_traste_5": 0,
+   "n_ataques": 57,
+   "aciertos": {
+    "baseline": 57,
+    "A*": 57,
+    "mixed_t5": 0,
+    "mixed_gpt2": 0,
+    "mixed_bert": 0,
+    "mixed_bert_small": 57
+   }
+  },
+  {
+   "cancion": "V/Van Halen/Van Halen - 316.gp3",
+   "artista": "Van Halen",
+   "etiquetas": [
+    "genre:album_rock",
+    "genre:classic_rock",
+    "genre:hard_rock",
+    "genre:metal",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 351,
+   "n_traste_5": 30,
+   "n_ataques": 215,
+   "aciertos": {
+    "baseline": 311,
+    "A*": 314,
+    "mixed_t5": 314,
+    "mixed_gpt2": 323,
+    "mixed_bert": 323,
+    "mixed_bert_small": 318
+   }
+  },
+  {
+   "cancion": "V/Vassiliu, Pierre/Vassiliu, Pierre - Qui C'est Celui-lO.gp3",
+   "artista": "Vassiliu, Pierre",
+   "etiquetas": [
+    "genre:chanson"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 353,
+   "n_traste_5": 16,
+   "n_ataques": 186,
+   "aciertos": {
+    "baseline": 327,
+    "A*": 345,
+    "mixed_t5": 347,
+    "mixed_gpt2": 342,
+    "mixed_bert": 341,
+    "mixed_bert_small": 338
+   }
+  },
+  {
+   "cancion": "V/Velozo, Caetano/Velozo, Caetano - OcCano.gp3",
+   "artista": "Velozo, Caetano",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 1422,
+   "n_traste_5": 489,
+   "n_ataques": 441,
+   "aciertos": {
+    "baseline": 971,
+    "A*": 1090,
+    "mixed_t5": 1135,
+    "mixed_gpt2": 1165,
+    "mixed_bert": 1125,
+    "mixed_bert_small": 1094
+   }
+  },
+  {
+   "cancion": "V/Voulzy, Laurent/Voulzy, Laurent - Belle Ile En Mer.gp3",
+   "artista": "Voulzy, Laurent",
+   "etiquetas": [
+    "genre:chanson",
+    "genre:french_pop",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 389,
+   "n_traste_5": 94,
+   "n_ataques": 232,
+   "aciertos": {
+    "baseline": 288,
+    "A*": 317,
+    "mixed_t5": 312,
+    "mixed_gpt2": 317,
+    "mixed_bert": 291,
+    "mixed_bert_small": 293
+   }
+  },
+  {
+   "cancion": "W/White Stripes/White Stripes - As Ugly As I Seem.gp4",
+   "artista": "White Stripes",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:blues_rock",
+    "genre:garage_rock",
+    "genre:modern_blues_rock",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:punk_blues",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 690,
+   "n_traste_5": 10,
+   "n_ataques": 632,
+   "aciertos": {
+    "baseline": 680,
+    "A*": 619,
+    "mixed_t5": 621,
+    "mixed_gpt2": 669,
+    "mixed_bert": 656,
+    "mixed_bert_small": 625
+   }
+  },
+  {
+   "cancion": "W/White Stripes/White Stripes - I'm Bound to Pack It Up.gp4",
+   "artista": "White Stripes",
+   "etiquetas": [
+    "genre:alternative_rock",
+    "genre:blues_rock",
+    "genre:garage_rock",
+    "genre:modern_blues_rock",
+    "genre:modern_rock",
+    "genre:permanent_wave",
+    "genre:punk_blues",
+    "genre:rock"
+   ],
+   "genero": "Rock",
+   "n_notas": 2060,
+   "n_traste_5": 762,
+   "n_ataques": 632,
+   "aciertos": {
+    "baseline": 1497,
+    "A*": 1319,
+    "mixed_t5": 1403,
+    "mixed_gpt2": 1549,
+    "mixed_bert": 1628,
+    "mixed_bert_small": 1594
+   }
+  },
+  {
+   "cancion": "W/Williams, John/Williams, John - Schindler_'s list.gp3",
+   "artista": "Williams, John",
+   "etiquetas": [
+    "genre:soundtrack"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 129,
+   "n_traste_5": 69,
+   "n_ataques": 80,
+   "aciertos": {
+    "baseline": 74,
+    "A*": 87,
+    "mixed_t5": 84,
+    "mixed_gpt2": 83,
+    "mixed_bert": 77,
+    "mixed_bert_small": 87
+   }
+  },
+  {
+   "cancion": "W/Wriggles (Les)/Wriggles (Les) - Pourquoi Georges Bush Junior _.gp4",
+   "artista": "Wriggles (Les)",
+   "etiquetas": [
+    "genre:french_folk_pop",
+    "genre:french_reggae",
+    "genre:french_rock"
+   ],
+   "genero": "Folk y cantautor",
+   "n_notas": 172,
+   "n_traste_5": 106,
+   "n_ataques": 120,
+   "aciertos": {
+    "baseline": 62,
+    "A*": 122,
+    "mixed_t5": 116,
+    "mixed_gpt2": 131,
+    "mixed_bert": 136,
+    "mixed_bert_small": 101
+   }
+  },
+  {
+   "cancion": "Y/Yamaoka, Akira/Yamaoka, Akira - Please Love Me...Once More.gp4",
+   "artista": "Yamaoka, Akira",
+   "etiquetas": [
+    "genre:japanese_soundtrack",
+    "genre:japanese_vgm",
+    "genre:video_game_music"
+   ],
+   "genero": "Videojuegos y BSO",
+   "n_notas": 144,
+   "n_traste_5": 0,
+   "n_ataques": 144,
+   "aciertos": {
+    "baseline": 144,
+    "A*": 136,
+    "mixed_t5": 86,
+    "mixed_gpt2": 96,
+    "mixed_bert": 96,
+    "mixed_bert_small": 116
+   }
+  },
+  {
+   "cancion": "Z/Ziggy Rusby Band (The)/Ziggy Rusby Band (The) - No. 2.gp4",
+   "artista": "Ziggy Rusby Band (The)",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 513,
+   "n_traste_5": 0,
+   "n_ataques": 150,
+   "aciertos": {
+    "baseline": 513,
+    "A*": 168,
+    "mixed_t5": 513,
+    "mixed_gpt2": 513,
+    "mixed_bert": 486,
+    "mixed_bert_small": 513
+   }
+  },
+  {
+   "cancion": "Z/Zuly/Zuly - Sad Chilian People.gp3",
+   "artista": "Zuly",
+   "etiquetas": [
+    "genre:unknown_genre"
+   ],
+   "genero": "Sin género",
+   "n_notas": 367,
+   "n_traste_5": 16,
+   "n_ataques": 210,
+   "aciertos": {
+    "baseline": 345,
+    "A*": 341,
+    "mixed_t5": 350,
+    "mixed_gpt2": 350,
+    "mixed_bert": 330,
+    "mixed_bert_small": 347
+   }
+  }
+ ]
+}

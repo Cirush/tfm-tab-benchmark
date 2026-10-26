@@ -1,0 +1,230 @@
+{
+ "baseline": {
+  "Funk": {
+   "tab_acc": 0.3664645399419984,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.5479163288470893,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.42367941712204005,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.4648277523488316,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.22482435597189696,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.21660305343511452,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.5475715236194278,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.6475745178258329,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.23275068997240111,
+   "n_notes": 1087
+  }
+ },
+ "A*": {
+  "Funk": {
+   "tab_acc": 0.7664118112312154,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.8456299659477866,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.8932604735883425,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.7331968200433631,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.40843091334894616,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.43416030534351147,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.7052561543579507,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.8074225599064875,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.38362465501379944,
+   "n_notes": 1087
+  }
+ },
+ "mixed_t5": {
+  "Funk": {
+   "tab_acc": 0.7732665436330082,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.7895248905464569,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.8265938069216757,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.748494338713563,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.629976580796253,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.6335877862595419,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.7276557995120869,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.7597895967270601,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.6264949402023919,
+   "n_notes": 1087
+  }
+ },
+ "mixed_gpt2": {
+  "Funk": {
+   "tab_acc": 0.7819667809122067,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.8054159234635966,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.8397085610200364,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.7531920019272464,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.6023419203747072,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.6307251908396947,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.7289864715014416,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.7779076563413209,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.5749770009199632,
+   "n_notes": 1087
+  }
+ },
+ "mixed_bert": {
+  "Funk": {
+   "tab_acc": 0.7495386237806486,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.7577428247121777,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.770856102003643,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.7365695013249819,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.6754098360655738,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.6937022900763359,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.725659791528055,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.7472238457042665,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.6577736890524379,
+   "n_notes": 1087
+  }
+ },
+ "mixed_bert_small": {
+  "Funk": {
+   "tab_acc": 0.7756393356182442,
+   "n_notes": 3793
+  },
+  "comp": {
+   "tab_acc": 0.7760661585860223,
+   "n_notes": 6167
+  },
+  "Funk comp": {
+   "tab_acc": 0.8072859744990892,
+   "n_notes": 2745
+  },
+  "total": {
+   "tab_acc": 0.7533124548301614,
+   "n_notes": 8302
+  },
+  "solo": {
+   "tab_acc": 0.6875878220140516,
+   "n_notes": 2135
+  },
+  "Funk solo": {
+   "tab_acc": 0.6927480916030534,
+   "n_notes": 1048
+  },
+  "Rock": {
+   "tab_acc": 0.7345309381237525,
+   "n_notes": 4509
+  },
+  "Rock comp": {
+   "tab_acc": 0.7510227936879018,
+   "n_notes": 3422
+  },
+  "Rock solo": {
+   "tab_acc": 0.6826126954921803,
+   "n_notes": 1087
+  }
+ }
+}

@@ -1,0 +1,37 @@
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+device=mps | params=2.19M | train 3496 pistas / 31549 ventanas | val 442 pistas / 4039 ventanas
+epoch   1  train 1.9931  val 0.6405  387s  *
+epoch   2  train 0.3809  val 0.2261  388s  *
+epoch   3  train 0.2056  val 0.1720  387s  *
+epoch   4  train 0.1715  val 0.1497  389s  *
+epoch   5  train 0.1555  val 0.1329  390s  *
+epoch   6  train 0.1434  val 0.1298  389s  *
+epoch   7  train 0.1333  val 0.1199  389s  *
+epoch   8  train 0.1241  val 0.1100  390s  *
+epoch   9  train 0.1155  val 0.0996  391s  *
+epoch  10  train 0.1004  val 0.0776  401s  *
+epoch  11  train 0.0852  val 0.0686  406s  *
+epoch  12  train 0.0755  val 0.0532  394s  *
+epoch  13  train 0.0681  val 0.0464  398s  *
+epoch  14  train 0.0622  val 0.0484  396s
+epoch  15  train 0.0566  val 0.0399  395s  *
+epoch  16  train 0.0525  val 0.0414  390s
+epoch  17  train 0.0494  val 0.0399  394s  *
+epoch  18  train 0.0474  val 0.0386  395s  *
+epoch  19  train 0.0455  val 0.0387  391s
+epoch  20  train 0.0441  val 0.0364  391s  *
+epoch  21  train 0.0432  val 0.0366  390s
+epoch  22  train 0.0426  val 0.0364  390s  *
+epoch  23  train 0.0425  val 0.0372  402s
+epoch  24  train 0.0422  val 0.0361  406s  *
+epoch  25  train 0.0421  val 0.0367  399s
+epoch  26  train 0.0422  val 0.0363  401s
+epoch  27  train 0.0435  val 0.0368  408s
+epoch  28  train 0.0482  val 0.0388  407s
+epoch  29  train 0.0537  val 0.0464  401s
+Early stopping: 5 épocas sin mejorar val loss
+Evaluación val (200 pistas, 197777 notas, 187s):
+  raw     tab 83.93%  pitch 96.30%
+  window  tab 86.39%  pitch 99.42%
+  final   tab 86.79%  pitch 100.00%
+  difficulty pred 2.63 | GT 2.69

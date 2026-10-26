@@ -1,0 +1,119 @@
+{
+ "config": {
+  "data": "data/mixed",
+  "out": "runs/mixed_bert",
+  "epochs": 100,
+  "patience": 5,
+  "batch_size": 32,
+  "limit_train": null,
+  "limit_val": null,
+  "eval_tracks": 200,
+  "device": "mps",
+  "seed": 42,
+  "max_notes": 127,
+  "arch": "bert",
+  "model_config": "{}",
+  "durations_from_data": true,
+  "window_range": null,
+  "warmup_init": false,
+  "model": {
+   "transformers_version": "5.17.0",
+   "vocab_size": 599,
+   "hidden_size": 384,
+   "num_hidden_layers": 6,
+   "num_attention_heads": 6,
+   "intermediate_size": 1536,
+   "hidden_act": "gelu",
+   "hidden_dropout_prob": 0.1,
+   "attention_probs_dropout_prob": 0.1,
+   "max_position_embeddings": 512,
+   "type_vocab_size": 2,
+   "initializer_range": 0.02,
+   "layer_norm_eps": 1e-12,
+   "pad_token_id": 0,
+   "use_cache": true,
+   "classifier_dropout": null,
+   "is_decoder": false,
+   "add_cross_attention": false,
+   "bos_token_id": null,
+   "eos_token_id": null,
+   "tie_word_embeddings": true,
+   "model_type": "bert"
+  },
+  "params": 11224151,
+  "vocab_size": 598,
+  "train_tracks": 3496,
+  "train_windows": 25226,
+  "val_tracks": 442,
+  "val_windows": 3229
+ },
+ "epochs": [
+  {
+   "epoch": 1,
+   "train_loss": 2.89305930778252,
+   "val_loss": 0.46481948037480597,
+   "seconds": 707.393648147583
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.4407130046186943,
+   "val_loss": 0.33694739825282,
+   "seconds": 695.9996678829193
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.33563287682708526,
+   "val_loss": 0.3474534327794468,
+   "seconds": 701.7426519393921
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2918256802817261,
+   "val_loss": 0.3150316015286822,
+   "seconds": 691.8633480072021
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.25952399420080985,
+   "val_loss": 0.3215937790691129,
+   "seconds": 691.3999662399292
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.23695865951487924,
+   "val_loss": 0.320242237896142,
+   "seconds": 691.1156873703003
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.21733162038415407,
+   "val_loss": 0.35094794425416326,
+   "seconds": 692.923201084137
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.20170872629217623,
+   "val_loss": 0.3605330119976022,
+   "seconds": 691.1409299373627
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.18775480561647728,
+   "val_loss": 0.3252284433395894,
+   "seconds": 691.3843009471893
+  }
+ ],
+ "eval_val": {
+  "n_tracks": 200,
+  "n_notes": 197777,
+  "tab_acc_raw": 0.8418420746598442,
+  "pitch_acc_raw": 1.0,
+  "tab_acc_window": 0.8418420746598442,
+  "pitch_acc_window": 1.0,
+  "tab_acc_final": 0.8418420746598442,
+  "pitch_acc_final": 1.0,
+  "difficulty_pred": 2.759022642312995,
+  "difficulty_gt": 2.685623876966282,
+  "seconds": 19.30789589881897
+ }
+}

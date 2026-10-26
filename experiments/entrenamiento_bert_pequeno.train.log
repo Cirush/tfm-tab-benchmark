@@ -1,0 +1,28 @@
+device=mps | params=2.80M | train 3496 pistas / 25226 ventanas | val 442 pistas / 3229 ventanas
+epoch   1  train 3.5192  val 3.0626  400s  *
+epoch   2  train 2.9713  val 2.9388  400s  *
+epoch   3  train 2.8674  val 2.8327  400s  *
+epoch   4  train 2.3600  val 0.5431  405s  *
+epoch   5  train 0.4745  val 0.3992  406s  *
+epoch   6  train 0.3798  val 0.3612  411s  *
+epoch   7  train 0.3418  val 0.3595  408s  *
+epoch   8  train 0.3150  val 0.3331  405s  *
+epoch   9  train 0.2924  val 0.3454  410s
+epoch  10  train 0.2754  val 0.3099  402s  *
+epoch  11  train 0.2588  val 0.3231  402s
+epoch  12  train 0.2460  val 0.3049  402s  *
+epoch  13  train 0.2343  val 0.3420  402s
+epoch  14  train 0.2216  val 0.3090  402s
+epoch  15  train 0.2107  val 0.3398  402s
+epoch  16  train 0.1991  val 0.2981  403s  *
+epoch  17  train 0.1895  val 0.3272  403s
+epoch  18  train 0.1800  val 0.3808  404s
+epoch  19  train 0.1713  val 0.3200  409s
+epoch  20  train 0.1632  val 0.3430  404s
+epoch  21  train 0.1554  val 0.3391  405s
+Early stopping: 5 épocas sin mejorar val loss
+Evaluación val (200 pistas, 197777 notas, 14s):
+  raw     tab 87.48%  pitch 100.00%
+  window  tab 87.48%  pitch 100.00%
+  final   tab 87.48%  pitch 100.00%
+  difficulty pred 2.64 | GT 2.69

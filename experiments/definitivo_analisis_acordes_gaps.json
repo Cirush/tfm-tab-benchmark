@@ -1,0 +1,45 @@
+{
+ "por_tipo": {
+  "nota suelta": {
+   "frac_notas": 0.4102466067673485,
+   "tab_acc": {
+    "baseline": 0.6755203479341411,
+    "A* nota a nota": 0.6607642124883504,
+    "A*": 0.6469400434917676,
+    "A* variante propia": 0.6977322149735943
+   }
+  },
+  "acorde de 2 notas": {
+   "frac_notas": 0.20939272287006946,
+   "tab_acc": {
+    "baseline": 0.6545952525867316,
+    "A* nota a nota": 0.7038953134510043,
+    "A*": 0.63542300669507,
+    "A* variante propia": 0.6938527084601339
+   }
+  },
+  "acorde de 3+ notas": {
+   "frac_notas": 0.38036067036258203,
+   "tab_acc": {
+    "baseline": 0.7738314625565421,
+    "A* nota a nota": 0.8039872675490032,
+    "A*": 0.7790249623052438,
+    "A* variante propia": 0.8755235382811191
+   }
+  }
+ },
+ "acordes_3_mas": {
+  "n_acordes": 1652,
+  "digitaciones_media": 36.81053268765133,
+  "digitaciones_mediana": 31.0,
+  "tocables_media": 5.291767554479419,
+  "tocables_mediana": 4.0,
+  "frac_una_tocable": 0.08292978208232446,
+  "frac_reales_apertura_3": 0.9897094430992736,
+  "frac_mezcla_aire_y_pisadas": {
+   "tablatura real": 0.49092009685230026,
+   "A*": 0.3008474576271186,
+   "A* variante propia": 0.5581113801452785
+  }
+ }
+}

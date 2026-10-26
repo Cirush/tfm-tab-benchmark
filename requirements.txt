@@ -1,0 +1,8 @@
+# Versiones con las que se obtuvieron los resultados (Python 3.12.2, macOS,
+# Apple M1 Pro con GPU vía MPS). Instalación:
+#   python3.12 -m pip install -r requirements.txt
+torch==2.14.0           # entrenamiento (GPU MPS / CUDA / CPU)
+transformers==5.17.0    # T5, GPT2, BERT, Adafactor, generate()
+pyguitarpro==0.11       # lectura de los ficheros Guitar Pro de DadaGP
+numpy==2.5.3            # A* con acordes (vectorizado)
+pytest==9.1.1           # tests
